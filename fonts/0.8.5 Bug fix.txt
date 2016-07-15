@@ -1,0 +1,24 @@
+Test 1.
+Compile on Kubuntu 12.04 (limited by GPU capability)
+Qt version 2.4.1
+
+compile error: in /
+
+src/allocators.h
+
+/boost/threads/mutex.hpp does not exist.
+
+Test 2.
+Kubuntu 13.10
+Qt -creator 2.7.1
+
+default name - bitcoin
+
+1. instaled libboost-thread
+
+:-1: error: cannot find -lboost_program_options
+:-1: error: cannot find -lboost_filesystem (installed already)
+
+installed lboost 1.53 program options (as per installed default)
+
+Installed default libboost meta package. (1.53)
