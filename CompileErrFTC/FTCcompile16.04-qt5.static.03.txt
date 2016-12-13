@@ -1,0 +1,789 @@
+Making clean in src
+make[1]: Entering directory '/home/tony/Feathercoin/src'
+Making clean in .
+make[2]: Entering directory '/home/tony/Feathercoin/src'
+test -z "feathercoind feathercoin-cli" || rm -f feathercoind feathercoin-cli
+test -z "leveldb/libleveldb.a leveldb/libmemenv.a *.gcda *.gcno" || rm -f leveldb/libleveldb.a leveldb/libmemenv.a *.gcda *.gcno
+make -C leveldb clean
+make[3]: Entering directory '/home/tony/Feathercoin/src/leveldb'
+rm -f db_bench leveldbutil arena_test autocompact_test bloom_test c_test cache_test coding_test corruption_test crc32c_test db_test dbformat_test env_test filename_test filter_block_test issue178_test issue200_test log_test memenv_test skiplist_test table_test version_edit_test version_set_test write_batch_test db_bench_sqlite3 db_bench_tree_db libleveldb.a libleveldb.so libleveldb.so.1 libleveldb.so.1.15 libmemenv.a */*.o */*/*.o ios-x86/*/*.o ios-arm/*/*.o build_config.mk
+rm -rf ios-x86/* ios-arm/*
+make[3]: Leaving directory '/home/tony/Feathercoin/src/leveldb'
+rm -f leveldb/*/*.gcno leveldb/helpers/memenv/*.gcno
+test -z "libbitcoin_server.a libbitcoin_common.a libbitcoin_cli.a libbitcoin_wallet.a" || rm -f libbitcoin_server.a libbitcoin_common.a libbitcoin_cli.a libbitcoin_wallet.a
+rm -f *.o
+rm -f compat/*.o
+make[2]: Leaving directory '/home/tony/Feathercoin/src'
+Making clean in qt
+make[2]: Entering directory '/home/tony/Feathercoin/src/qt'
+Making clean in .
+make[3]: Entering directory '/home/tony/Feathercoin/src/qt'
+test -z "feathercoin-qt" || rm -f feathercoin-qt
+test -z "moc_addressbookpage.cpp moc_addresstablemodel.cpp moc_askpassphrasedialog.cpp moc_bitcoinaddressvalidator.cpp moc_bitcoinamountfield.cpp moc_bitcoingui.cpp moc_bitcoinunits.cpp moc_clientmodel.cpp moc_coincontroldialog.cpp moc_coincontroltreewidget.cpp moc_csvmodelwriter.cpp moc_editaddressdialog.cpp moc_guiutil.cpp moc_intro.cpp moc_macdockiconhandler.cpp moc_macnotificationhandler.cpp moc_monitoreddatamapper.cpp moc_notificator.cpp moc_openuridialog.cpp moc_optionsdialog.cpp moc_shiftdialog.cpp moc_coinnectordialog.cpp moc_optionsmodel.cpp moc_overviewpage.cpp moc_paymentserver.cpp moc_qvalidatedlineedit.cpp moc_qvaluecombobox.cpp moc_receivecoinsdialog.cpp moc_receiverequestdialog.cpp moc_recentrequeststablemodel.cpp moc_rpcconsole.cpp moc_sendcoinsdialog.cpp moc_sendcoinsentry.cpp moc_signverifymessagedialog.cpp moc_splashscreen.cpp moc_trafficgraphwidget.cpp moc_transactiondesc.cpp moc_transactiondescdialog.cpp moc_transactionfilterproxy.cpp moc_transactiontablemodel.cpp moc_transactionview.cpp moc_utilitydialog.cpp moc_walletframe.cpp moc_walletmodel.cpp moc_walletview.cpp moc_qrcodedialog.cpp moc_snapwidget.cpp moc_verticallabel.cpp moc_reportview.cpp moc_createmultisigaddrdialog.cpp moc_multisigdialog.cpp bitcoin.moc intro.moc overviewpage.moc rpcconsole.moc paymentrequest.pb.cc paymentrequest.pb.h qrc_feathercoin.cpp locale/bitcoin_ach.qm locale/bitcoin_af_ZA.qm locale/bitcoin_ar.qm locale/bitcoin_be_BY.qm locale/bitcoin_bg.qm locale/bitcoin_bs.qm locale/bitcoin_ca_ES.qm locale/bitcoin_ca.qm locale/bitcoin_ca@valencia.qm locale/bitcoin_cmn.qm locale/bitcoin_cs.qm locale/bitcoin_cy.qm locale/bitcoin_da.qm locale/bitcoin_de.qm locale/bitcoin_el_GR.qm locale/bitcoin_en.qm locale/bitcoin_eo.qm locale/bitcoin_es_CL.qm locale/bitcoin_es_DO.qm locale/bitcoin_es_MX.qm locale/bitcoin_es.qm locale/bitcoin_es_UY.qm locale/bitcoin_et.qm locale/bitcoin_eu_ES.qm locale/bitcoin_fa_IR.qm locale/bitcoin_fa.qm locale/bitcoin_fi.qm locale/bitcoin_fr_CA.qm locale/bitcoin_fr.qm locale/bitcoin_gl.qm locale/bitcoin_gu_IN.qm locale/bitcoin_he.qm locale/bitcoin_hi_IN.qm locale/bitcoin_hr.qm locale/bitcoin_hu.qm locale/bitcoin_id_ID.qm locale/bitcoin_it.qm locale/bitcoin_ja.qm locale/bitcoin_ka.qm locale/bitcoin_kk_KZ.qm locale/bitcoin_ko_KR.qm locale/bitcoin_ky.qm locale/bitcoin_la.qm locale/bitcoin_lt.qm locale/bitcoin_lv_LV.qm locale/bitcoin_mn.qm locale/bitcoin_ms_MY.qm locale/bitcoin_nb.qm locale/bitcoin_nl.qm locale/bitcoin_pam.qm locale/bitcoin_pl.qm locale/bitcoin_pt_BR.qm locale/bitcoin_pt_PT.qm locale/bitcoin_ro_RO.qm locale/bitcoin_ru.qm locale/bitcoin_sah.qm locale/bitcoin_sk.qm locale/bitcoin_sl_SI.qm locale/bitcoin_sq.qm locale/bitcoin_sr.qm locale/bitcoin_sv.qm locale/bitcoin_th_TH.qm locale/bitcoin_tr.qm locale/bitcoin_uk.qm locale/bitcoin_ur_PK.qm locale/bitcoin_uz@Cyrl.qm locale/bitcoin_vi.qm locale/bitcoin_vi_VN.qm locale/bitcoin_zh_CN.qm locale/bitcoin_zh_HK.qm locale/bitcoin_zh_TW.qm forms/ui_aboutdialog.h forms/ui_addressbookpage.h forms/ui_askpassphrasedialog.h forms/ui_coincontroldialog.h forms/ui_editaddressdialog.h forms/ui_helpmessagedialog.h forms/ui_intro.h forms/ui_openuridialog.h forms/ui_optionsdialog.h forms/ui_shiftdialog.h forms/ui_coinnectordialog.h forms/ui_overviewpage.h forms/ui_receivecoinsdialog.h forms/ui_receiverequestdialog.h forms/ui_rpcconsole.h forms/ui_sendcoinsdialog.h forms/ui_sendcoinsentry.h forms/ui_signverifymessagedialog.h forms/ui_transactiondescdialog.h forms/ui_qrcodedialog.h forms/ui_paperwalletdialog.h forms/ui_commentdialog.h forms/ui_opennamedialog.h forms/ui_debugdialog.h forms/ui_snapwidget.h forms/ui_createmultisigaddrdialog.h forms/ui_multisigdialog.h *.gcda *.gcno" || rm -f moc_addressbookpage.cpp moc_addresstablemodel.cpp moc_askpassphrasedialog.cpp moc_bitcoinaddressvalidator.cpp moc_bitcoinamountfield.cpp moc_bitcoingui.cpp moc_bitcoinunits.cpp moc_clientmodel.cpp moc_coincontroldialog.cpp moc_coincontroltreewidget.cpp moc_csvmodelwriter.cpp moc_editaddressdialog.cpp moc_guiutil.cpp moc_intro.cpp moc_macdockiconhandler.cpp moc_macnotificationhandler.cpp moc_monitoreddatamapper.cpp moc_notificator.cpp moc_openuridialog.cpp moc_optionsdialog.cpp moc_shiftdialog.cpp moc_coinnectordialog.cpp moc_optionsmodel.cpp moc_overviewpage.cpp moc_paymentserver.cpp moc_qvalidatedlineedit.cpp moc_qvaluecombobox.cpp moc_receivecoinsdialog.cpp moc_receiverequestdialog.cpp moc_recentrequeststablemodel.cpp moc_rpcconsole.cpp moc_sendcoinsdialog.cpp moc_sendcoinsentry.cpp moc_signverifymessagedialog.cpp moc_splashscreen.cpp moc_trafficgraphwidget.cpp moc_transactiondesc.cpp moc_transactiondescdialog.cpp moc_transactionfilterproxy.cpp moc_transactiontablemodel.cpp moc_transactionview.cpp moc_utilitydialog.cpp moc_walletframe.cpp moc_walletmodel.cpp moc_walletview.cpp moc_qrcodedialog.cpp moc_snapwidget.cpp moc_verticallabel.cpp moc_reportview.cpp moc_createmultisigaddrdialog.cpp moc_multisigdialog.cpp bitcoin.moc intro.moc overviewpage.moc rpcconsole.moc paymentrequest.pb.cc paymentrequest.pb.h qrc_feathercoin.cpp locale/bitcoin_ach.qm locale/bitcoin_af_ZA.qm locale/bitcoin_ar.qm locale/bitcoin_be_BY.qm locale/bitcoin_bg.qm locale/bitcoin_bs.qm locale/bitcoin_ca_ES.qm locale/bitcoin_ca.qm locale/bitcoin_ca@valencia.qm locale/bitcoin_cmn.qm locale/bitcoin_cs.qm locale/bitcoin_cy.qm locale/bitcoin_da.qm locale/bitcoin_de.qm locale/bitcoin_el_GR.qm locale/bitcoin_en.qm locale/bitcoin_eo.qm locale/bitcoin_es_CL.qm locale/bitcoin_es_DO.qm locale/bitcoin_es_MX.qm locale/bitcoin_es.qm locale/bitcoin_es_UY.qm locale/bitcoin_et.qm locale/bitcoin_eu_ES.qm locale/bitcoin_fa_IR.qm locale/bitcoin_fa.qm locale/bitcoin_fi.qm locale/bitcoin_fr_CA.qm locale/bitcoin_fr.qm locale/bitcoin_gl.qm locale/bitcoin_gu_IN.qm locale/bitcoin_he.qm locale/bitcoin_hi_IN.qm locale/bitcoin_hr.qm locale/bitcoin_hu.qm locale/bitcoin_id_ID.qm locale/bitcoin_it.qm locale/bitcoin_ja.qm locale/bitcoin_ka.qm locale/bitcoin_kk_KZ.qm locale/bitcoin_ko_KR.qm locale/bitcoin_ky.qm locale/bitcoin_la.qm locale/bitcoin_lt.qm locale/bitcoin_lv_LV.qm locale/bitcoin_mn.qm locale/bitcoin_ms_MY.qm locale/bitcoin_nb.qm locale/bitcoin_nl.qm locale/bitcoin_pam.qm locale/bitcoin_pl.qm locale/bitcoin_pt_BR.qm locale/bitcoin_pt_PT.qm locale/bitcoin_ro_RO.qm locale/bitcoin_ru.qm locale/bitcoin_sah.qm locale/bitcoin_sk.qm locale/bitcoin_sl_SI.qm locale/bitcoin_sq.qm locale/bitcoin_sr.qm locale/bitcoin_sv.qm locale/bitcoin_th_TH.qm locale/bitcoin_tr.qm locale/bitcoin_uk.qm locale/bitcoin_ur_PK.qm locale/bitcoin_uz@Cyrl.qm locale/bitcoin_vi.qm locale/bitcoin_vi_VN.qm locale/bitcoin_zh_CN.qm locale/bitcoin_zh_HK.qm locale/bitcoin_zh_TW.qm forms/ui_aboutdialog.h forms/ui_addressbookpage.h forms/ui_askpassphrasedialog.h forms/ui_coincontroldialog.h forms/ui_editaddressdialog.h forms/ui_helpmessagedialog.h forms/ui_intro.h forms/ui_openuridialog.h forms/ui_optionsdialog.h forms/ui_shiftdialog.h forms/ui_coinnectordialog.h forms/ui_overviewpage.h forms/ui_receivecoinsdialog.h forms/ui_receiverequestdialog.h forms/ui_rpcconsole.h forms/ui_sendcoinsdialog.h forms/ui_sendcoinsentry.h forms/ui_signverifymessagedialog.h forms/ui_transactiondescdialog.h forms/ui_qrcodedialog.h forms/ui_paperwalletdialog.h forms/ui_commentdialog.h forms/ui_opennamedialog.h forms/ui_debugdialog.h forms/ui_snapwidget.h forms/ui_createmultisigaddrdialog.h forms/ui_multisigdialog.h *.gcda *.gcno
+test -z "libbitcoinqt.a" || rm -f libbitcoinqt.a
+rm -f *.o
+rm -f res/*.o
+make[3]: Leaving directory '/home/tony/Feathercoin/src/qt'
+make[2]: Leaving directory '/home/tony/Feathercoin/src/qt'
+make[1]: Leaving directory '/home/tony/Feathercoin/src'
+make[1]: Entering directory '/home/tony/Feathercoin'
+test -z "Feathercoin-Qt.dmg feathercoin-0.9.6-win-setup" || rm -f Feathercoin-Qt.dmg feathercoin-0.9.6-win-setup
+rm -rf test_bitcoin.coverage/ total.coverage/ Feathercoin-Qt.app
+make[1]: Leaving directory '/home/tony/Feathercoin'
+running autoreconf .....
+
+running autoupdate completed .....
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking dependency style of gcc... gcc3
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking whether make supports nested variables... (cached) yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking how to run the C preprocessor... gcc -E
+checking how to run the C++ preprocessor... g++ -E
+checking for gcc... gcc
+checking whether we are using the GNU Objective C compiler... no
+checking whether gcc accepts -g... no
+checking dependency style of gcc... gcc3
+checking whether ln -s works... yes
+checking for g++... g++
+checking whether we are using the GNU Objective C++ compiler... no
+checking whether g++ accepts -g... no
+checking dependency style of g++... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for ar... /usr/bin/ar
+checking for ranlib... /usr/bin/ranlib
+checking for strip... /usr/bin/strip
+checking for gcov... /usr/bin/gcov
+checking for lcov... no
+checking for java... /usr/bin/java
+checking for genhtml... no
+checking for git... /usr/bin/git
+checking for ccache... no
+checking for xgettext... /usr/bin/xgettext
+checking for hexdump... /usr/bin/hexdump
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether byte ordering is bigendian... no
+checking if compiler needs -Werror to reject unknown flags... no
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... no
+checking whether pthreads work with -Kthread... no
+checking whether pthreads work with -kthread... no
+checking for the pthreads library -llthread... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking whether strerror_r is declared... yes
+checking for strerror_r... yes
+checking whether strerror_r returns char *... yes
+checking whether the linker accepts -Wl,--large-address-aware... no
+checking whether C++ compiler accepts -Wstack-protector... yes
+checking whether C++ compiler accepts -fstack-protector-all... yes
+checking whether C++ compiler accepts -fPIE... yes
+checking whether C++ compiler accepts -fPIC... yes
+checking whether C++ preprocessor accepts -D_FORTIFY_SOURCE=2... yes
+checking whether C++ preprocessor accepts -U_FORTIFY_SOURCE... yes
+checking whether the linker accepts -Wl,--dynamicbase... no
+checking whether the linker accepts -Wl,--nxcompat... no
+checking whether the linker accepts -Wl,-z,relro... yes
+checking whether the linker accepts -Wl,-z,now... yes
+checking whether the linker accepts -pie... yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking for MSG_NOSIGNAL... yes
+checking for Berkeley DB C++ headers... default
+checking for main in -ldb_cxx-4.8... no
+checking for main in -ldb_cxx... yes
+checking miniupnpc/miniwget.h usability... yes
+checking miniupnpc/miniwget.h presence... yes
+checking for miniupnpc/miniwget.h... yes
+checking for main in -lminiupnpc... yes
+checking miniupnpc/miniupnpc.h usability... yes
+checking miniupnpc/miniupnpc.h presence... yes
+checking for miniupnpc/miniupnpc.h... yes
+checking for main in -lminiupnpc... (cached) yes
+checking miniupnpc/upnpcommands.h usability... yes
+checking miniupnpc/upnpcommands.h presence... yes
+checking for miniupnpc/upnpcommands.h... yes
+checking for main in -lminiupnpc... (cached) yes
+checking miniupnpc/upnperrors.h usability... yes
+checking miniupnpc/upnperrors.h presence... yes
+checking for miniupnpc/upnperrors.h... yes
+checking for main in -lminiupnpc... (cached) yes
+checking for boostlib >= 1.20.0... yes
+checking whether the Boost::System library is available... yes
+checking for exit in -lboost_system... yes
+checking whether the Boost::Filesystem library is available... yes
+checking for exit in -lboost_filesystem... yes
+checking whether the Boost::Program_Options library is available... yes
+checking for exit in -lboost_program_options... yes
+checking whether the Boost::Thread library is available... yes
+checking for exit in -lboost_thread... yes
+checking whether the Boost::Chrono library is available... yes
+checking for exit in -lboost_chrono... yes
+checking for SSL... yes
+checking for CRYPTO... yes
+checking for PROTOBUF... yes
+checking for main in -lzxing... yes
+checking for main in -lqrencode... yes
+checking for protoc... /usr/bin/protoc
+checking whether to build feathercoind... yes
+checking whether to build bitcoin-cli... yes
+checking for QT... yes
+checking for QT_TEST... yes
+checking for QT_DBUS... yes
+checking for moc-qt5... no
+checking for moc5... no
+checking for moc... /home/tony/anaconda2/bin/moc
+checking for uic-qt5... no
+checking for uic5... no
+checking for uic... /home/tony/anaconda2/bin/uic
+checking for rcc-qt5... no
+checking for rcc5... no
+checking for rcc... /home/tony/anaconda2/bin/rcc
+checking for lrelease-qt5... no
+checking for lrelease5... no
+checking for lrelease... /home/tony/anaconda2/bin/lrelease
+checking for lupdate-qt5... no
+checking for lupdate5... no
+checking for lupdate... /home/tony/anaconda2/bin/lupdate
+checking whether to build Feathercoin Core GUI... yes (Qt5)
+checking if ccache should be used... no
+checking if wallet should be enabled... yes
+checking whether to build with support for UPnP... yes
+checking whether to build with UPnP enabled by default... yes
+checking whether to build GUI with support for D-Bus... yes
+checking whether to build GUI with support for QR codes... yes
+checking whether to build test_bitcoin-qt... no
+checking whether to build test_bitcoin... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/test/Makefile
+config.status: creating src/qt/Makefile
+config.status: creating src/qt/test/Makefile
+config.status: creating share/setup.nsi
+config.status: creating share/qt/Info.plist
+config.status: creating qa/pull-tester/run-bitcoind-for-test.sh
+config.status: creating qa/pull-tester/build-tests.sh
+config.status: creating src/bitcoin-config.h
+config.status: src/bitcoin-config.h is unchanged
+config.status: executing depfiles commands
+Making all in src
+make[1]: Entering directory '/home/tony/Feathercoin/src'
+make  all-recursive
+make[2]: Entering directory '/home/tony/Feathercoin/src'
+Making all in .
+make[3]: Entering directory '/home/tony/Feathercoin/src'
+  CXX      addrman.o
+  CXX      alert.o
+  CXX      auxpow.o
+  CXX      bloom.o
+  CXX      checkpoints.o
+  CXX      checkpointsync.o
+  CXX      coins.o
+  CXX      init.o
+  CXX      keystore.o
+  CXX      leveldbwrapper.o
+  CXX      main.o
+  CXX      miner.o
+  CXX      net.o
+  CXX      noui.o
+  CXX      rpcblockchain.o
+  CXX      rpcmining.o
+  CXX      rpcmisc.o
+  CXX      rpcnet.o
+  CXX      rpcrawtransaction.o
+  CXX      rpcserver.o
+  CXX      txdb.o
+  CXX      txmempool.o
+  AR       libbitcoin_server.a
+  CXX      base58.o
+  CXX      allocators.o
+  CXX      chainparams.o
+  CXX      core.o
+  CXX      hash.o
+  CXX      key.o
+  CXX      netbase.o
+  CXX      protocol.o
+  CXX      rpcprotocol.o
+  CXX      script.o
+  CXX      scrypt.o
+  CC       neoscrypt.o
+  CPPAS    neoscrypt_asm.o
+  CXX      sync.o
+  CXX      util.o
+  CXX      version.o
+  AR       libbitcoin_common.a
+  CXX      rpcclient.o
+  AR       libbitcoin_cli.a
+  CXX      db.o
+  CXX      crypter.o
+  CXX      stealth.o
+  CXX      rpcdump.o
+  CXX      rpcwallet.o
+  CXX      wallet.o
+  CXX      walletdb.o
+  AR       libbitcoin_wallet.a
+  CXX      feathercoind.o
+make -C ../src leveldb/libleveldb.a
+make[4]: Entering directory '/home/tony/Feathercoin/src'
+Building LevelDB ...
+make[5]: Entering directory '/home/tony/Feathercoin/src/leveldb'
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c helpers/memenv/memenv.cc -o helpers/memenv/memenv.o
+rm -f libmemenv.a
+/usr/bin/ar -rs libmemenv.a helpers/memenv/memenv.o
+make[5]: Leaving directory '/home/tony/Feathercoin/src/leveldb'
+Building LevelDB ...
+make[5]: Entering directory '/home/tony/Feathercoin/src/leveldb'
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c db/builder.cc -o db/builder.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c db/c.cc -o db/c.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c db/dbformat.cc -o db/dbformat.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c db/db_impl.cc -o db/db_impl.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c db/db_iter.cc -o db/db_iter.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c db/filename.cc -o db/filename.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c db/log_reader.cc -o db/log_reader.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c db/log_writer.cc -o db/log_writer.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c db/memtable.cc -o db/memtable.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c db/repair.cc -o db/repair.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c db/table_cache.cc -o db/table_cache.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c db/version_edit.cc -o db/version_edit.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c db/version_set.cc -o db/version_set.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c db/write_batch.cc -o db/write_batch.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c table/block_builder.cc -o table/block_builder.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c table/block.cc -o table/block.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c table/filter_block.cc -o table/filter_block.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c table/format.cc -o table/format.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c table/iterator.cc -o table/iterator.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c table/merger.cc -o table/merger.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c table/table_builder.cc -o table/table_builder.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c table/table.cc -o table/table.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c table/two_level_iterator.cc -o table/two_level_iterator.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c util/arena.cc -o util/arena.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c util/bloom.cc -o util/bloom.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c util/cache.cc -o util/cache.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c util/coding.cc -o util/coding.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c util/comparator.cc -o util/comparator.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c util/crc32c.cc -o util/crc32c.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c util/env.cc -o util/env.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c util/env_posix.cc -o util/env_posix.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c util/env_win.cc -o util/env_win.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c util/filter_policy.cc -o util/filter_policy.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c util/hash.cc -o util/hash.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c util/histogram.cc -o util/histogram.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c util/logging.cc -o util/logging.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c util/options.cc -o util/options.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c util/status.cc -o util/status.o
+g++ -I. -I./include -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIE -fPIC -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -c port/port_posix.cc -o port/port_posix.o
+rm -f libleveldb.a
+/usr/bin/ar -rs libleveldb.a db/builder.o db/c.o db/dbformat.o db/db_impl.o db/db_iter.o db/filename.o db/log_reader.o db/log_writer.o db/memtable.o db/repair.o db/table_cache.o db/version_edit.o db/version_set.o db/write_batch.o table/block_builder.o table/block.o table/filter_block.o table/format.o table/iterator.o table/merger.o table/table_builder.o table/table.o table/two_level_iterator.o util/arena.o util/bloom.o util/cache.o util/coding.o util/comparator.o util/crc32c.o util/env.o util/env_posix.o util/env_win.o util/filter_policy.o util/hash.o util/histogram.o util/logging.o util/options.o util/status.o port/port_posix.o
+make[5]: Leaving directory '/home/tony/Feathercoin/src/leveldb'
+make[4]: Leaving directory '/home/tony/Feathercoin/src'
+  CXXLD    feathercoind
+  CXX      feathercoin-cli.o
+  CXXLD    feathercoin-cli
+make[3]: Leaving directory '/home/tony/Feathercoin/src'
+Making all in qt
+make[3]: Entering directory '/home/tony/Feathercoin/src/qt'
+test -f /usr/bin/protoc && /usr/bin/protoc --cpp_out=. --proto_path=/home/tony/Feathercoin/src/qt /home/tony/Feathercoin/src/qt/paymentrequest.proto  || \
+  echo error: could not build paymentrequest.pb.h
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_addressbookpage.cpp addressbookpage.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_addressbookpage.cpp && rm moc_addressbookpage.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_addressbookpage.cpp && rm moc_addressbookpage.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_addresstablemodel.cpp addresstablemodel.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_addresstablemodel.cpp && rm moc_addresstablemodel.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_addresstablemodel.cpp && rm moc_addresstablemodel.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_askpassphrasedialog.cpp askpassphrasedialog.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_askpassphrasedialog.cpp && rm moc_askpassphrasedialog.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_askpassphrasedialog.cpp && rm moc_askpassphrasedialog.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_bitcoinaddressvalidator.cpp bitcoinaddressvalidator.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_bitcoinaddressvalidator.cpp && rm moc_bitcoinaddressvalidator.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_bitcoinaddressvalidator.cpp && rm moc_bitcoinaddressvalidator.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_bitcoinamountfield.cpp bitcoinamountfield.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_bitcoinamountfield.cpp && rm moc_bitcoinamountfield.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_bitcoinamountfield.cpp && rm moc_bitcoinamountfield.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_bitcoingui.cpp bitcoingui.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_bitcoingui.cpp && rm moc_bitcoingui.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_bitcoingui.cpp && rm moc_bitcoingui.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_bitcoinunits.cpp bitcoinunits.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_bitcoinunits.cpp && rm moc_bitcoinunits.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_bitcoinunits.cpp && rm moc_bitcoinunits.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_clientmodel.cpp clientmodel.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_clientmodel.cpp && rm moc_clientmodel.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_clientmodel.cpp && rm moc_clientmodel.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_coincontroldialog.cpp coincontroldialog.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_coincontroldialog.cpp && rm moc_coincontroldialog.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_coincontroldialog.cpp && rm moc_coincontroldialog.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_coincontroltreewidget.cpp coincontroltreewidget.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_coincontroltreewidget.cpp && rm moc_coincontroltreewidget.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_coincontroltreewidget.cpp && rm moc_coincontroltreewidget.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_csvmodelwriter.cpp csvmodelwriter.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_csvmodelwriter.cpp && rm moc_csvmodelwriter.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_csvmodelwriter.cpp && rm moc_csvmodelwriter.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_editaddressdialog.cpp editaddressdialog.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_editaddressdialog.cpp && rm moc_editaddressdialog.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_editaddressdialog.cpp && rm moc_editaddressdialog.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_guiutil.cpp guiutil.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_guiutil.cpp && rm moc_guiutil.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_guiutil.cpp && rm moc_guiutil.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_intro.cpp intro.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_intro.cpp && rm moc_intro.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_intro.cpp && rm moc_intro.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_macdockiconhandler.cpp macdockiconhandler.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_macdockiconhandler.cpp && rm moc_macdockiconhandler.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_macdockiconhandler.cpp && rm moc_macdockiconhandler.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_macnotificationhandler.cpp macnotificationhandler.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_macnotificationhandler.cpp && rm moc_macnotificationhandler.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_macnotificationhandler.cpp && rm moc_macnotificationhandler.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_monitoreddatamapper.cpp monitoreddatamapper.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_monitoreddatamapper.cpp && rm moc_monitoreddatamapper.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_monitoreddatamapper.cpp && rm moc_monitoreddatamapper.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_notificator.cpp notificator.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_notificator.cpp && rm moc_notificator.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_notificator.cpp && rm moc_notificator.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_openuridialog.cpp openuridialog.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_openuridialog.cpp && rm moc_openuridialog.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_openuridialog.cpp && rm moc_openuridialog.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_optionsdialog.cpp optionsdialog.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_optionsdialog.cpp && rm moc_optionsdialog.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_optionsdialog.cpp && rm moc_optionsdialog.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_shiftdialog.cpp shiftdialog.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_shiftdialog.cpp && rm moc_shiftdialog.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_shiftdialog.cpp && rm moc_shiftdialog.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_coinnectordialog.cpp coinnectordialog.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_coinnectordialog.cpp && rm moc_coinnectordialog.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_coinnectordialog.cpp && rm moc_coinnectordialog.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_optionsmodel.cpp optionsmodel.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_optionsmodel.cpp && rm moc_optionsmodel.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_optionsmodel.cpp && rm moc_optionsmodel.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_overviewpage.cpp overviewpage.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_overviewpage.cpp && rm moc_overviewpage.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_overviewpage.cpp && rm moc_overviewpage.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_paymentserver.cpp paymentserver.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_paymentserver.cpp && rm moc_paymentserver.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_paymentserver.cpp && rm moc_paymentserver.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_qvalidatedlineedit.cpp qvalidatedlineedit.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_qvalidatedlineedit.cpp && rm moc_qvalidatedlineedit.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_qvalidatedlineedit.cpp && rm moc_qvalidatedlineedit.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_qvaluecombobox.cpp qvaluecombobox.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_qvaluecombobox.cpp && rm moc_qvaluecombobox.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_qvaluecombobox.cpp && rm moc_qvaluecombobox.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_receivecoinsdialog.cpp receivecoinsdialog.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_receivecoinsdialog.cpp && rm moc_receivecoinsdialog.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_receivecoinsdialog.cpp && rm moc_receivecoinsdialog.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_receiverequestdialog.cpp receiverequestdialog.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_receiverequestdialog.cpp && rm moc_receiverequestdialog.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_receiverequestdialog.cpp && rm moc_receiverequestdialog.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_recentrequeststablemodel.cpp recentrequeststablemodel.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_recentrequeststablemodel.cpp && rm moc_recentrequeststablemodel.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_recentrequeststablemodel.cpp && rm moc_recentrequeststablemodel.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_rpcconsole.cpp rpcconsole.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_rpcconsole.cpp && rm moc_rpcconsole.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_rpcconsole.cpp && rm moc_rpcconsole.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_sendcoinsdialog.cpp sendcoinsdialog.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_sendcoinsdialog.cpp && rm moc_sendcoinsdialog.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_sendcoinsdialog.cpp && rm moc_sendcoinsdialog.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_sendcoinsentry.cpp sendcoinsentry.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_sendcoinsentry.cpp && rm moc_sendcoinsentry.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_sendcoinsentry.cpp && rm moc_sendcoinsentry.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_signverifymessagedialog.cpp signverifymessagedialog.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_signverifymessagedialog.cpp && rm moc_signverifymessagedialog.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_signverifymessagedialog.cpp && rm moc_signverifymessagedialog.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_splashscreen.cpp splashscreen.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_splashscreen.cpp && rm moc_splashscreen.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_splashscreen.cpp && rm moc_splashscreen.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_trafficgraphwidget.cpp trafficgraphwidget.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_trafficgraphwidget.cpp && rm moc_trafficgraphwidget.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_trafficgraphwidget.cpp && rm moc_trafficgraphwidget.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_transactiondesc.cpp transactiondesc.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_transactiondesc.cpp && rm moc_transactiondesc.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_transactiondesc.cpp && rm moc_transactiondesc.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_transactiondescdialog.cpp transactiondescdialog.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_transactiondescdialog.cpp && rm moc_transactiondescdialog.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_transactiondescdialog.cpp && rm moc_transactiondescdialog.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_transactionfilterproxy.cpp transactionfilterproxy.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_transactionfilterproxy.cpp && rm moc_transactionfilterproxy.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_transactionfilterproxy.cpp && rm moc_transactionfilterproxy.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_transactiontablemodel.cpp transactiontablemodel.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_transactiontablemodel.cpp && rm moc_transactiontablemodel.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_transactiontablemodel.cpp && rm moc_transactiontablemodel.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_transactionview.cpp transactionview.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_transactionview.cpp && rm moc_transactionview.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_transactionview.cpp && rm moc_transactionview.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_utilitydialog.cpp utilitydialog.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_utilitydialog.cpp && rm moc_utilitydialog.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_utilitydialog.cpp && rm moc_utilitydialog.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_walletframe.cpp walletframe.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_walletframe.cpp && rm moc_walletframe.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_walletframe.cpp && rm moc_walletframe.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_walletmodel.cpp walletmodel.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_walletmodel.cpp && rm moc_walletmodel.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_walletmodel.cpp && rm moc_walletmodel.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_walletview.cpp walletview.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_walletview.cpp && rm moc_walletview.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_walletview.cpp && rm moc_walletview.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_qrcodedialog.cpp qrcodedialog.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_qrcodedialog.cpp && rm moc_qrcodedialog.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_qrcodedialog.cpp && rm moc_qrcodedialog.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_snapwidget.cpp snapwidget.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_snapwidget.cpp && rm moc_snapwidget.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_snapwidget.cpp && rm moc_snapwidget.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_verticallabel.cpp verticallabel.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_verticallabel.cpp && rm moc_verticallabel.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_verticallabel.cpp && rm moc_verticallabel.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_reportview.cpp reportview.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_reportview.cpp && rm moc_reportview.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_reportview.cpp && rm moc_reportview.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_createmultisigaddrdialog.cpp createmultisigaddrdialog.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_createmultisigaddrdialog.cpp && rm moc_createmultisigaddrdialog.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_createmultisigaddrdialog.cpp && rm moc_createmultisigaddrdialog.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o moc_multisigdialog.cpp multisigdialog.h
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' moc_multisigdialog.cpp && rm moc_multisigdialog.cpp.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' moc_multisigdialog.cpp && rm moc_multisigdialog.cpp.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o bitcoin.moc bitcoin.cpp
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' bitcoin.moc && rm bitcoin.moc.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' bitcoin.moc && rm bitcoin.moc.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o intro.moc intro.cpp
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' intro.moc && rm intro.moc.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' intro.moc && rm intro.moc.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o overviewpage.moc overviewpage.cpp
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' overviewpage.moc && rm overviewpage.moc.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' overviewpage.moc && rm overviewpage.moc.bak
+QT_SELECT=qt5 /home/tony/anaconda2/bin/moc -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -DHAVE_CONFIG_H -I../../src -o rpcconsole.moc rpcconsole.cpp
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' rpcconsole.moc && rm rpcconsole.moc.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' rpcconsole.moc && rm rpcconsole.moc.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_aboutdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_aboutdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_aboutdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_aboutdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_addressbookpage.h && rm /home/tony/Feathercoin/src/qt/forms/ui_addressbookpage.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_addressbookpage.h && rm /home/tony/Feathercoin/src/qt/forms/ui_addressbookpage.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_askpassphrasedialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_askpassphrasedialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_askpassphrasedialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_askpassphrasedialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_coincontroldialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_coincontroldialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_coincontroldialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_coincontroldialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_editaddressdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_editaddressdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_editaddressdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_editaddressdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_helpmessagedialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_helpmessagedialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_helpmessagedialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_helpmessagedialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_intro.h && rm /home/tony/Feathercoin/src/qt/forms/ui_intro.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_intro.h && rm /home/tony/Feathercoin/src/qt/forms/ui_intro.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_openuridialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_openuridialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_openuridialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_openuridialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_optionsdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_optionsdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_optionsdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_optionsdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_shiftdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_shiftdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_shiftdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_shiftdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_coinnectordialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_coinnectordialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_coinnectordialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_coinnectordialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_overviewpage.h && rm /home/tony/Feathercoin/src/qt/forms/ui_overviewpage.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_overviewpage.h && rm /home/tony/Feathercoin/src/qt/forms/ui_overviewpage.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_receivecoinsdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_receivecoinsdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_receivecoinsdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_receivecoinsdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_receiverequestdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_receiverequestdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_receiverequestdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_receiverequestdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_rpcconsole.h && rm /home/tony/Feathercoin/src/qt/forms/ui_rpcconsole.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_rpcconsole.h && rm /home/tony/Feathercoin/src/qt/forms/ui_rpcconsole.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_sendcoinsdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_sendcoinsdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_sendcoinsdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_sendcoinsdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_sendcoinsentry.h && rm /home/tony/Feathercoin/src/qt/forms/ui_sendcoinsentry.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_sendcoinsentry.h && rm /home/tony/Feathercoin/src/qt/forms/ui_sendcoinsentry.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_signverifymessagedialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_signverifymessagedialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_signverifymessagedialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_signverifymessagedialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_transactiondescdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_transactiondescdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_transactiondescdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_transactiondescdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_qrcodedialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_qrcodedialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_qrcodedialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_qrcodedialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_paperwalletdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_paperwalletdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_paperwalletdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_paperwalletdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_commentdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_commentdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_commentdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_commentdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_opennamedialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_opennamedialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_opennamedialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_opennamedialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_debugdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_debugdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_debugdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_debugdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_snapwidget.h && rm /home/tony/Feathercoin/src/qt/forms/ui_snapwidget.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_snapwidget.h && rm /home/tony/Feathercoin/src/qt/forms/ui_snapwidget.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_createmultisigaddrdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_createmultisigaddrdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_createmultisigaddrdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_createmultisigaddrdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*Created:/d' /home/tony/Feathercoin/src/qt/forms/ui_multisigdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_multisigdialog.h.bak
+/bin/sed -i.bak -e '/^\*\*.*by:/d' /home/tony/Feathercoin/src/qt/forms/ui_multisigdialog.h && rm /home/tony/Feathercoin/src/qt/forms/ui_multisigdialog.h.bak
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_ach.qm'...
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 777 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_af_ZA.qm'...
+    Generated 158 translation(s) (158 finished and 0 unfinished)
+    Ignored 619 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_ar.qm'...
+    Generated 238 translation(s) (238 finished and 0 unfinished)
+    Ignored 537 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_be_BY.qm'...
+    Generated 209 translation(s) (209 finished and 0 unfinished)
+    Ignored 568 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_bg.qm'...
+    Generated 285 translation(s) (285 finished and 0 unfinished)
+    Ignored 492 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_bs.qm'...
+    Generated 15 translation(s) (15 finished and 0 unfinished)
+    Ignored 762 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_ca_ES.qm'...
+    Generated 584 translation(s) (584 finished and 0 unfinished)
+    Ignored 193 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_ca.qm'...
+    Generated 61 translation(s) (61 finished and 0 unfinished)
+    Ignored 716 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_ca@valencia.qm'...
+    Generated 4 translation(s) (4 finished and 0 unfinished)
+    Ignored 762 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_cmn.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 766 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_cs.qm'...
+    Generated 529 translation(s) (529 finished and 0 unfinished)
+    Ignored 248 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_cy.qm'...
+    Generated 103 translation(s) (103 finished and 0 unfinished)
+    Ignored 674 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_da.qm'...
+    Generated 533 translation(s) (533 finished and 0 unfinished)
+    Ignored 244 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_de.qm'...
+    Generated 766 translation(s) (766 finished and 0 unfinished)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_el_GR.qm'...
+    Generated 552 translation(s) (552 finished and 0 unfinished)
+    Ignored 225 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_en.qm'...
+    Generated 779 translation(s) (779 finished and 0 unfinished)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_eo.qm'...
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+    Generated 704 translation(s) (704 finished and 0 unfinished)
+    Ignored 73 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_es_CL.qm'...
+    Generated 376 translation(s) (376 finished and 0 unfinished)
+    Ignored 390 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_es_DO.qm'...
+    Generated 725 translation(s) (725 finished and 0 unfinished)
+    Ignored 41 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_es_MX.qm'...
+    Generated 229 translation(s) (229 finished and 0 unfinished)
+    Ignored 548 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_es.qm'...
+    Generated 779 translation(s) (779 finished and 0 unfinished)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_es_UY.qm'...
+    Generated 99 translation(s) (99 finished and 0 unfinished)
+    Ignored 678 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_et.qm'...
+    Generated 479 translation(s) (479 finished and 0 unfinished)
+    Ignored 298 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_eu_ES.qm'...
+    Generated 158 translation(s) (158 finished and 0 unfinished)
+    Ignored 619 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_fa_IR.qm'...
+    Generated 262 translation(s) (262 finished and 0 unfinished)
+    Ignored 515 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_fa.qm'...
+    Generated 494 translation(s) (494 finished and 0 unfinished)
+    Ignored 283 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_fi.qm'...
+    Generated 451 translation(s) (451 finished and 0 unfinished)
+    Ignored 326 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_fr_CA.qm'...
+    Generated 5 translation(s) (5 finished and 0 unfinished)
+    Ignored 772 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_fr.qm'...
+    Generated 777 translation(s) (777 finished and 0 unfinished)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_gl.qm'...
+    Generated 668 translation(s) (668 finished and 0 unfinished)
+    Ignored 98 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_gu_IN.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 777 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_he.qm'...
+    Generated 611 translation(s) (611 finished and 0 unfinished)
+    Ignored 166 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_hi_IN.qm'...
+    Generated 208 translation(s) (208 finished and 0 unfinished)
+    Ignored 569 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_hr.qm'...
+    Generated 362 translation(s) (362 finished and 0 unfinished)
+    Ignored 415 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_hu.qm'...
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+    Generated 466 translation(s) (466 finished and 0 unfinished)
+    Ignored 311 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_id_ID.qm'...
+    Generated 325 translation(s) (325 finished and 0 unfinished)
+    Ignored 452 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_it.qm'...
+    Generated 779 translation(s) (779 finished and 0 unfinished)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_ja.qm'...
+    Generated 543 translation(s) (543 finished and 0 unfinished)
+    Ignored 234 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_ka.qm'...
+    Generated 766 translation(s) (766 finished and 0 unfinished)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_kk_KZ.qm'...
+    Generated 31 translation(s) (31 finished and 0 unfinished)
+    Ignored 746 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_ko_KR.qm'...
+    Generated 639 translation(s) (639 finished and 0 unfinished)
+    Ignored 138 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_ky.qm'...
+    Generated 61 translation(s) (61 finished and 0 unfinished)
+    Ignored 705 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_la.qm'...
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+    Generated 496 translation(s) (496 finished and 0 unfinished)
+    Ignored 281 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_lt.qm'...
+    Generated 400 translation(s) (400 finished and 0 unfinished)
+    Ignored 377 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_lv_LV.qm'...
+    Generated 310 translation(s) (310 finished and 0 unfinished)
+    Ignored 467 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_mn.qm'...
+    Generated 257 translation(s) (257 finished and 0 unfinished)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_ms_MY.qm'...
+    Generated 15 translation(s) (15 finished and 0 unfinished)
+    Ignored 762 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_nb.qm'...
+    Generated 707 translation(s) (707 finished and 0 unfinished)
+    Ignored 70 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_nl.qm'...
+    Generated 743 translation(s) (743 finished and 0 unfinished)
+    Ignored 23 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_pam.qm'...
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+    Generated 424 translation(s) (424 finished and 0 unfinished)
+    Ignored 353 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_pl.qm'...
+    Generated 688 translation(s) (688 finished and 0 unfinished)
+    Ignored 87 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_pt_BR.qm'...
+    Generated 777 translation(s) (777 finished and 0 unfinished)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_pt_PT.qm'...
+    Generated 749 translation(s) (749 finished and 0 unfinished)
+    Ignored 28 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_ro_RO.qm'...
+    Generated 724 translation(s) (724 finished and 0 unfinished)
+    Ignored 53 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_ru.qm'...
+    Generated 777 translation(s) (777 finished and 0 unfinished)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_sah.qm'...
+    Generated 1 translation(s) (1 finished and 0 unfinished)
+    Ignored 765 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_sk.qm'...
+    Generated 557 translation(s) (557 finished and 0 unfinished)
+    Ignored 209 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_sl_SI.qm'...
+    Generated 492 translation(s) (492 finished and 0 unfinished)
+    Ignored 285 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_sq.qm'...
+    Generated 125 translation(s) (125 finished and 0 unfinished)
+    Ignored 652 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_sr.qm'...
+    Generated 196 translation(s) (196 finished and 0 unfinished)
+    Ignored 581 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_sv.qm'...
+    Generated 563 translation(s) (563 finished and 0 unfinished)
+    Ignored 214 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_th_TH.qm'...
+    Generated 30 translation(s) (30 finished and 0 unfinished)
+    Ignored 747 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_tr.qm'...
+Removed plural forms as the target language has less forms.
+If this sounds wrong, possibly the target language is not set or recognized.
+    Generated 775 translation(s) (775 finished and 0 unfinished)
+    Ignored 2 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_uk.qm'...
+    Generated 503 translation(s) (503 finished and 0 unfinished)
+    Ignored 274 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_ur_PK.qm'...
+    Generated 51 translation(s) (51 finished and 0 unfinished)
+    Ignored 715 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_uz@Cyrl.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 766 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_vi.qm'...
+    Generated 25 translation(s) (25 finished and 0 unfinished)
+    Ignored 752 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_vi_VN.qm'...
+    Generated 1 translation(s) (1 finished and 0 unfinished)
+    Ignored 776 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_zh_CN.qm'...
+    Generated 1034 translation(s) (1034 finished and 0 unfinished)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_zh_HK.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 766 untranslated source text(s)
+Updating '/home/tony/Feathercoin/src/qt/locale/bitcoin_zh_TW.qm'...
+    Generated 766 translation(s) (766 finished and 0 unfinished)
+/bin/sed -e '/^\*\*.*Created:/d' qrc_feathercoin.cpp > qrc_feathercoin.cpp.n && mv qrc_feathercoin.cpp{.n,}
+/bin/sed -e '/^\*\*.*by:/d' qrc_feathercoin.cpp  > qrc_feathercoin.cpp.n && mv qrc_feathercoin.cpp{.n,}
+make  all-recursive
+make[4]: Entering directory '/home/tony/Feathercoin/src/qt'
+Making all in .
+make[5]: Entering directory '/home/tony/Feathercoin/src/qt'
+  CXX      libbitcoinqt_a-bitcoin.o
+Makefile:1342: recipe for target 'libbitcoinqt_a-bitcoin.o' failed
+make[5]: Leaving directory '/home/tony/Feathercoin/src/qt'
+Makefile:2926: recipe for target 'all-recursive' failed
+make[4]: Leaving directory '/home/tony/Feathercoin/src/qt'
+Makefile:1109: recipe for target 'all' failed
+make[3]: Leaving directory '/home/tony/Feathercoin/src/qt'
+Makefile:922: recipe for target 'all-recursive' failed
+make[2]: Leaving directory '/home/tony/Feathercoin/src'
+Makefile:676: recipe for target 'all' failed
+make[1]: Leaving directory '/home/tony/Feathercoin/src'
+Makefile:511: recipe for target 'all-recursive' failed
