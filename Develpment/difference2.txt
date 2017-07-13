@@ -1,0 +1,623 @@
+diff -r ~/projects/Feathercoin/aclocal.m4 ~/Feathercoin/aclocal.m4
+diff -r ~/projects/Feathercoin/autogen.sh ~/Feathercoin/autogen.sh
+diff -r ~/projects/Feathercoin/configure.ac ~/Feathercoin/configure.ac
+
+Only in ~/projects/Feathercoin/contrib: bitcoind.bash-completion
+Only in ~/projects/Feathercoin/contrib: bitrpc
+Only in ~/projects/Feathercoin/contrib: debian
+Only in ~/projects/Feathercoin/contrib: devtools
+Only in ~/projects/Feathercoin/contrib: feathercoin-qt.pro
+Only in ~/projects/Feathercoin/contrib: gitian-descriptors
+Only in ~/projects/Feathercoin/contrib: gitian-downloader
+Only in ~/projects/Feathercoin/contrib: linearize
+Only in ~/projects/Feathercoin/contrib/macdeploy: background.png
+Only in ~/projects/Feathercoin/contrib/macdeploy: background.psd
+Only in ~/projects/Feathercoin/contrib/macdeploy: DS_Store
+
+diff -r ~/projects/Feathercoin/contrib/macdeploy/fancy.plist ~/Feathercoin/contrib/macdeploy/fancy.plist
+
+Only in ~/projects/Feathercoin/contrib/macdeploy: LICENSE
+Only in ~/projects/Feathercoin/contrib/macdeploy: macdeployqtplus
+Only in ~/projects/Feathercoin/contrib/macdeploy: README.md
+Only in ~/projects/Feathercoin/contrib: pyminer
+Only in ~/projects/Feathercoin/contrib: qos
+Only in ~/projects/Feathercoin/contrib: qt_translations.py
+Only in ~/projects/Feathercoin/contrib: README.md
+Only in ~/projects/Feathercoin/contrib: seeds
+Only in ~/projects/Feathercoin/contrib: spendfrom
+Only in ~/projects/Feathercoin/contrib: testgen
+Only in ~/projects/Feathercoin/contrib: test-patches
+Only in ~/projects/Feathercoin/contrib: tidy_datadir.sh
+Only in ~/projects/Feathercoin/contrib: verifysfbinaries
+
+
+Only in ~/projects/Feathercoin: COPYING
+
+diff -r ~/projects/Feathercoin/.directory ~/Feathercoin/.directory
+diff -r ~/projects/Feathercoin/doc/assets-attribution.md ~/Feathercoin/doc/assets-attribution.md
+
+Only in ~/projects/Feathercoin/doc: build-msw.md
+
+diff -r ~/projects/Feathercoin/doc/build-osx.md ~/Feathercoin/doc/build-osx.md
+diff -r ~/projects/Feathercoin/doc/build-unix.md ~/Feathercoin/doc/build-unix.md
+
+Only in ~/projects/Feathercoin/doc: coding.md
+Only in ~/projects/Feathercoin/doc: Doxyfile
+
+diff -r ~/projects/Feathercoin/doc/files.md ~/Feathercoin/doc/files.md
+
+Only in ~/projects/Feathercoin/doc: gitian-building
+diff -r ~/projects/Feathercoin/doc/gitian-building.md ~/Feathercoin/doc/gitian-building.md
+diff -r ~/projects/Feathercoin/doc/multiwallet-qt.md ~/Feathercoin/doc/multiwallet-qt.md
+diff -r ~/projects/Feathercoin/doc/README.md ~/Feathercoin/doc/README.md
+diff -r ~/projects/Feathercoin/doc/README_windows.txt ~/Feathercoin/doc/README_windows.txt
+Only in ~/projects/Feathercoin/doc/release-notes: release-notes-0.9.6.1.md
+diff -r ~/projects/Feathercoin/doc/release-notes.md ~/Feathercoin/doc/release-notes.md
+diff -r ~/projects/Feathercoin/doc/release-process.md ~/Feathercoin/doc/release-process.md
+diff -r ~/projects/Feathercoin/doc/tor.md ~/Feathercoin/doc/tor.md
+diff -r ~/projects/Feathercoin/doc/translation_process.md ~/Feathercoin/doc/translation_process.md
+diff -r ~/projects/Feathercoin/doc/unit-tests.md ~/Feathercoin/doc/unit-tests.md
+Only in ~/projects/Feathercoin: doc_install
+
+diff -r ~/projects/Feathercoin/.git/config ~/Feathercoin/.git/config
+diff -r ~/projects/Feathercoin/.git/HEAD ~/Feathercoin/.git/HEAD
+Binary files ~/projects/Feathercoin/.git/index and ~/Feathercoin/.git/index differ
+
+diff -r ~/projects/Feathercoin/.git/logs/HEAD ~/Feathercoin/.git/logs/HEAD
+
+Only in ~/projects/Feathercoin/.git/logs/refs/heads: 0.9.6.2
+diff -r ~/projects/Feathercoin/.git/logs/refs/heads/master-0.9 ~/Feathercoin/.git/logs/refs/heads/master-0.9
+diff -r ~/projects/Feathercoin/.git/logs/refs/remotes/origin/HEAD ~/Feathercoin/.git/logs/refs/remotes/origin/HEAD
+
+Only in ~/projects/Feathercoin/.git/refs/heads: 0.9.6.2
+Only in ~/projects/Feathercoin: .gitattributes
+diff -r ~/projects/Feathercoin/.gitignore ~/Feathercoin/.gitignore
+
+Only in ~/projects/Feathercoin: INSTALL
+
+diff -r ~/projects/Feathercoin/Makefile.am ~/Feathercoin/Makefile.am
+
+Only in ~/projects/Feathercoin: pkg.m4
+Only in ~/projects/Feathercoin/qa/pull-tester: build-tests.sh.in
+Only in ~/projects/Feathercoin/qa/pull-tester: pull-tester.py
+Only in ~/projects/Feathercoin/qa/pull-tester: pull-tester.sh
+diff -r ~/projects/Feathercoin/qa/pull-tester/run-bitcoind-for-test.sh.in ~/Feathercoin/qa/pull-tester/run-bitcoind-for-test.sh.in
+Only in ~/projects/Feathercoin/qa/rpc-tests: conflictedbalance.sh
+diff -r ~/projects/Feathercoin/qa/rpc-tests/listtransactions.py ~/Feathercoin/qa/rpc-tests/listtransactions.py
+Only in ~/projects/Feathercoin/qa/rpc-tests: python-bitcoinrpc
+diff -r ~/projects/Feathercoin/qa/rpc-tests/README.md ~/Feathercoin/qa/rpc-tests/README.md
+Only in ~/projects/Feathercoin/qa/rpc-tests: send.sh
+Only in ~/projects/Feathercoin/qa/rpc-tests: skeleton.py
+Only in ~/projects/Feathercoin/qa/rpc-tests: txnmall.sh
+Only in ~/projects/Feathercoin/qa/rpc-tests: util.py
+Only in ~/projects/Feathercoin/qa/rpc-tests: util.sh
+Only in ~/projects/Feathercoin/qa/rpc-tests: walletbackup.sh
+Only in ~/projects/Feathercoin/qa/rpc-tests: wallet.sh
+
+diff -r ~/projects/Feathercoin/README.md ~/Feathercoin/README.md
+Only in ~/projects/Feathercoin/share: certs
+diff -r ~/projects/Feathercoin/share/genbuild.sh ~/Feathercoin/share/genbuild.sh
+Only in ~/projects/Feathercoin/share: pixmaps
+Only in ~/projects/Feathercoin/share/qt: extract_strings_qt.py
+Only in ~/projects/Feathercoin/share/qt: img
+diff -r ~/projects/Feathercoin/share/qt/Info.plist.in ~/Feathercoin/share/qt/Info.plist.in
+Only in ~/projects/Feathercoin/share/qt: make_spinner.py
+diff -r ~/projects/Feathercoin/share/qt/make_windows_icon.sh ~/Feathercoin/share/qt/make_windows_icon.sh
+Only in ~/projects/Feathercoin/share/qt: protobuf.pri
+diff -r ~/projects/Feathercoin/share/setup.nsi.in ~/Feathercoin/share/setup.nsi.in
+Only in ~/projects/Feathercoin/share: ui.rc
+diff -r ~/projects/Feathercoin/src/addrman.cpp ~/Feathercoin/src/addrman.cpp
+diff -r ~/projects/Feathercoin/src/addrman.h ~/Feathercoin/src/addrman.h
+diff -r ~/projects/Feathercoin/src/alert.cpp ~/Feathercoin/src/alert.cpp
+diff -r ~/projects/Feathercoin/src/alert.h ~/Feathercoin/src/alert.h
+Only in ~/projects/Feathercoin/src: allocators.cpp
+Only in ~/projects/Feathercoin/src: allocators.h
+Only in ~/projects/Feathercoin/src: auxpow.cpp
+Only in ~/projects/Feathercoin/src: auxpow.h
+Only in ~/projects/Feathercoin/src: base40.h
+diff -r ~/projects/Feathercoin/src/base58.cpp ~/Feathercoin/src/base58.cpp
+diff -r ~/projects/Feathercoin/src/base58.h ~/Feathercoin/src/base58.h
+diff -r ~/projects/Feathercoin/src/bignum.h ~/Feathercoin/src/bignum.h
+diff -r ~/projects/Feathercoin/src/bitcoin-cli.cpp ~/Feathercoin/src/bitcoin-cli.cpp
+diff -r ~/projects/Feathercoin/src/bitcoin-cli-res.rc ~/Feathercoin/src/bitcoin-cli-res.rc
+Only in ~/projects/Feathercoin/src: bitcoin-config.h.in
+diff -r ~/projects/Feathercoin/src/bitcoind.cpp ~/Feathercoin/src/bitcoind.cpp
+diff -r ~/projects/Feathercoin/src/bitcoind-res.rc ~/Feathercoin/src/bitcoind-res.rc
+diff -r ~/projects/Feathercoin/src/bloom.cpp ~/Feathercoin/src/bloom.cpp
+diff -r ~/projects/Feathercoin/src/bloom.h ~/Feathercoin/src/bloom.h
+diff -r ~/projects/Feathercoin/src/chainparams.cpp ~/Feathercoin/src/chainparams.cpp
+diff -r ~/projects/Feathercoin/src/chainparams.h ~/Feathercoin/src/chainparams.h
+diff -r ~/projects/Feathercoin/src/checkpoints.cpp ~/Feathercoin/src/checkpoints.cpp
+diff -r ~/projects/Feathercoin/src/checkpoints.h ~/Feathercoin/src/checkpoints.h
+diff -r ~/projects/Feathercoin/src/checkpointsync.cpp ~/Feathercoin/src/checkpointsync.cpp
+diff -r ~/projects/Feathercoin/src/checkpointsync.h ~/Feathercoin/src/checkpointsync.h
+diff -r ~/projects/Feathercoin/src/checkqueue.h ~/Feathercoin/src/checkqueue.h
+diff -r ~/projects/Feathercoin/src/clientversion.h ~/Feathercoin/src/clientversion.h
+diff -r ~/projects/Feathercoin/src/coincontrol.h ~/Feathercoin/src/coincontrol.h
+diff -r ~/projects/Feathercoin/src/coins.cpp ~/Feathercoin/src/coins.cpp
+diff -r ~/projects/Feathercoin/src/coins.h ~/Feathercoin/src/coins.h
+diff -r ~/projects/Feathercoin/src/compat.h ~/Feathercoin/src/compat.h
+Only in ~/projects/Feathercoin/src: core.cpp
+Only in ~/projects/Feathercoin/src: core.h
+Only in ~/projects/Feathercoin/src: crypter.cpp
+Only in ~/projects/Feathercoin/src: crypter.h
+Only in ~/projects/Feathercoin/src: db.cpp
+Only in ~/projects/Feathercoin/src: db.h
+Only in ~/projects/Feathercoin/src: feathercoin-cli.cpp
+Only in ~/projects/Feathercoin/src: feathercoin-cli-res.rc
+Only in ~/projects/Feathercoin/src: feathercoind.cpp
+Only in ~/projects/Feathercoin/src: feathercoind-res.rc
+diff -r ~/projects/Feathercoin/src/hash.cpp ~/Feathercoin/src/hash.cpp
+diff -r ~/projects/Feathercoin/src/hash.h ~/Feathercoin/src/hash.h
+diff -r ~/projects/Feathercoin/src/init.cpp ~/Feathercoin/src/init.cpp
+diff -r ~/projects/Feathercoin/src/init.h ~/Feathercoin/src/init.h
+Only in ~/projects/Feathercoin/src/json: json_spirit_reader.cpp
+diff -r ~/projects/Feathercoin/src/json/json_spirit_reader_template.h ~/Feathercoin/src/json/json_spirit_reader_template.h
+
+Only in ~/projects/Feathercoin/src/json: json_spirit_value.cpp
+diff -r ~/projects/Feathercoin/src/json/json_spirit_value.h ~/Feathercoin/src/json/json_spirit_value.h
+
+Only in ~/projects/Feathercoin/src/json: json_spirit_writer.cpp
+Only in ~/projects/Feathercoin/src/json: LICENSE.txt
+
+diff -r ~/projects/Feathercoin/src/key.cpp ~/Feathercoin/src/key.cpp
+diff -r ~/projects/Feathercoin/src/key.h ~/Feathercoin/src/key.h
+diff -r ~/projects/Feathercoin/src/keystore.cpp ~/Feathercoin/src/keystore.cpp
+diff -r ~/projects/Feathercoin/src/keystore.h ~/Feathercoin/src/keystore.h
+
+Only in ~/projects/Feathercoin/src/leveldb: AUTHORS
+
+diff -r ~/projects/Feathercoin/src/leveldb/build_detect_platform ~/Feathercoin/src/leveldb/build_detect_platform
+diff -r ~/projects/Feathercoin/src/leveldb/db/db_bench.cc ~/Feathercoin/src/leveldb/db/db_bench.cc
+diff -r ~/projects/Feathercoin/src/leveldb/db/dbformat.h ~/Feathercoin/src/leveldb/db/dbformat.h
+diff -r ~/projects/Feathercoin/src/leveldb/db/db_impl.cc ~/Feathercoin/src/leveldb/db/db_impl.cc
+diff -r ~/projects/Feathercoin/src/leveldb/db/db_test.cc ~/Feathercoin/src/leveldb/db/db_test.cc
+diff -r ~/projects/Feathercoin/src/leveldb/db/filename.cc ~/Feathercoin/src/leveldb/db/filename.cc
+diff -r ~/projects/Feathercoin/src/leveldb/db/leveldb_main.cc ~/Feathercoin/src/leveldb/db/leveldb_main.cc
+diff -r ~/projects/Feathercoin/src/leveldb/db/log_format.h ~/Feathercoin/src/leveldb/db/log_format.h
+diff -r ~/projects/Feathercoin/src/leveldb/db/log_reader.cc ~/Feathercoin/src/leveldb/db/log_reader.cc
+diff -r ~/projects/Feathercoin/src/leveldb/db/log_reader.h ~/Feathercoin/src/leveldb/db/log_reader.h
+diff -r ~/projects/Feathercoin/src/leveldb/db/log_test.cc ~/Feathercoin/src/leveldb/db/log_test.cc
+diff -r ~/projects/Feathercoin/src/leveldb/db/repair.cc ~/Feathercoin/src/leveldb/db/repair.cc
+diff -r ~/projects/Feathercoin/src/leveldb/db/skiplist.h ~/Feathercoin/src/leveldb/db/skiplist.h
+diff -r ~/projects/Feathercoin/src/leveldb/db/version_set.cc ~/Feathercoin/src/leveldb/db/version_set.cc
+diff -r ~/projects/Feathercoin/src/leveldb/db/write_batch_internal.h ~/Feathercoin/src/leveldb/db/write_batch_internal.h
+diff -r ~/projects/Feathercoin/src/leveldb/doc/bench/db_bench_tree_db.cc ~/Feathercoin/src/leveldb/doc/bench/db_bench_tree_db.cc
+diff -r ~/projects/Feathercoin/src/leveldb/doc/impl.html ~/Feathercoin/src/leveldb/doc/impl.html
+diff -r ~/projects/Feathercoin/src/leveldb/doc/log_format.txt ~/Feathercoin/src/leveldb/doc/log_format.txt
+diff -r ~/projects/Feathercoin/src/leveldb/helpers/memenv/memenv.cc ~/Feathercoin/src/leveldb/helpers/memenv/memenv.cc
+diff -r ~/projects/Feathercoin/src/leveldb/include/leveldb/cache.h ~/Feathercoin/src/leveldb/include/leveldb/cache.h
+diff -r ~/projects/Feathercoin/src/leveldb/include/leveldb/c.h ~/Feathercoin/src/leveldb/include/leveldb/c.h
+diff -r ~/projects/Feathercoin/src/leveldb/include/leveldb/db.h ~/Feathercoin/src/leveldb/include/leveldb/db.h
+diff -r ~/projects/Feathercoin/src/leveldb/include/leveldb/env.h ~/Feathercoin/src/leveldb/include/leveldb/env.h
+diff -r ~/projects/Feathercoin/src/leveldb/include/leveldb/iterator.h ~/Feathercoin/src/leveldb/include/leveldb/iterator.h
+diff -r ~/projects/Feathercoin/src/leveldb/include/leveldb/options.h ~/Feathercoin/src/leveldb/include/leveldb/options.h
+diff -r ~/projects/Feathercoin/src/leveldb/include/leveldb/slice.h ~/Feathercoin/src/leveldb/include/leveldb/slice.h
+
+Only in ~/projects/Feathercoin/src/leveldb: LICENSE
+
+diff -r ~/projects/Feathercoin/src/leveldb/Makefile ~/Feathercoin/src/leveldb/Makefile
+
+Only in ~/projects/Feathercoin/src/leveldb: NEWS
+
+diff -r ~/projects/Feathercoin/src/leveldb/port/atomic_pointer.h ~/Feathercoin/src/leveldb/port/atomic_pointer.h
+diff -r ~/projects/Feathercoin/src/leveldb/port/port_posix.h ~/Feathercoin/src/leveldb/port/port_posix.h
+
+Only in ~/projects/Feathercoin/src/leveldb/port: README
+
+diff -r ~/projects/Feathercoin/src/leveldb/port/thread_annotations.h ~/Feathercoin/src/leveldb/port/thread_annotations.h
+
+Only in ~/projects/Feathercoin/src/leveldb: README
+
+diff -r ~/projects/Feathercoin/src/leveldb/table/block_builder.h ~/Feathercoin/src/leveldb/table/block_builder.h
+diff -r ~/projects/Feathercoin/src/leveldb/table/block.cc ~/Feathercoin/src/leveldb/table/block.cc
+diff -r ~/projects/Feathercoin/src/leveldb/table/format.cc ~/Feathercoin/src/leveldb/table/format.cc
+diff -r ~/projects/Feathercoin/src/leveldb/table/table.cc ~/Feathercoin/src/leveldb/table/table.cc
+diff -r ~/projects/Feathercoin/src/leveldb/util/bloom.cc ~/Feathercoin/src/leveldb/util/bloom.cc
+diff -r ~/projects/Feathercoin/src/leveldb/util/env_posix.cc ~/Feathercoin/src/leveldb/util/env_posix.cc
+diff -r ~/projects/Feathercoin/src/leveldb/util/env_win.cc ~/Feathercoin/src/leveldb/util/env_win.cc
+diff -r ~/projects/Feathercoin/src/leveldb/util/hash.cc ~/Feathercoin/src/leveldb/util/hash.cc
+diff -r ~/projects/Feathercoin/src/leveldb/util/logging.cc ~/Feathercoin/src/leveldb/util/logging.cc
+diff -r ~/projects/Feathercoin/src/leveldb/util/logging.h ~/Feathercoin/src/leveldb/util/logging.h
+diff -r ~/projects/Feathercoin/src/leveldbwrapper.cpp ~/Feathercoin/src/leveldbwrapper.cpp
+diff -r ~/projects/Feathercoin/src/leveldbwrapper.h ~/Feathercoin/src/leveldbwrapper.h
+diff -r ~/projects/Feathercoin/src/limitedmap.h ~/Feathercoin/src/limitedmap.h
+
+Only in ~/projects/Feathercoin/src: m4
+
+diff -r ~/projects/Feathercoin/src/main.cpp ~/Feathercoin/src/main.cpp
+diff -r ~/projects/Feathercoin/src/main.h ~/Feathercoin/src/main.h
+diff -r ~/projects/Feathercoin/src/Makefile.am ~/Feathercoin/src/Makefile.am
+
+Only in ~/projects/Feathercoin/src: Makefile.include
+
+diff -r ~/projects/Feathercoin/src/miner.cpp ~/Feathercoin/src/miner.cpp
+diff -r ~/projects/Feathercoin/src/miner.h ~/Feathercoin/src/miner.h
+diff -r ~/projects/Feathercoin/src/mruset.h ~/Feathercoin/src/mruset.h
+diff -r ~/projects/Feathercoin/src/netbase.cpp ~/Feathercoin/src/netbase.cpp
+diff -r ~/projects/Feathercoin/src/netbase.h ~/Feathercoin/src/netbase.h
+diff -r ~/projects/Feathercoin/src/net.cpp ~/Feathercoin/src/net.cpp
+diff -r ~/projects/Feathercoin/src/net.h ~/Feathercoin/src/net.h
+diff -r ~/projects/Feathercoin/src/noui.cpp ~/Feathercoin/src/noui.cpp
+diff -r ~/projects/Feathercoin/src/noui.h ~/Feathercoin/src/noui.h
+
+Only in ~/projects/Feathercoin/src/obj: .gitignore
+Only in ~/projects/Feathercoin/src: obj-test
+
+diff -r ~/projects/Feathercoin/src/protocol.cpp ~/Feathercoin/src/protocol.cpp
+diff -r ~/projects/Feathercoin/src/protocol.h ~/Feathercoin/src/protocol.h
+diff -r ~/projects/Feathercoin/src/qt/addressbookpage.cpp ~/Feathercoin/src/qt/addressbookpage.cpp
+diff -r ~/projects/Feathercoin/src/qt/addressbookpage.h ~/Feathercoin/src/qt/addressbookpage.h
+diff -r ~/projects/Feathercoin/src/qt/addresstablemodel.cpp ~/Feathercoin/src/qt/addresstablemodel.cpp
+diff -r ~/projects/Feathercoin/src/qt/addresstablemodel.h ~/Feathercoin/src/qt/addresstablemodel.h
+diff -r ~/projects/Feathercoin/src/qt/askpassphrasedialog.cpp ~/Feathercoin/src/qt/askpassphrasedialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/askpassphrasedialog.h ~/Feathercoin/src/qt/askpassphrasedialog.h
+diff -r ~/projects/Feathercoin/src/qt/bitcoinaddressvalidator.cpp ~/Feathercoin/src/qt/bitcoinaddressvalidator.cpp
+diff -r ~/projects/Feathercoin/src/qt/bitcoinaddressvalidator.h ~/Feathercoin/src/qt/bitcoinaddressvalidator.h
+diff -r ~/projects/Feathercoin/src/qt/bitcoinamountfield.cpp ~/Feathercoin/src/qt/bitcoinamountfield.cpp
+diff -r ~/projects/Feathercoin/src/qt/bitcoinamountfield.h ~/Feathercoin/src/qt/bitcoinamountfield.h
+diff -r ~/projects/Feathercoin/src/qt/bitcoin.cpp ~/Feathercoin/src/qt/bitcoin.cpp
+diff -r ~/projects/Feathercoin/src/qt/bitcoingui.cpp ~/Feathercoin/src/qt/bitcoingui.cpp
+diff -r ~/projects/Feathercoin/src/qt/bitcoingui.h ~/Feathercoin/src/qt/bitcoingui.h
+diff -r ~/projects/Feathercoin/src/qt/bitcoin.qrc ~/Feathercoin/src/qt/bitcoin.qrc
+
+Only in ~/projects/Feathercoin/src/qt: bitcoinstrings.cpp
+
+diff -r ~/projects/Feathercoin/src/qt/bitcoinunits.cpp ~/Feathercoin/src/qt/bitcoinunits.cpp
+diff -r ~/projects/Feathercoin/src/qt/bitcoinunits.h ~/Feathercoin/src/qt/bitcoinunits.h
+diff -r ~/projects/Feathercoin/src/qt/clientmodel.cpp ~/Feathercoin/src/qt/clientmodel.cpp
+diff -r ~/projects/Feathercoin/src/qt/clientmodel.h ~/Feathercoin/src/qt/clientmodel.h
+diff -r ~/projects/Feathercoin/src/qt/coincontroldialog.cpp ~/Feathercoin/src/qt/coincontroldialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/coincontroldialog.h ~/Feathercoin/src/qt/coincontroldialog.h
+diff -r ~/projects/Feathercoin/src/qt/coincontroltreewidget.cpp ~/Feathercoin/src/qt/coincontroltreewidget.cpp
+diff -r ~/projects/Feathercoin/src/qt/coincontroltreewidget.h ~/Feathercoin/src/qt/coincontroltreewidget.h
+
+Only in ~/projects/Feathercoin/src/qt: coinnectordialog.cpp
+Only in ~/projects/Feathercoin/src/qt: coinnectordialog.h
+
+diff -r ~/projects/Feathercoin/src/qt/createmultisigaddrdialog.cpp ~/Feathercoin/src/qt/createmultisigaddrdialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/createmultisigaddrdialog.h ~/Feathercoin/src/qt/createmultisigaddrdialog.h
+diff -r ~/projects/Feathercoin/src/qt/csvmodelwriter.cpp ~/Feathercoin/src/qt/csvmodelwriter.cpp
+diff -r ~/projects/Feathercoin/src/qt/csvmodelwriter.h ~/Feathercoin/src/qt/csvmodelwriter.h
+diff -r ~/projects/Feathercoin/src/qt/editaddressdialog.cpp ~/Feathercoin/src/qt/editaddressdialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/editaddressdialog.h ~/Feathercoin/src/qt/editaddressdialog.h
+
+Only in ~/projects/Feathercoin/src/qt/forms: aboutdialog.ui
+
+diff -r ~/projects/Feathercoin/src/qt/forms/addressbookpage.ui ~/Feathercoin/src/qt/forms/addressbookpage.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/askpassphrasedialog.ui ~/Feathercoin/src/qt/forms/askpassphrasedialog.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/coincontroldialog.ui ~/Feathercoin/src/qt/forms/coincontroldialog.ui
+
+Only in ~/projects/Feathercoin/src/qt/forms: coinnectordialog.ui
+
+diff -r ~/projects/Feathercoin/src/qt/forms/commentdialog.ui ~/Feathercoin/src/qt/forms/commentdialog.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/debugdialog.ui ~/Feathercoin/src/qt/forms/debugdialog.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/editaddressdialog.ui ~/Feathercoin/src/qt/forms/editaddressdialog.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/helpmessagedialog.ui ~/Feathercoin/src/qt/forms/helpmessagedialog.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/multisigdialog.ui ~/Feathercoin/src/qt/forms/multisigdialog.ui
+
+Only in ~/projects/Feathercoin/src/qt/forms: opennamedialog.ui
+
+diff -r ~/projects/Feathercoin/src/qt/forms/openuridialog.ui ~/Feathercoin/src/qt/forms/openuridialog.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/optionsdialog.ui ~/Feathercoin/src/qt/forms/optionsdialog.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/overviewpage.ui ~/Feathercoin/src/qt/forms/overviewpage.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/paperwalletdialog.ui ~/Feathercoin/src/qt/forms/paperwalletdialog.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/receivecoinsdialog.ui ~/Feathercoin/src/qt/forms/receivecoinsdialog.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/receiverequestdialog.ui ~/Feathercoin/src/qt/forms/receiverequestdialog.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/rpcconsole.ui ~/Feathercoin/src/qt/forms/rpcconsole.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/sendcoinsdialog.ui ~/Feathercoin/src/qt/forms/sendcoinsdialog.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/sendcoinsentry.ui ~/Feathercoin/src/qt/forms/sendcoinsentry.ui
+
+Only in ~/projects/Feathercoin/src/qt/forms: shiftdialog.ui
+
+diff -r ~/projects/Feathercoin/src/qt/forms/signverifymessagedialog.ui ~/Feathercoin/src/qt/forms/signverifymessagedialog.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/snapwidget.ui ~/Feathercoin/src/qt/forms/snapwidget.ui
+diff -r ~/projects/Feathercoin/src/qt/guiconstants.h ~/Feathercoin/src/qt/guiconstants.h
+diff -r ~/projects/Feathercoin/src/qt/guiutil.cpp ~/Feathercoin/src/qt/guiutil.cpp
+diff -r ~/projects/Feathercoin/src/qt/guiutil.h ~/Feathercoin/src/qt/guiutil.h
+diff -r ~/projects/Feathercoin/src/qt/intro.cpp ~/Feathercoin/src/qt/intro.cpp
+diff -r ~/projects/Feathercoin/src/qt/intro.h ~/Feathercoin/src/qt/intro.h
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ach.ts ~/Feathercoin/src/qt/locale/bitcoin_ach.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_af_ZA.ts ~/Feathercoin/src/qt/locale/bitcoin_af_ZA.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ar.ts ~/Feathercoin/src/qt/locale/bitcoin_ar.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_be_BY.ts ~/Feathercoin/src/qt/locale/bitcoin_be_BY.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_bg.ts ~/Feathercoin/src/qt/locale/bitcoin_bg.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_bs.ts ~/Feathercoin/src/qt/locale/bitcoin_bs.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ca_ES.ts ~/Feathercoin/src/qt/locale/bitcoin_ca_ES.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ca.ts ~/Feathercoin/src/qt/locale/bitcoin_ca.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ca@valencia.ts ~/Feathercoin/src/qt/locale/bitcoin_ca@valencia.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_cmn.ts ~/Feathercoin/src/qt/locale/bitcoin_cmn.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_cs.ts ~/Feathercoin/src/qt/locale/bitcoin_cs.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_cy.ts ~/Feathercoin/src/qt/locale/bitcoin_cy.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_da.ts ~/Feathercoin/src/qt/locale/bitcoin_da.ts
+
+Only in ~/projects/Feathercoin/src/qt/locale: bitcoin_de_AT.ts
+
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_de.ts ~/Feathercoin/src/qt/locale/bitcoin_de.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_el_GR.ts ~/Feathercoin/src/qt/locale/bitcoin_el_GR.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_en.ts ~/Feathercoin/src/qt/locale/bitcoin_en.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_eo.ts ~/Feathercoin/src/qt/locale/bitcoin_eo.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_es_CL.ts ~/Feathercoin/src/qt/locale/bitcoin_es_CL.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_es_DO.ts ~/Feathercoin/src/qt/locale/bitcoin_es_DO.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_es_MX.ts ~/Feathercoin/src/qt/locale/bitcoin_es_MX.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_es.ts ~/Feathercoin/src/qt/locale/bitcoin_es.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_es_UY.ts ~/Feathercoin/src/qt/locale/bitcoin_es_UY.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_et.ts ~/Feathercoin/src/qt/locale/bitcoin_et.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_eu_ES.ts ~/Feathercoin/src/qt/locale/bitcoin_eu_ES.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_fa_IR.ts ~/Feathercoin/src/qt/locale/bitcoin_fa_IR.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_fa.ts ~/Feathercoin/src/qt/locale/bitcoin_fa.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_fi.ts ~/Feathercoin/src/qt/locale/bitcoin_fi.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_fr_CA.ts ~/Feathercoin/src/qt/locale/bitcoin_fr_CA.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_fr.ts ~/Feathercoin/src/qt/locale/bitcoin_fr.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_gl.ts ~/Feathercoin/src/qt/locale/bitcoin_gl.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_gu_IN.ts ~/Feathercoin/src/qt/locale/bitcoin_gu_IN.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_he.ts ~/Feathercoin/src/qt/locale/bitcoin_he.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_hi_IN.ts ~/Feathercoin/src/qt/locale/bitcoin_hi_IN.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_hr.ts ~/Feathercoin/src/qt/locale/bitcoin_hr.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_hu.ts ~/Feathercoin/src/qt/locale/bitcoin_hu.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_id_ID.ts ~/Feathercoin/src/qt/locale/bitcoin_id_ID.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_it.ts ~/Feathercoin/src/qt/locale/bitcoin_it.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ja.ts ~/Feathercoin/src/qt/locale/bitcoin_ja.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ka.ts ~/Feathercoin/src/qt/locale/bitcoin_ka.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_kk_KZ.ts ~/Feathercoin/src/qt/locale/bitcoin_kk_KZ.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ko_KR.ts ~/Feathercoin/src/qt/locale/bitcoin_ko_KR.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ky.ts ~/Feathercoin/src/qt/locale/bitcoin_ky.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_la.ts ~/Feathercoin/src/qt/locale/bitcoin_la.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_lt.ts ~/Feathercoin/src/qt/locale/bitcoin_lt.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_lv_LV.ts ~/Feathercoin/src/qt/locale/bitcoin_lv_LV.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_mn.ts ~/Feathercoin/src/qt/locale/bitcoin_mn.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ms_MY.ts ~/Feathercoin/src/qt/locale/bitcoin_ms_MY.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_nb.ts ~/Feathercoin/src/qt/locale/bitcoin_nb.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_nl.ts ~/Feathercoin/src/qt/locale/bitcoin_nl.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_pam.ts ~/Feathercoin/src/qt/locale/bitcoin_pam.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_pl.ts ~/Feathercoin/src/qt/locale/bitcoin_pl.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_pt_BR.ts ~/Feathercoin/src/qt/locale/bitcoin_pt_BR.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_pt_PT.ts ~/Feathercoin/src/qt/locale/bitcoin_pt_PT.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ro_RO.ts ~/Feathercoin/src/qt/locale/bitcoin_ro_RO.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ru.ts ~/Feathercoin/src/qt/locale/bitcoin_ru.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_sah.ts ~/Feathercoin/src/qt/locale/bitcoin_sah.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_sk.ts ~/Feathercoin/src/qt/locale/bitcoin_sk.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_sl_SI.ts ~/Feathercoin/src/qt/locale/bitcoin_sl_SI.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_sq.ts ~/Feathercoin/src/qt/locale/bitcoin_sq.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_sr.ts ~/Feathercoin/src/qt/locale/bitcoin_sr.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_sv.ts ~/Feathercoin/src/qt/locale/bitcoin_sv.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_th_TH.ts ~/Feathercoin/src/qt/locale/bitcoin_th_TH.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_tr.ts ~/Feathercoin/src/qt/locale/bitcoin_tr.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_uk.ts ~/Feathercoin/src/qt/locale/bitcoin_uk.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ur_PK.ts ~/Feathercoin/src/qt/locale/bitcoin_ur_PK.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_uz@Cyrl.ts ~/Feathercoin/src/qt/locale/bitcoin_uz@Cyrl.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_vi.ts ~/Feathercoin/src/qt/locale/bitcoin_vi.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_vi_VN.ts ~/Feathercoin/src/qt/locale/bitcoin_vi_VN.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_zh_CN.ts ~/Feathercoin/src/qt/locale/bitcoin_zh_CN.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_zh_HK.ts ~/Feathercoin/src/qt/locale/bitcoin_zh_HK.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_zh_TW.ts ~/Feathercoin/src/qt/locale/bitcoin_zh_TW.ts
+diff -r ~/projects/Feathercoin/src/qt/macdockiconhandler.h ~/Feathercoin/src/qt/macdockiconhandler.h
+diff -r ~/projects/Feathercoin/src/qt/macdockiconhandler.mm ~/Feathercoin/src/qt/macdockiconhandler.mm
+diff -r ~/projects/Feathercoin/src/qt/macnotificationhandler.h ~/Feathercoin/src/qt/macnotificationhandler.h
+diff -r ~/projects/Feathercoin/src/qt/macnotificationhandler.mm ~/Feathercoin/src/qt/macnotificationhandler.mm
+
+Only in ~/projects/Feathercoin/src/qt: Makefile.am
+Only in ~/projects/Feathercoin/src/qt: monitoreddatamapper.cpp
+Only in ~/projects/Feathercoin/src/qt: monitoreddatamapper.h
+
+diff -r ~/projects/Feathercoin/src/qt/multisigdialog.cpp ~/Feathercoin/src/qt/multisigdialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/multisigdialog.h ~/Feathercoin/src/qt/multisigdialog.h
+diff -r ~/projects/Feathercoin/src/qt/notificator.cpp ~/Feathercoin/src/qt/notificator.cpp
+diff -r ~/projects/Feathercoin/src/qt/notificator.h ~/Feathercoin/src/qt/notificator.h
+diff -r ~/projects/Feathercoin/src/qt/openuridialog.cpp ~/Feathercoin/src/qt/openuridialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/openuridialog.h ~/Feathercoin/src/qt/openuridialog.h
+diff -r ~/projects/Feathercoin/src/qt/optionsdialog.cpp ~/Feathercoin/src/qt/optionsdialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/optionsdialog.h ~/Feathercoin/src/qt/optionsdialog.h
+diff -r ~/projects/Feathercoin/src/qt/optionsmodel.cpp ~/Feathercoin/src/qt/optionsmodel.cpp
+diff -r ~/projects/Feathercoin/src/qt/optionsmodel.h ~/Feathercoin/src/qt/optionsmodel.h
+diff -r ~/projects/Feathercoin/src/qt/overviewpage.cpp ~/Feathercoin/src/qt/overviewpage.cpp
+diff -r ~/projects/Feathercoin/src/qt/overviewpage.h ~/Feathercoin/src/qt/overviewpage.h
+diff -r ~/projects/Feathercoin/src/qt/paymentrequestplus.cpp ~/Feathercoin/src/qt/paymentrequestplus.cpp
+diff -r ~/projects/Feathercoin/src/qt/paymentrequestplus.h ~/Feathercoin/src/qt/paymentrequestplus.h
+diff -r ~/projects/Feathercoin/src/qt/paymentserver.cpp ~/Feathercoin/src/qt/paymentserver.cpp
+diff -r ~/projects/Feathercoin/src/qt/paymentserver.h ~/Feathercoin/src/qt/paymentserver.h
+diff -r ~/projects/Feathercoin/src/qt/qimagesource.cpp ~/Feathercoin/src/qt/qimagesource.cpp
+diff -r ~/projects/Feathercoin/src/qt/qimagesource.h ~/Feathercoin/src/qt/qimagesource.h
+diff -r ~/projects/Feathercoin/src/qt/qvalidatedlineedit.cpp ~/Feathercoin/src/qt/qvalidatedlineedit.cpp
+diff -r ~/projects/Feathercoin/src/qt/qvalidatedlineedit.h ~/Feathercoin/src/qt/qvalidatedlineedit.h
+diff -r ~/projects/Feathercoin/src/qt/qvaluecombobox.cpp ~/Feathercoin/src/qt/qvaluecombobox.cpp
+diff -r ~/projects/Feathercoin/src/qt/qvaluecombobox.h ~/Feathercoin/src/qt/qvaluecombobox.h
+diff -r ~/projects/Feathercoin/src/qt/receivecoinsdialog.cpp ~/Feathercoin/src/qt/receivecoinsdialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/receivecoinsdialog.h ~/Feathercoin/src/qt/receivecoinsdialog.h
+diff -r ~/projects/Feathercoin/src/qt/receiverequestdialog.cpp ~/Feathercoin/src/qt/receiverequestdialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/receiverequestdialog.h ~/Feathercoin/src/qt/receiverequestdialog.h
+diff -r ~/projects/Feathercoin/src/qt/recentrequeststablemodel.cpp ~/Feathercoin/src/qt/recentrequeststablemodel.cpp
+diff -r ~/projects/Feathercoin/src/qt/recentrequeststablemodel.h ~/Feathercoin/src/qt/recentrequeststablemodel.h
+diff -r ~/projects/Feathercoin/src/qt/reportview.cpp ~/Feathercoin/src/qt/reportview.cpp
+diff -r ~/projects/Feathercoin/src/qt/reportview.h ~/Feathercoin/src/qt/reportview.h
+diff -r ~/projects/Feathercoin/src/qt/res/bitcoin-qt-res.rc ~/Feathercoin/src/qt/res/bitcoin-qt-res.rc
+
+Only in ~/projects/Feathercoin/src/qt/res: feathercoin-qt-res.rc
+Only in ~/projects/Feathercoin/src/qt/res: fonts
+
+Binary files ~/projects/Feathercoin/src/qt/res/icons/bitcoin.icns and ~/Feathercoin/src/qt/res/icons/bitcoin.icns differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/bitcoin.png and ~/Feathercoin/src/qt/res/icons/bitcoin.png differ
+
+Only in ~/projects/Feathercoin/src/qt/res/icons: bitcoin_testnet.ico
+Only in ~/projects/Feathercoin/src/qt/res/icons: bitcoin_testnet.png
+Only in ~/projects/Feathercoin/src/qt/res/icons: coinnector.png
+Only in ~/projects/Feathercoin/src/qt/res/icons: shapeshift.png
+Only in ~/projects/Feathercoin/src/qt/res/icons: toolbar_testnet.png
+Only in ~/projects/Feathercoin/src/qt/res/images: about.1.png
+Only in ~/projects/Feathercoin/src/qt/res/images: about_bitcoin.png
+Binary files ~/projects/Feathercoin/src/qt/res/images/about.png and ~/Feathercoin/src/qt/res/images/about.png differ
+Only in ~/projects/Feathercoin/src/qt/res/images: coinnector.png
+Only in ~/projects/Feathercoin/src/qt/res/images: LOGO_b.png
+Only in ~/projects/Feathercoin/src/qt/res/images: LOGO_b_sm.png
+Only in ~/projects/Feathercoin/src/qt/res/images: LOGO_dg.png
+Only in ~/projects/Feathercoin/src/qt/res/images: LOGO_g.png
+Only in ~/projects/Feathercoin/src/qt/res/images: LOGO_g_sm.png
+Only in ~/projects/Feathercoin/src/qt/res/images: LOGO.png
+Only in ~/projects/Feathercoin/src/qt/res/images: mainbg.grey.1.png
+Only in ~/projects/Feathercoin/src/qt/res/images: mainbg.png
+Only in ~/projects/Feathercoin/src/qt/res/images: mainbg.shade.2.png
+Only in ~/projects/Feathercoin/src/qt/res/images: mainbg.white.3.png
+Binary files ~/projects/Feathercoin/src/qt/res/images/paper_wallet.png and ~/Feathercoin/src/qt/res/images/paper_wallet.png differ
+Only in ~/projects/Feathercoin/src/qt/res/images: splash.png
+Only in ~/projects/Feathercoin/src/qt/res/images: splash_testnet.png
+Only in ~/projects/Feathercoin/src/qt/res: src
+
+diff -r ~/projects/Feathercoin/src/qt/rpcconsole.cpp ~/Feathercoin/src/qt/rpcconsole.cpp
+diff -r ~/projects/Feathercoin/src/qt/rpcconsole.h ~/Feathercoin/src/qt/rpcconsole.h
+diff -r ~/projects/Feathercoin/src/qt/sendcoinsdialog.cpp ~/Feathercoin/src/qt/sendcoinsdialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/sendcoinsdialog.h ~/Feathercoin/src/qt/sendcoinsdialog.h
+diff -r ~/projects/Feathercoin/src/qt/sendcoinsentry.cpp ~/Feathercoin/src/qt/sendcoinsentry.cpp
+diff -r ~/projects/Feathercoin/src/qt/sendcoinsentry.h ~/Feathercoin/src/qt/sendcoinsentry.h
+
+Only in ~/projects/Feathercoin/src/qt: shiftdialog.cpp
+Only in ~/projects/Feathercoin/src/qt: shiftdialog.h
+
+diff -r ~/projects/Feathercoin/src/qt/signverifymessagedialog.cpp ~/Feathercoin/src/qt/signverifymessagedialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/signverifymessagedialog.h ~/Feathercoin/src/qt/signverifymessagedialog.h
+diff -r ~/projects/Feathercoin/src/qt/snapwidget.cpp ~/Feathercoin/src/qt/snapwidget.cpp
+diff -r ~/projects/Feathercoin/src/qt/snapwidget.h ~/Feathercoin/src/qt/snapwidget.h
+diff -r ~/projects/Feathercoin/src/qt/splashscreen.cpp ~/Feathercoin/src/qt/splashscreen.cpp
+diff -r ~/projects/Feathercoin/src/qt/splashscreen.h ~/Feathercoin/src/qt/splashscreen.h
+
+Only in ~/projects/Feathercoin/src/qt/test: Makefile.am
+
+diff -r ~/projects/Feathercoin/src/qt/test/paymentrequestdata.h ~/Feathercoin/src/qt/test/paymentrequestdata.h
+diff -r ~/projects/Feathercoin/src/qt/test/paymentservertests.cpp ~/Feathercoin/src/qt/test/paymentservertests.cpp
+diff -r ~/projects/Feathercoin/src/qt/test/paymentservertests.h ~/Feathercoin/src/qt/test/paymentservertests.h
+diff -r ~/projects/Feathercoin/src/qt/test/test_main.cpp ~/Feathercoin/src/qt/test/test_main.cpp
+diff -r ~/projects/Feathercoin/src/qt/test/uritests.cpp ~/Feathercoin/src/qt/test/uritests.cpp
+diff -r ~/projects/Feathercoin/src/qt/test/uritests.h ~/Feathercoin/src/qt/test/uritests.h
+diff -r ~/projects/Feathercoin/src/qt/trafficgraphwidget.cpp ~/Feathercoin/src/qt/trafficgraphwidget.cpp
+diff -r ~/projects/Feathercoin/src/qt/trafficgraphwidget.h ~/Feathercoin/src/qt/trafficgraphwidget.h
+diff -r ~/projects/Feathercoin/src/qt/transactiondesc.cpp ~/Feathercoin/src/qt/transactiondesc.cpp
+diff -r ~/projects/Feathercoin/src/qt/transactiondescdialog.cpp ~/Feathercoin/src/qt/transactiondescdialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/transactiondescdialog.h ~/Feathercoin/src/qt/transactiondescdialog.h
+diff -r ~/projects/Feathercoin/src/qt/transactiondesc.h ~/Feathercoin/src/qt/transactiondesc.h
+diff -r ~/projects/Feathercoin/src/qt/transactionfilterproxy.cpp ~/Feathercoin/src/qt/transactionfilterproxy.cpp
+diff -r ~/projects/Feathercoin/src/qt/transactionfilterproxy.h ~/Feathercoin/src/qt/transactionfilterproxy.h
+diff -r ~/projects/Feathercoin/src/qt/transactionrecord.cpp ~/Feathercoin/src/qt/transactionrecord.cpp
+diff -r ~/projects/Feathercoin/src/qt/transactionrecord.h ~/Feathercoin/src/qt/transactionrecord.h
+diff -r ~/projects/Feathercoin/src/qt/transactiontablemodel.cpp ~/Feathercoin/src/qt/transactiontablemodel.cpp
+diff -r ~/projects/Feathercoin/src/qt/transactiontablemodel.h ~/Feathercoin/src/qt/transactiontablemodel.h
+diff -r ~/projects/Feathercoin/src/qt/transactionview.cpp ~/Feathercoin/src/qt/transactionview.cpp
+diff -r ~/projects/Feathercoin/src/qt/transactionview.h ~/Feathercoin/src/qt/transactionview.h
+diff -r ~/projects/Feathercoin/src/qt/utilitydialog.cpp ~/Feathercoin/src/qt/utilitydialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/utilitydialog.h ~/Feathercoin/src/qt/utilitydialog.h
+diff -r ~/projects/Feathercoin/src/qt/walletframe.cpp ~/Feathercoin/src/qt/walletframe.cpp
+diff -r ~/projects/Feathercoin/src/qt/walletframe.h ~/Feathercoin/src/qt/walletframe.h
+diff -r ~/projects/Feathercoin/src/qt/walletmodel.cpp ~/Feathercoin/src/qt/walletmodel.cpp
+diff -r ~/projects/Feathercoin/src/qt/walletmodel.h ~/Feathercoin/src/qt/walletmodel.h
+diff -r ~/projects/Feathercoin/src/qt/walletmodeltransaction.cpp ~/Feathercoin/src/qt/walletmodeltransaction.cpp
+diff -r ~/projects/Feathercoin/src/qt/walletmodeltransaction.h ~/Feathercoin/src/qt/walletmodeltransaction.h
+diff -r ~/projects/Feathercoin/src/qt/walletview.cpp ~/Feathercoin/src/qt/walletview.cpp
+diff -r ~/projects/Feathercoin/src/qt/walletview.h ~/Feathercoin/src/qt/walletview.h
+diff -r ~/projects/Feathercoin/src/qt/winshutdownmonitor.cpp ~/Feathercoin/src/qt/winshutdownmonitor.cpp
+diff -r ~/projects/Feathercoin/src/qt/winshutdownmonitor.h ~/Feathercoin/src/qt/winshutdownmonitor.h
+diff -r ~/projects/Feathercoin/src/rpcblockchain.cpp ~/Feathercoin/src/rpcblockchain.cpp
+diff -r ~/projects/Feathercoin/src/rpcclient.cpp ~/Feathercoin/src/rpcclient.cpp
+diff -r ~/projects/Feathercoin/src/rpcclient.h ~/Feathercoin/src/rpcclient.h
+
+Only in ~/projects/Feathercoin/src: rpcdump.cpp
+
+diff -r ~/projects/Feathercoin/src/rpcmining.cpp ~/Feathercoin/src/rpcmining.cpp
+diff -r ~/projects/Feathercoin/src/rpcmisc.cpp ~/Feathercoin/src/rpcmisc.cpp
+diff -r ~/projects/Feathercoin/src/rpcnet.cpp ~/Feathercoin/src/rpcnet.cpp
+diff -r ~/projects/Feathercoin/src/rpcprotocol.cpp ~/Feathercoin/src/rpcprotocol.cpp
+diff -r ~/projects/Feathercoin/src/rpcprotocol.h ~/Feathercoin/src/rpcprotocol.h
+diff -r ~/projects/Feathercoin/src/rpcrawtransaction.cpp ~/Feathercoin/src/rpcrawtransaction.cpp
+diff -r ~/projects/Feathercoin/src/rpcserver.cpp ~/Feathercoin/src/rpcserver.cpp
+diff -r ~/projects/Feathercoin/src/rpcserver.h ~/Feathercoin/src/rpcserver.h
+
+Only in ~/projects/Feathercoin/src: rpcwallet.cpp
+Only in ~/projects/Feathercoin/src: script.cpp
+Only in ~/projects/Feathercoin/src: script.h
+
+diff -r ~/projects/Feathercoin/src/secp256k1/build-aux/depcomp ~/Feathercoin/src/secp256k1/build-aux/depcomp
+diff -r ~/projects/Feathercoin/src/secp256k1/build-aux/install-sh ~/Feathercoin/src/secp256k1/build-aux/install-sh
+diff -r ~/projects/Feathercoin/src/secp256k1/build-aux/missing ~/Feathercoin/src/secp256k1/build-aux/missing
+diff -r ~/projects/Feathercoin/src/secp256k1/build-aux/test-driver ~/Feathercoin/src/secp256k1/build-aux/test-driver
+diff -r ~/projects/Feathercoin/src/serialize.h ~/Feathercoin/src/serialize.h
+
+Only in ~/projects/Feathercoin/src: stealth.cpp
+Only in ~/projects/Feathercoin/src: stealth.h
+
+diff -r ~/projects/Feathercoin/src/sync.cpp ~/Feathercoin/src/sync.cpp
+diff -r ~/projects/Feathercoin/src/sync.h ~/Feathercoin/src/sync.h
+diff -r ~/projects/Feathercoin/src/test/accounting_tests.cpp ~/Feathercoin/src/test/accounting_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/allocator_tests.cpp ~/Feathercoin/src/test/allocator_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/base32_tests.cpp ~/Feathercoin/src/test/base32_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/base58_tests.cpp ~/Feathercoin/src/test/base58_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/base64_tests.cpp ~/Feathercoin/src/test/base64_tests.cpp
+
+Only in ~/projects/Feathercoin/src/test: bignum_tests.cpp
+
+diff -r ~/projects/Feathercoin/src/test/bip32_tests.cpp ~/Feathercoin/src/test/bip32_tests.cpp
+
+Only in ~/projects/Feathercoin/src/test: canonical_tests.cpp
+
+diff -r ~/projects/Feathercoin/src/test/checkblock_tests.cpp ~/Feathercoin/src/test/checkblock_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/Checkpoints_tests.cpp ~/Feathercoin/src/test/Checkpoints_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/compress_tests.cpp ~/Feathercoin/src/test/compress_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/data/base58_keys_valid.json ~/Feathercoin/src/test/data/base58_keys_valid.json
+
+Only in ~/projects/Feathercoin/src/test/data: README.md
+
+diff -r ~/projects/Feathercoin/src/test/data/script_invalid.json ~/Feathercoin/src/test/data/script_invalid.json
+diff -r ~/projects/Feathercoin/src/test/data/script_valid.json ~/Feathercoin/src/test/data/script_valid.json
+
+Only in ~/projects/Feathercoin/src/test/data: sig_canonical.json
+Only in ~/projects/Feathercoin/src/test/data: sig_noncanonical.json
+
+diff -r ~/projects/Feathercoin/src/test/data/tx_invalid.json ~/Feathercoin/src/test/data/tx_invalid.json
+diff -r ~/projects/Feathercoin/src/test/data/tx_valid.json ~/Feathercoin/src/test/data/tx_valid.json
+diff -r ~/projects/Feathercoin/src/test/DoS_tests.cpp ~/Feathercoin/src/test/DoS_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/getarg_tests.cpp ~/Feathercoin/src/test/getarg_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/hash_tests.cpp ~/Feathercoin/src/test/hash_tests.cpp
+
+Only in ~/projects/Feathercoin/src/test: hmac_tests.cpp
+
+diff -r ~/projects/Feathercoin/src/test/key_tests.cpp ~/Feathercoin/src/test/key_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/main_tests.cpp ~/Feathercoin/src/test/main_tests.cpp
+
+Only in ~/projects/Feathercoin/src/test: Makefile.am
+
+diff -r ~/projects/Feathercoin/src/test/mruset_tests.cpp ~/Feathercoin/src/test/mruset_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/multisig_tests.cpp ~/Feathercoin/src/test/multisig_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/netbase_tests.cpp ~/Feathercoin/src/test/netbase_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/pmt_tests.cpp ~/Feathercoin/src/test/pmt_tests.cpp
+Only in ~/projects/Feathercoin/src/test: README
+Only in ~/projects/Feathercoin/src/test: README.md
+diff -r ~/projects/Feathercoin/src/test/rpc_tests.cpp ~/Feathercoin/src/test/rpc_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/rpc_wallet_tests.cpp ~/Feathercoin/src/test/rpc_wallet_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/scriptnum_tests.cpp ~/Feathercoin/src/test/scriptnum_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/script_P2SH_tests.cpp ~/Feathercoin/src/test/script_P2SH_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/script_tests.cpp ~/Feathercoin/src/test/script_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/serialize_tests.cpp ~/Feathercoin/src/test/serialize_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/sighash_tests.cpp ~/Feathercoin/src/test/sighash_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/sigopcount_tests.cpp ~/Feathercoin/src/test/sigopcount_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/test_bitcoin.cpp ~/Feathercoin/src/test/test_bitcoin.cpp
+Only in ~/projects/Feathercoin/src/test: test_feathercoin.cpp
+diff -r ~/projects/Feathercoin/src/test/transaction_tests.cpp ~/Feathercoin/src/test/transaction_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/uint256_tests.cpp ~/Feathercoin/src/test/uint256_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/util_tests.cpp ~/Feathercoin/src/test/util_tests.cpp
+Only in ~/projects/Feathercoin/src/test: wallet_tests.cpp
+
+diff -r ~/projects/Feathercoin/src/threadsafety.h ~/Feathercoin/src/threadsafety.h
+diff -r ~/projects/Feathercoin/src/tinyformat.h ~/Feathercoin/src/tinyformat.h
+diff -r ~/projects/Feathercoin/src/txdb.cpp ~/Feathercoin/src/txdb.cpp
+diff -r ~/projects/Feathercoin/src/txdb.h ~/Feathercoin/src/txdb.h
+diff -r ~/projects/Feathercoin/src/txmempool.cpp ~/Feathercoin/src/txmempool.cpp
+diff -r ~/projects/Feathercoin/src/txmempool.h ~/Feathercoin/src/txmempool.h
+diff -r ~/projects/Feathercoin/src/ui_interface.h ~/Feathercoin/src/ui_interface.h
+diff -r ~/projects/Feathercoin/src/uint256.h ~/Feathercoin/src/uint256.h
+diff -r ~/projects/Feathercoin/src/util.cpp ~/Feathercoin/src/util.cpp
+diff -r ~/projects/Feathercoin/src/util.h ~/Feathercoin/src/util.h
+
+Only in ~/projects/Feathercoin/src: version.cpp
+
+diff -r ~/projects/Feathercoin/src/version.h ~/Feathercoin/src/version.h
+
+Only in ~/projects/Feathercoin/src: wallet.cpp
+Only in ~/projects/Feathercoin/src: walletdb.cpp
+Only in ~/projects/Feathercoin/src: walletdb.h
+Only in ~/projects/Feathercoin/src: wallet.h
