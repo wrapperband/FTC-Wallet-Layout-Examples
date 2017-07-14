@@ -1,815 +1,815 @@
-Only in /home/tony/projects/Feathercoin: aclocal.m4
-Only in /home/tony/projects/Feathercoin/build-aux: config.guess
-Only in /home/tony/projects/Feathercoin/build-aux: config.sub
-Only in /home/tony/projects/Feathercoin/build-aux: depcomp
-Only in /home/tony/projects/Feathercoin/build-aux: install-sh
-Only in /home/tony/projects/Feathercoin/build-aux: ltmain.sh
+Only in ~/projects/Feathercoin: aclocal.m4
+Only in ~/projects/Feathercoin/build-aux: config.guess
+Only in ~/projects/Feathercoin/build-aux: config.sub
+Only in ~/projects/Feathercoin/build-aux: depcomp
+Only in ~/projects/Feathercoin/build-aux: install-sh
+Only in ~/projects/Feathercoin/build-aux: ltmain.sh
 
-diff -r /home/tony/projects/Feathercoin/build-aux/m4/bitcoin_find_bdb48.m4 /home/tony/litecoin/build-aux/m4/bitcoin_find_bdb48.m4
+diff -r ~/projects/Feathercoin/build-aux/m4/bitcoin_find_bdb48.m4 ~/litecoin/build-aux/m4/bitcoin_find_bdb48.m4
 
-Only in /home/tony/projects/Feathercoin/build-aux/m4: bitcoin_find_bdb51.m4
-Only in /home/tony/projects/Feathercoin/build-aux/m4: bitcoin_find_bdb61.m4
+Only in ~/projects/Feathercoin/build-aux/m4: bitcoin_find_bdb51.m4
+Only in ~/projects/Feathercoin/build-aux/m4: bitcoin_find_bdb61.m4
 
-diff -r /home/tony/projects/Feathercoin/build-aux/m4/bitcoin_qt.m4 /home/tony/litecoin/build-aux/m4/bitcoin_qt.m4
+diff -r ~/projects/Feathercoin/build-aux/m4/bitcoin_qt.m4 ~/litecoin/build-aux/m4/bitcoin_qt.m4
 
-Only in /home/tony/projects/Feathercoin/build-aux/m4: libtool.m4
-Only in /home/tony/projects/Feathercoin/build-aux/m4: lt~obsolete.m4
-Only in /home/tony/projects/Feathercoin/build-aux/m4: ltoptions.m4
-Only in /home/tony/projects/Feathercoin/build-aux/m4: ltsugar.m4
-Only in /home/tony/projects/Feathercoin/build-aux/m4: ltversion.m4
-Only in /home/tony/projects/Feathercoin/build-aux: missing
-Only in /home/tony/projects/Feathercoin/build-aux: test-driver
+Only in ~/projects/Feathercoin/build-aux/m4: libtool.m4
+Only in ~/projects/Feathercoin/build-aux/m4: lt~obsolete.m4
+Only in ~/projects/Feathercoin/build-aux/m4: ltoptions.m4
+Only in ~/projects/Feathercoin/build-aux/m4: ltsugar.m4
+Only in ~/projects/Feathercoin/build-aux/m4: ltversion.m4
+Only in ~/projects/Feathercoin/build-aux: missing
+Only in ~/projects/Feathercoin/build-aux: test-driver
 
-diff -r /home/tony/projects/Feathercoin/configure.ac /home/tony/litecoin/configure.ac
-diff -r /home/tony/projects/Feathercoin/contrib/bitcoin-qt.pro /home/tony/litecoin/contrib/bitcoin-qt.pro
+diff -r ~/projects/Feathercoin/configure.ac ~/litecoin/configure.ac
+diff -r ~/projects/Feathercoin/contrib/bitcoin-qt.pro ~/litecoin/contrib/bitcoin-qt.pro
 
-Only in /home/tony/projects/Feathercoin/contrib/macdeploy: background.tiff
-Only in /home/tony/projects/Feathercoin/contrib/macdeploy: Base.lproj
+Only in ~/projects/Feathercoin/contrib/macdeploy: background.tiff
+Only in ~/projects/Feathercoin/contrib/macdeploy: Base.lproj
 
-diff -r /home/tony/projects/Feathercoin/contrib/macdeploy/detached-sig-apply.sh /home/tony/litecoin/contrib/macdeploy/detached-sig-apply.sh
-diff -r /home/tony/projects/Feathercoin/contrib/macdeploy/detached-sig-create.sh /home/tony/litecoin/contrib/macdeploy/detached-sig-create.sh
-diff -r /home/tony/projects/Feathercoin/contrib/macdeploy/fancy.plist /home/tony/litecoin/contrib/macdeploy/fancy.plist
+diff -r ~/projects/Feathercoin/contrib/macdeploy/detached-sig-apply.sh ~/litecoin/contrib/macdeploy/detached-sig-apply.sh
+diff -r ~/projects/Feathercoin/contrib/macdeploy/detached-sig-create.sh ~/litecoin/contrib/macdeploy/detached-sig-create.sh
+diff -r ~/projects/Feathercoin/contrib/macdeploy/fancy.plist ~/litecoin/contrib/macdeploy/fancy.plist
 
-Only in /home/tony/projects/Feathercoin: .directory
+Only in ~/projects/Feathercoin: .directory
 
-diff -r /home/tony/projects/Feathercoin/doc/assets-attribution.md /home/tony/litecoin/doc/assets-attribution.md
+diff -r ~/projects/Feathercoin/doc/assets-attribution.md ~/litecoin/doc/assets-attribution.md
 
-Only in /home/tony/projects/Feathercoin/doc: bips.md
+Only in ~/projects/Feathercoin/doc: bips.md
 
-diff -r /home/tony/projects/Feathercoin/doc/build-osx.md /home/tony/litecoin/doc/build-osx.md
-diff -r /home/tony/projects/Feathercoin/doc/build-unix.md /home/tony/litecoin/doc/build-unix.md
+diff -r ~/projects/Feathercoin/doc/build-osx.md ~/litecoin/doc/build-osx.md
+diff -r ~/projects/Feathercoin/doc/build-unix.md ~/litecoin/doc/build-unix.md
 
-Only in /home/tony/projects/Feathercoin/doc: developer-notes.md
+Only in ~/projects/Feathercoin/doc: developer-notes.md
 
-diff -r /home/tony/projects/Feathercoin/doc/dnsseed-policy.md /home/tony/litecoin/doc/dnsseed-policy.md
-diff -r /home/tony/projects/Feathercoin/doc/gitian-building.md /home/tony/litecoin/doc/gitian-building.md
-diff -r /home/tony/projects/Feathercoin/doc/init.md /home/tony/litecoin/doc/init.md
-diff -r /home/tony/projects/Feathercoin/doc/README.md /home/tony/litecoin/doc/README.md
-diff -r /home/tony/projects/Feathercoin/doc/README_windows.txt /home/tony/litecoin/doc/README_windows.txt
-diff -r /home/tony/projects/Feathercoin/doc/release-notes/release-notes-0.10.1.md /home/tony/litecoin/doc/release-notes/release-notes-0.10.1.md
-diff -r /home/tony/projects/Feathercoin/doc/release-notes.md /home/tony/litecoin/doc/release-notes.md
-diff -r /home/tony/projects/Feathercoin/doc/release-process.md /home/tony/litecoin/doc/release-process.md
-diff -r /home/tony/projects/Feathercoin/doc/REST-interface.md /home/tony/litecoin/doc/REST-interface.md
-diff -r /home/tony/projects/Feathercoin/doc/tor.md /home/tony/litecoin/doc/tor.md
-diff -r /home/tony/projects/Feathercoin/doc/translation_process.md /home/tony/litecoin/doc/translation_process.md
+diff -r ~/projects/Feathercoin/doc/dnsseed-policy.md ~/litecoin/doc/dnsseed-policy.md
+diff -r ~/projects/Feathercoin/doc/gitian-building.md ~/litecoin/doc/gitian-building.md
+diff -r ~/projects/Feathercoin/doc/init.md ~/litecoin/doc/init.md
+diff -r ~/projects/Feathercoin/doc/README.md ~/litecoin/doc/README.md
+diff -r ~/projects/Feathercoin/doc/README_windows.txt ~/litecoin/doc/README_windows.txt
+diff -r ~/projects/Feathercoin/doc/release-notes/release-notes-0.10.1.md ~/litecoin/doc/release-notes/release-notes-0.10.1.md
+diff -r ~/projects/Feathercoin/doc/release-notes.md ~/litecoin/doc/release-notes.md
+diff -r ~/projects/Feathercoin/doc/release-process.md ~/litecoin/doc/release-process.md
+diff -r ~/projects/Feathercoin/doc/REST-interface.md ~/litecoin/doc/REST-interface.md
+diff -r ~/projects/Feathercoin/doc/tor.md ~/litecoin/doc/tor.md
+diff -r ~/projects/Feathercoin/doc/translation_process.md ~/litecoin/doc/translation_process.md
 
-Only in /home/tony/projects/Feathercoin/doc: translation_strings_policy.md
+Only in ~/projects/Feathercoin/doc: translation_strings_policy.md
 
-diff -r /home/tony/projects/Feathercoin/doc/unit-tests.md /home/tony/litecoin/doc/unit-tests.md
-diff -r /home/tony/projects/Feathercoin/.git/config /home/tony/litecoin/.git/config
-diff -r /home/tony/projects/Feathercoin/.git/HEAD /home/tony/litecoin/.git/HEAD
+diff -r ~/projects/Feathercoin/doc/unit-tests.md ~/litecoin/doc/unit-tests.md
+diff -r ~/projects/Feathercoin/.git/config ~/litecoin/.git/config
+diff -r ~/projects/Feathercoin/.git/HEAD ~/litecoin/.git/HEAD
 
-Binary files /home/tony/projects/Feathercoin/.git/index and /home/tony/litecoin/.git/index differ
-diff -r /home/tony/projects/Feathercoin/.git/logs/HEAD /home/tony/litecoin/.git/logs/HEAD
+Binary files ~/projects/Feathercoin/.git/index and ~/litecoin/.git/index differ
+diff -r ~/projects/Feathercoin/.git/logs/HEAD ~/litecoin/.git/logs/HEAD
 
-Only in /home/tony/projects/Feathercoin/.git/logs/refs/heads: 0.11.2
-Only in /home/tony/projects/Feathercoin/.git/logs/refs/heads: 0.9.6.2
-Only in /home/tony/projects/Feathercoin/.git/logs/refs/heads: master-0.9
+Only in ~/projects/Feathercoin/.git/logs/refs/heads: 0.11.2
+Only in ~/projects/Feathercoin/.git/logs/refs/heads: 0.9.6.2
+Only in ~/projects/Feathercoin/.git/logs/refs/heads: master-0.9
 
-diff -r /home/tony/projects/Feathercoin/.git/logs/refs/remotes/origin/HEAD /home/tony/litecoin/.git/logs/refs/remotes/origin/HEAD
+diff -r ~/projects/Feathercoin/.git/logs/refs/remotes/origin/HEAD ~/litecoin/.git/logs/refs/remotes/origin/HEAD
 
-Only in /home/tony/projects/Feathercoin/.git/objects/pack: pack-91b4cf1652b35bb1d9ec81bd5b7b7dd124844cec.idx
-Only in /home/tony/projects/Feathercoin/.git/objects/pack: pack-91b4cf1652b35bb1d9ec81bd5b7b7dd124844cec.pack
+Only in ~/projects/Feathercoin/.git/objects/pack: pack-91b4cf1652b35bb1d9ec81bd5b7b7dd124844cec.idx
+Only in ~/projects/Feathercoin/.git/objects/pack: pack-91b4cf1652b35bb1d9ec81bd5b7b7dd124844cec.pack
 
-diff -r /home/tony/projects/Feathercoin/.git/packed-refs /home/tony/litecoin/.git/packed-refs
+diff -r ~/projects/Feathercoin/.git/packed-refs ~/litecoin/.git/packed-refs
 
-Only in /home/tony/projects/Feathercoin/.git/refs/heads: 0.11.2
-Only in /home/tony/projects/Feathercoin/.git/refs/heads: 0.9.6.2
-Only in /home/tony/projects/Feathercoin/.git/refs/heads: master-0.9
+Only in ~/projects/Feathercoin/.git/refs/heads: 0.11.2
+Only in ~/projects/Feathercoin/.git/refs/heads: 0.9.6.2
+Only in ~/projects/Feathercoin/.git/refs/heads: master-0.9
 
-diff -r /home/tony/projects/Feathercoin/.git/refs/remotes/origin/HEAD /home/tony/litecoin/.git/refs/remotes/origin/HEAD
-diff -r /home/tony/projects/Feathercoin/.gitignore /home/tony/litecoin/.gitignore
+diff -r ~/projects/Feathercoin/.git/refs/remotes/origin/HEAD ~/litecoin/.git/refs/remotes/origin/HEAD
+diff -r ~/projects/Feathercoin/.gitignore ~/litecoin/.gitignore
 
-Only in /home/tony/projects/Feathercoin: libbitcoinconsensus.pc
-Only in /home/tony/projects/Feathercoin: libbitcoinconsensus.pc.in
+Only in ~/projects/Feathercoin: libbitcoinconsensus.pc
+Only in ~/projects/Feathercoin: libbitcoinconsensus.pc.in
 
-diff -r /home/tony/projects/Feathercoin/Makefile.am /home/tony/litecoin/Makefile.am
-diff -r /home/tony/projects/Feathercoin/qa/pull-tester/rpc-tests.sh /home/tony/litecoin/qa/pull-tester/rpc-tests.sh
+diff -r ~/projects/Feathercoin/Makefile.am ~/litecoin/Makefile.am
+diff -r ~/projects/Feathercoin/qa/pull-tester/rpc-tests.sh ~/litecoin/qa/pull-tester/rpc-tests.sh
 
-Only in /home/tony/projects/Feathercoin/qa/rpc-tests: bipdersig-p2p.py
+Only in ~/projects/Feathercoin/qa/rpc-tests: bipdersig-p2p.py
 
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/bipdersig.py /home/tony/litecoin/qa/rpc-tests/bipdersig.py
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/forknotify.py /home/tony/litecoin/qa/rpc-tests/forknotify.py
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/getblocktemplate_longpoll.py /home/tony/litecoin/qa/rpc-tests/getblocktemplate_longpoll.py
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/getblocktemplate_proposals.py /home/tony/litecoin/qa/rpc-tests/getblocktemplate_proposals.py
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/getchaintips.py /home/tony/litecoin/qa/rpc-tests/getchaintips.py
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/httpbasics.py /home/tony/litecoin/qa/rpc-tests/httpbasics.py
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/invalidateblock.py /home/tony/litecoin/qa/rpc-tests/invalidateblock.py
+diff -r ~/projects/Feathercoin/qa/rpc-tests/bipdersig.py ~/litecoin/qa/rpc-tests/bipdersig.py
+diff -r ~/projects/Feathercoin/qa/rpc-tests/forknotify.py ~/litecoin/qa/rpc-tests/forknotify.py
+diff -r ~/projects/Feathercoin/qa/rpc-tests/getblocktemplate_longpoll.py ~/litecoin/qa/rpc-tests/getblocktemplate_longpoll.py
+diff -r ~/projects/Feathercoin/qa/rpc-tests/getblocktemplate_proposals.py ~/litecoin/qa/rpc-tests/getblocktemplate_proposals.py
+diff -r ~/projects/Feathercoin/qa/rpc-tests/getchaintips.py ~/litecoin/qa/rpc-tests/getchaintips.py
+diff -r ~/projects/Feathercoin/qa/rpc-tests/httpbasics.py ~/litecoin/qa/rpc-tests/httpbasics.py
+diff -r ~/projects/Feathercoin/qa/rpc-tests/invalidateblock.py ~/litecoin/qa/rpc-tests/invalidateblock.py
 
-Only in /home/tony/projects/Feathercoin/qa/rpc-tests: invalidblockrequest.py
+Only in ~/projects/Feathercoin/qa/rpc-tests: invalidblockrequest.py
 
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/keypool.py /home/tony/litecoin/qa/rpc-tests/keypool.py
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/listtransactions.py /home/tony/litecoin/qa/rpc-tests/listtransactions.py
-
-Only in /home/tony/projects/Feathercoin/qa/rpc-tests: maxblocksinflight.py
-
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/mempool_coinbase_spends.py /home/tony/litecoin/qa/rpc-tests/mempool_coinbase_spends.py
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/mempool_resurrect_test.py /home/tony/litecoin/qa/rpc-tests/mempool_resurrect_test.py
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/mempool_spendcoinbase.py /home/tony/litecoin/qa/rpc-tests/mempool_spendcoinbase.py
-
-Only in /home/tony/projects/Feathercoin/qa/rpc-tests: merkle_blocks.py
-Only in /home/tony/projects/Feathercoin/qa/rpc-tests: p2p-acceptblock.py
-Only in /home/tony/projects/Feathercoin/qa/rpc-tests: proxy_test.py
-Only in /home/tony/projects/Feathercoin/qa/rpc-tests: pruning.py
-Only in /home/tony/projects/Feathercoin/qa/rpc-tests: rawtransactions.py
-
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/README.md /home/tony/litecoin/qa/rpc-tests/README.md
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/receivedby.py /home/tony/litecoin/qa/rpc-tests/receivedby.py
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/reindex.py /home/tony/litecoin/qa/rpc-tests/reindex.py
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/rest.py /home/tony/litecoin/qa/rpc-tests/rest.py
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/rpcbind_test.py /home/tony/litecoin/qa/rpc-tests/rpcbind_test.py
-
-Only in /home/tony/projects/Feathercoin/qa/rpc-tests: script_test.py
-Only in /home/tony/projects/Feathercoin/qa/rpc-tests: signrawtransactions.py
-
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/smartfees.py /home/tony/litecoin/qa/rpc-tests/smartfees.py
-
-Only in /home/tony/projects/Feathercoin/qa/rpc-tests: test_framework
-
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/txn_doublespend.py /home/tony/litecoin/qa/rpc-tests/txn_doublespend.py
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/walletbackup.py /home/tony/litecoin/qa/rpc-tests/walletbackup.py
-diff -r /home/tony/projects/Feathercoin/qa/rpc-tests/wallet.py /home/tony/litecoin/qa/rpc-tests/wallet.py
-
-Only in /home/tony/projects/Feathercoin/qa/rpc-tests: zapwallettxes.py
-
-diff -r /home/tony/projects/Feathercoin/README.md /home/tony/litecoin/README.md
-diff -r /home/tony/projects/Feathercoin/share/genbuild.sh /home/tony/litecoin/share/genbuild.sh
-
-Only in /home/tony/projects/Feathercoin/share/qt: bitcoin.ico
-Only in /home/tony/projects/Feathercoin/share/qt: bitcoin.png
-Only in /home/tony/projects/Feathercoin/share/qt: feathercoin16.png
-Only in /home/tony/projects/Feathercoin/share/qt: feathercoin32.png
-Only in /home/tony/projects/Feathercoin/share/qt: feathercoin48.png
-
-diff -r /home/tony/projects/Feathercoin/share/qt/Info.plist.in /home/tony/litecoin/share/qt/Info.plist.in
-diff -r /home/tony/projects/Feathercoin/share/qt/make_windows_icon.sh /home/tony/litecoin/share/qt/make_windows_icon.sh
-diff -r /home/tony/projects/Feathercoin/share/setup.nsi.in /home/tony/litecoin/share/setup.nsi.in
-diff -r /home/tony/projects/Feathercoin/src/addrman.cpp /home/tony/litecoin/src/addrman.cpp
-diff -r /home/tony/projects/Feathercoin/src/addrman.h /home/tony/litecoin/src/addrman.h
-diff -r /home/tony/projects/Feathercoin/src/alert.cpp /home/tony/litecoin/src/alert.cpp
-diff -r /home/tony/projects/Feathercoin/src/alert.h /home/tony/litecoin/src/alert.h
-diff -r /home/tony/projects/Feathercoin/src/amount.cpp /home/tony/litecoin/src/amount.cpp
-diff -r /home/tony/projects/Feathercoin/src/amount.h /home/tony/litecoin/src/amount.h
-
-Only in /home/tony/projects/Feathercoin/src: arith_uint256.cpp
-Only in /home/tony/projects/Feathercoin/src: arith_uint256.h
-
-diff -r /home/tony/projects/Feathercoin/src/base58.cpp /home/tony/litecoin/src/base58.cpp
-diff -r /home/tony/projects/Feathercoin/src/base58.h /home/tony/litecoin/src/base58.h
-
-Only in /home/tony/projects/Feathercoin/src: bignum.h
-
-diff -r /home/tony/projects/Feathercoin/src/bitcoin-cli.cpp /home/tony/litecoin/src/bitcoin-cli.cpp
-diff -r /home/tony/projects/Feathercoin/src/bitcoin-cli-res.rc /home/tony/litecoin/src/bitcoin-cli-res.rc
-diff -r /home/tony/projects/Feathercoin/src/bitcoind.cpp /home/tony/litecoin/src/bitcoind.cpp
-diff -r /home/tony/projects/Feathercoin/src/bitcoind-res.rc /home/tony/litecoin/src/bitcoind-res.rc
-diff -r /home/tony/projects/Feathercoin/src/bitcoin-tx.cpp /home/tony/litecoin/src/bitcoin-tx.cpp
-
-Only in /home/tony/projects/Feathercoin/src: bitcoin-tx-res.rc
-
-diff -r /home/tony/projects/Feathercoin/src/bloom.cpp /home/tony/litecoin/src/bloom.cpp
-diff -r /home/tony/projects/Feathercoin/src/bloom.h /home/tony/litecoin/src/bloom.h
-diff -r /home/tony/projects/Feathercoin/src/chain.cpp /home/tony/litecoin/src/chain.cpp
-diff -r /home/tony/projects/Feathercoin/src/chain.h /home/tony/litecoin/src/chain.h
-diff -r /home/tony/projects/Feathercoin/src/chainparamsbase.cpp /home/tony/litecoin/src/chainparamsbase.cpp
-diff -r /home/tony/projects/Feathercoin/src/chainparamsbase.h /home/tony/litecoin/src/chainparamsbase.h
-diff -r /home/tony/projects/Feathercoin/src/chainparams.cpp /home/tony/litecoin/src/chainparams.cpp
-diff -r /home/tony/projects/Feathercoin/src/chainparams.h /home/tony/litecoin/src/chainparams.h
-diff -r /home/tony/projects/Feathercoin/src/chainparamsseeds.h /home/tony/litecoin/src/chainparamsseeds.h
-diff -r /home/tony/projects/Feathercoin/src/checkpoints.cpp /home/tony/litecoin/src/checkpoints.cpp
-diff -r /home/tony/projects/Feathercoin/src/checkpoints.h /home/tony/litecoin/src/checkpoints.h
-
-Only in /home/tony/projects/Feathercoin/src: checkpointsync.cpp
-Only in /home/tony/projects/Feathercoin/src: checkpointsync.h
-
-diff -r /home/tony/projects/Feathercoin/src/checkqueue.h /home/tony/litecoin/src/checkqueue.h
-diff -r /home/tony/projects/Feathercoin/src/clientversion.cpp /home/tony/litecoin/src/clientversion.cpp
-diff -r /home/tony/projects/Feathercoin/src/clientversion.h /home/tony/litecoin/src/clientversion.h
-diff -r /home/tony/projects/Feathercoin/src/coincontrol.h /home/tony/litecoin/src/coincontrol.h
-diff -r /home/tony/projects/Feathercoin/src/coins.cpp /home/tony/litecoin/src/coins.cpp
-diff -r /home/tony/projects/Feathercoin/src/coins.h /home/tony/litecoin/src/coins.h
-
-Only in /home/tony/projects/Feathercoin/src/compat: byteswap.h
-Only in /home/tony/projects/Feathercoin/src/compat: endian.h
-
-diff -r /home/tony/projects/Feathercoin/src/compat/glibc_compat.cpp /home/tony/litecoin/src/compat/glibc_compat.cpp
-diff -r /home/tony/projects/Feathercoin/src/compat/glibc_sanity.cpp /home/tony/litecoin/src/compat/glibc_sanity.cpp
-diff -r /home/tony/projects/Feathercoin/src/compat/glibcxx_sanity.cpp /home/tony/litecoin/src/compat/glibcxx_sanity.cpp
-diff -r /home/tony/projects/Feathercoin/src/compat/sanity.h /home/tony/litecoin/src/compat/sanity.h
-diff -r /home/tony/projects/Feathercoin/src/compat/strnlen.cpp /home/tony/litecoin/src/compat/strnlen.cpp
-diff -r /home/tony/projects/Feathercoin/src/compat.h /home/tony/litecoin/src/compat.h
-diff -r /home/tony/projects/Feathercoin/src/compressor.cpp /home/tony/litecoin/src/compressor.cpp
-diff -r /home/tony/projects/Feathercoin/src/compressor.h /home/tony/litecoin/src/compressor.h
-
-Only in /home/tony/projects/Feathercoin/src/config: bitcoin-config.h.in
-Only in /home/tony/projects/Feathercoin/src: consensus
-
-diff -r /home/tony/projects/Feathercoin/src/core_io.h /home/tony/litecoin/src/core_io.h
-diff -r /home/tony/projects/Feathercoin/src/core_read.cpp /home/tony/litecoin/src/core_read.cpp
-diff -r /home/tony/projects/Feathercoin/src/core_write.cpp /home/tony/litecoin/src/core_write.cpp
-diff -r /home/tony/projects/Feathercoin/src/crypto/common.h /home/tony/litecoin/src/crypto/common.h
-diff -r /home/tony/projects/Feathercoin/src/crypto/hmac_sha256.cpp /home/tony/litecoin/src/crypto/hmac_sha256.cpp
-diff -r /home/tony/projects/Feathercoin/src/crypto/hmac_sha256.h /home/tony/litecoin/src/crypto/hmac_sha256.h
-diff -r /home/tony/projects/Feathercoin/src/crypto/hmac_sha512.cpp /home/tony/litecoin/src/crypto/hmac_sha512.cpp
-diff -r /home/tony/projects/Feathercoin/src/crypto/hmac_sha512.h /home/tony/litecoin/src/crypto/hmac_sha512.h
-diff -r /home/tony/projects/Feathercoin/src/crypto/ripemd160.cpp /home/tony/litecoin/src/crypto/ripemd160.cpp
-diff -r /home/tony/projects/Feathercoin/src/crypto/ripemd160.h /home/tony/litecoin/src/crypto/ripemd160.h
-diff -r /home/tony/projects/Feathercoin/src/crypto/sha1.cpp /home/tony/litecoin/src/crypto/sha1.cpp
-diff -r /home/tony/projects/Feathercoin/src/crypto/sha1.h /home/tony/litecoin/src/crypto/sha1.h
-diff -r /home/tony/projects/Feathercoin/src/crypto/sha256.cpp /home/tony/litecoin/src/crypto/sha256.cpp
-diff -r /home/tony/projects/Feathercoin/src/crypto/sha256.h /home/tony/litecoin/src/crypto/sha256.h
-diff -r /home/tony/projects/Feathercoin/src/crypto/sha512.cpp /home/tony/litecoin/src/crypto/sha512.cpp
-diff -r /home/tony/projects/Feathercoin/src/crypto/sha512.h /home/tony/litecoin/src/crypto/sha512.h
-diff -r /home/tony/projects/Feathercoin/src/eccryptoverify.cpp /home/tony/litecoin/src/eccryptoverify.cpp
-diff -r /home/tony/projects/Feathercoin/src/eccryptoverify.h /home/tony/litecoin/src/eccryptoverify.h
-diff -r /home/tony/projects/Feathercoin/src/ecwrapper.cpp /home/tony/litecoin/src/ecwrapper.cpp
-diff -r /home/tony/projects/Feathercoin/src/ecwrapper.h /home/tony/litecoin/src/ecwrapper.h
-diff -r /home/tony/projects/Feathercoin/src/hash.cpp /home/tony/litecoin/src/hash.cpp
-diff -r /home/tony/projects/Feathercoin/src/hash.h /home/tony/litecoin/src/hash.h
-diff -r /home/tony/projects/Feathercoin/src/init.cpp /home/tony/litecoin/src/init.cpp
-diff -r /home/tony/projects/Feathercoin/src/init.h /home/tony/litecoin/src/init.h
-diff -r /home/tony/projects/Feathercoin/src/key.cpp /home/tony/litecoin/src/key.cpp
-diff -r /home/tony/projects/Feathercoin/src/key.h /home/tony/litecoin/src/key.h
-diff -r /home/tony/projects/Feathercoin/src/keystore.cpp /home/tony/litecoin/src/keystore.cpp
-diff -r /home/tony/projects/Feathercoin/src/keystore.h /home/tony/litecoin/src/keystore.h
-diff -r /home/tony/projects/Feathercoin/src/leveldbwrapper.cpp /home/tony/litecoin/src/leveldbwrapper.cpp
-diff -r /home/tony/projects/Feathercoin/src/leveldbwrapper.h /home/tony/litecoin/src/leveldbwrapper.h
-diff -r /home/tony/projects/Feathercoin/src/limitedmap.h /home/tony/litecoin/src/limitedmap.h
-diff -r /home/tony/projects/Feathercoin/src/main.cpp /home/tony/litecoin/src/main.cpp
-diff -r /home/tony/projects/Feathercoin/src/main.h /home/tony/litecoin/src/main.h
-diff -r /home/tony/projects/Feathercoin/src/Makefile.am /home/tony/litecoin/src/Makefile.am
-diff -r /home/tony/projects/Feathercoin/src/Makefile.qt.include /home/tony/litecoin/src/Makefile.qt.include
-diff -r /home/tony/projects/Feathercoin/src/Makefile.qttest.include /home/tony/litecoin/src/Makefile.qttest.include
-diff -r /home/tony/projects/Feathercoin/src/Makefile.test.include /home/tony/litecoin/src/Makefile.test.include
-
-Only in /home/tony/projects/Feathercoin/src: memusage.h
-
-diff -r /home/tony/projects/Feathercoin/src/merkleblock.cpp /home/tony/litecoin/src/merkleblock.cpp
-diff -r /home/tony/projects/Feathercoin/src/merkleblock.h /home/tony/litecoin/src/merkleblock.h
-diff -r /home/tony/projects/Feathercoin/src/miner.cpp /home/tony/litecoin/src/miner.cpp
-diff -r /home/tony/projects/Feathercoin/src/miner.h /home/tony/litecoin/src/miner.h
-diff -r /home/tony/projects/Feathercoin/src/mruset.h /home/tony/litecoin/src/mruset.h
-
-Only in /home/tony/projects/Feathercoin/src: neoscrypt_asm.S
-Only in /home/tony/projects/Feathercoin/src: neoscrypt.c
-Only in /home/tony/projects/Feathercoin/src: neoscrypt.h
-
-diff -r /home/tony/projects/Feathercoin/src/netbase.cpp /home/tony/litecoin/src/netbase.cpp
-diff -r /home/tony/projects/Feathercoin/src/netbase.h /home/tony/litecoin/src/netbase.h
-diff -r /home/tony/projects/Feathercoin/src/net.cpp /home/tony/litecoin/src/net.cpp
-diff -r /home/tony/projects/Feathercoin/src/net.h /home/tony/litecoin/src/net.h
-diff -r /home/tony/projects/Feathercoin/src/noui.cpp /home/tony/litecoin/src/noui.cpp
-diff -r /home/tony/projects/Feathercoin/src/noui.h /home/tony/litecoin/src/noui.h
-
-Only in /home/tony/projects/Feathercoin/src: policy
-
-diff -r /home/tony/projects/Feathercoin/src/pow.cpp /home/tony/litecoin/src/pow.cpp
-diff -r /home/tony/projects/Feathercoin/src/pow.h /home/tony/litecoin/src/pow.h
-diff -r /home/tony/projects/Feathercoin/src/primitives/block.cpp /home/tony/litecoin/src/primitives/block.cpp
-diff -r /home/tony/projects/Feathercoin/src/primitives/block.h /home/tony/litecoin/src/primitives/block.h
-diff -r /home/tony/projects/Feathercoin/src/primitives/transaction.cpp /home/tony/litecoin/src/primitives/transaction.cpp
-diff -r /home/tony/projects/Feathercoin/src/primitives/transaction.h /home/tony/litecoin/src/primitives/transaction.h
-diff -r /home/tony/projects/Feathercoin/src/protocol.cpp /home/tony/litecoin/src/protocol.cpp
-diff -r /home/tony/projects/Feathercoin/src/protocol.h /home/tony/litecoin/src/protocol.h
-diff -r /home/tony/projects/Feathercoin/src/pubkey.cpp /home/tony/litecoin/src/pubkey.cpp
-diff -r /home/tony/projects/Feathercoin/src/pubkey.h /home/tony/litecoin/src/pubkey.h
-diff -r /home/tony/projects/Feathercoin/src/qt/addressbookpage.cpp /home/tony/litecoin/src/qt/addressbookpage.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/addressbookpage.h /home/tony/litecoin/src/qt/addressbookpage.h
-diff -r /home/tony/projects/Feathercoin/src/qt/addresstablemodel.cpp /home/tony/litecoin/src/qt/addresstablemodel.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/addresstablemodel.h /home/tony/litecoin/src/qt/addresstablemodel.h
-diff -r /home/tony/projects/Feathercoin/src/qt/askpassphrasedialog.cpp /home/tony/litecoin/src/qt/askpassphrasedialog.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/askpassphrasedialog.h /home/tony/litecoin/src/qt/askpassphrasedialog.h
-diff -r /home/tony/projects/Feathercoin/src/qt/bitcoinaddressvalidator.cpp /home/tony/litecoin/src/qt/bitcoinaddressvalidator.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/bitcoinaddressvalidator.h /home/tony/litecoin/src/qt/bitcoinaddressvalidator.h
-diff -r /home/tony/projects/Feathercoin/src/qt/bitcoinamountfield.cpp /home/tony/litecoin/src/qt/bitcoinamountfield.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/bitcoinamountfield.h /home/tony/litecoin/src/qt/bitcoinamountfield.h
-diff -r /home/tony/projects/Feathercoin/src/qt/bitcoin.cpp /home/tony/litecoin/src/qt/bitcoin.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/bitcoingui.cpp /home/tony/litecoin/src/qt/bitcoingui.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/bitcoingui.h /home/tony/litecoin/src/qt/bitcoingui.h
-diff -r /home/tony/projects/Feathercoin/src/qt/bitcoin.qrc /home/tony/litecoin/src/qt/bitcoin.qrc
-diff -r /home/tony/projects/Feathercoin/src/qt/bitcoinunits.cpp /home/tony/litecoin/src/qt/bitcoinunits.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/bitcoinunits.h /home/tony/litecoin/src/qt/bitcoinunits.h
-diff -r /home/tony/projects/Feathercoin/src/qt/clientmodel.cpp /home/tony/litecoin/src/qt/clientmodel.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/clientmodel.h /home/tony/litecoin/src/qt/clientmodel.h
-diff -r /home/tony/projects/Feathercoin/src/qt/coincontroldialog.cpp /home/tony/litecoin/src/qt/coincontroldialog.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/coincontroldialog.h /home/tony/litecoin/src/qt/coincontroldialog.h
-diff -r /home/tony/projects/Feathercoin/src/qt/coincontroltreewidget.cpp /home/tony/litecoin/src/qt/coincontroltreewidget.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/coincontroltreewidget.h /home/tony/litecoin/src/qt/coincontroltreewidget.h
-
-Only in /home/tony/projects/Feathercoin/src/qt: createmultisigaddrdialog.cpp
-Only in /home/tony/projects/Feathercoin/src/qt: createmultisigaddrdialog.h
-
-diff -r /home/tony/projects/Feathercoin/src/qt/csvmodelwriter.cpp /home/tony/litecoin/src/qt/csvmodelwriter.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/csvmodelwriter.h /home/tony/litecoin/src/qt/csvmodelwriter.h
-diff -r /home/tony/projects/Feathercoin/src/qt/editaddressdialog.cpp /home/tony/litecoin/src/qt/editaddressdialog.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/editaddressdialog.h /home/tony/litecoin/src/qt/editaddressdialog.h
-diff -r /home/tony/projects/Feathercoin/src/qt/forms/addressbookpage.ui /home/tony/litecoin/src/qt/forms/addressbookpage.ui
-diff -r /home/tony/projects/Feathercoin/src/qt/forms/coincontroldialog.ui /home/tony/litecoin/src/qt/forms/coincontroldialog.ui
-
-Only in /home/tony/projects/Feathercoin/src/qt/forms: commentdialog.ui
-Only in /home/tony/projects/Feathercoin/src/qt/forms: createmultisigaddrdialog.ui
-Only in /home/tony/projects/Feathercoin/src/qt/forms: debugdialog.ui
-
-diff -r /home/tony/projects/Feathercoin/src/qt/forms/editaddressdialog.ui /home/tony/litecoin/src/qt/forms/editaddressdialog.ui
-diff -r /home/tony/projects/Feathercoin/src/qt/forms/helpmessagedialog.ui /home/tony/litecoin/src/qt/forms/helpmessagedialog.ui
-diff -r /home/tony/projects/Feathercoin/src/qt/forms/intro.ui /home/tony/litecoin/src/qt/forms/intro.ui
-
-Only in /home/tony/projects/Feathercoin/src/qt/forms: multisigdialog.ui
-
-diff -r /home/tony/projects/Feathercoin/src/qt/forms/optionsdialog.ui /home/tony/litecoin/src/qt/forms/optionsdialog.ui
-diff -r /home/tony/projects/Feathercoin/src/qt/forms/overviewpage.ui /home/tony/litecoin/src/qt/forms/overviewpage.ui
-
-Only in /home/tony/projects/Feathercoin/src/qt/forms: paperwalletdialog.ui
-Only in /home/tony/projects/Feathercoin/src/qt/forms: qrcodedialog.ui
-
-diff -r /home/tony/projects/Feathercoin/src/qt/forms/receivecoinsdialog.ui /home/tony/litecoin/src/qt/forms/receivecoinsdialog.ui
-diff -r /home/tony/projects/Feathercoin/src/qt/forms/rpcconsole.ui /home/tony/litecoin/src/qt/forms/rpcconsole.ui
-diff -r /home/tony/projects/Feathercoin/src/qt/forms/sendcoinsdialog.ui /home/tony/litecoin/src/qt/forms/sendcoinsdialog.ui
-diff -r /home/tony/projects/Feathercoin/src/qt/forms/sendcoinsentry.ui /home/tony/litecoin/src/qt/forms/sendcoinsentry.ui
-diff -r /home/tony/projects/Feathercoin/src/qt/forms/signverifymessagedialog.ui /home/tony/litecoin/src/qt/forms/signverifymessagedialog.ui
-
-Only in /home/tony/projects/Feathercoin/src/qt/forms: snapwidget.ui
-
-diff -r /home/tony/projects/Feathercoin/src/qt/guiconstants.h /home/tony/litecoin/src/qt/guiconstants.h
-diff -r /home/tony/projects/Feathercoin/src/qt/guiutil.cpp /home/tony/litecoin/src/qt/guiutil.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/guiutil.h /home/tony/litecoin/src/qt/guiutil.h
-diff -r /home/tony/projects/Feathercoin/src/qt/intro.cpp /home/tony/litecoin/src/qt/intro.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/intro.h /home/tony/litecoin/src/qt/intro.h
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_ach.ts /home/tony/litecoin/src/qt/locale/bitcoin_ach.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_af_ZA.ts /home/tony/litecoin/src/qt/locale/bitcoin_af_ZA.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_ar.ts /home/tony/litecoin/src/qt/locale/bitcoin_ar.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_be_BY.ts /home/tony/litecoin/src/qt/locale/bitcoin_be_BY.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_bg.ts /home/tony/litecoin/src/qt/locale/bitcoin_bg.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_bs.ts /home/tony/litecoin/src/qt/locale/bitcoin_bs.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_ca_ES.ts /home/tony/litecoin/src/qt/locale/bitcoin_ca_ES.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_ca.ts /home/tony/litecoin/src/qt/locale/bitcoin_ca.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_ca@valencia.ts /home/tony/litecoin/src/qt/locale/bitcoin_ca@valencia.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_cmn.ts /home/tony/litecoin/src/qt/locale/bitcoin_cmn.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_cs.ts /home/tony/litecoin/src/qt/locale/bitcoin_cs.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_cy.ts /home/tony/litecoin/src/qt/locale/bitcoin_cy.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_da.ts /home/tony/litecoin/src/qt/locale/bitcoin_da.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_de.ts /home/tony/litecoin/src/qt/locale/bitcoin_de.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_el_GR.ts /home/tony/litecoin/src/qt/locale/bitcoin_el_GR.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_en.ts /home/tony/litecoin/src/qt/locale/bitcoin_en.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_eo.ts /home/tony/litecoin/src/qt/locale/bitcoin_eo.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_es_CL.ts /home/tony/litecoin/src/qt/locale/bitcoin_es_CL.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_es_DO.ts /home/tony/litecoin/src/qt/locale/bitcoin_es_DO.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_es_MX.ts /home/tony/litecoin/src/qt/locale/bitcoin_es_MX.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_es.ts /home/tony/litecoin/src/qt/locale/bitcoin_es.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_es_UY.ts /home/tony/litecoin/src/qt/locale/bitcoin_es_UY.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_et.ts /home/tony/litecoin/src/qt/locale/bitcoin_et.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_eu_ES.ts /home/tony/litecoin/src/qt/locale/bitcoin_eu_ES.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_fa_IR.ts /home/tony/litecoin/src/qt/locale/bitcoin_fa_IR.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_fa.ts /home/tony/litecoin/src/qt/locale/bitcoin_fa.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_fi.ts /home/tony/litecoin/src/qt/locale/bitcoin_fi.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_fr_CA.ts /home/tony/litecoin/src/qt/locale/bitcoin_fr_CA.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_fr.ts /home/tony/litecoin/src/qt/locale/bitcoin_fr.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_gl.ts /home/tony/litecoin/src/qt/locale/bitcoin_gl.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_gu_IN.ts /home/tony/litecoin/src/qt/locale/bitcoin_gu_IN.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_he.ts /home/tony/litecoin/src/qt/locale/bitcoin_he.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_hi_IN.ts /home/tony/litecoin/src/qt/locale/bitcoin_hi_IN.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_hr.ts /home/tony/litecoin/src/qt/locale/bitcoin_hr.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_hu.ts /home/tony/litecoin/src/qt/locale/bitcoin_hu.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_id_ID.ts /home/tony/litecoin/src/qt/locale/bitcoin_id_ID.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_it.ts /home/tony/litecoin/src/qt/locale/bitcoin_it.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_ja.ts /home/tony/litecoin/src/qt/locale/bitcoin_ja.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_ka.ts /home/tony/litecoin/src/qt/locale/bitcoin_ka.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_kk_KZ.ts /home/tony/litecoin/src/qt/locale/bitcoin_kk_KZ.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_ko_KR.ts /home/tony/litecoin/src/qt/locale/bitcoin_ko_KR.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_ky.ts /home/tony/litecoin/src/qt/locale/bitcoin_ky.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_la.ts /home/tony/litecoin/src/qt/locale/bitcoin_la.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_lt.ts /home/tony/litecoin/src/qt/locale/bitcoin_lt.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_lv_LV.ts /home/tony/litecoin/src/qt/locale/bitcoin_lv_LV.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_mn.ts /home/tony/litecoin/src/qt/locale/bitcoin_mn.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_ms_MY.ts /home/tony/litecoin/src/qt/locale/bitcoin_ms_MY.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_nb.ts /home/tony/litecoin/src/qt/locale/bitcoin_nb.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_nl.ts /home/tony/litecoin/src/qt/locale/bitcoin_nl.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_pam.ts /home/tony/litecoin/src/qt/locale/bitcoin_pam.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_pl.ts /home/tony/litecoin/src/qt/locale/bitcoin_pl.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_pt_BR.ts /home/tony/litecoin/src/qt/locale/bitcoin_pt_BR.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_pt_PT.ts /home/tony/litecoin/src/qt/locale/bitcoin_pt_PT.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_ro_RO.ts /home/tony/litecoin/src/qt/locale/bitcoin_ro_RO.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_ru.ts /home/tony/litecoin/src/qt/locale/bitcoin_ru.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_sah.ts /home/tony/litecoin/src/qt/locale/bitcoin_sah.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_sk.ts /home/tony/litecoin/src/qt/locale/bitcoin_sk.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_sl_SI.ts /home/tony/litecoin/src/qt/locale/bitcoin_sl_SI.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_sq.ts /home/tony/litecoin/src/qt/locale/bitcoin_sq.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_sr.ts /home/tony/litecoin/src/qt/locale/bitcoin_sr.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_sv.ts /home/tony/litecoin/src/qt/locale/bitcoin_sv.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_th_TH.ts /home/tony/litecoin/src/qt/locale/bitcoin_th_TH.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_tr.ts /home/tony/litecoin/src/qt/locale/bitcoin_tr.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_uk.ts /home/tony/litecoin/src/qt/locale/bitcoin_uk.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_ur_PK.ts /home/tony/litecoin/src/qt/locale/bitcoin_ur_PK.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_uz@Cyrl.ts /home/tony/litecoin/src/qt/locale/bitcoin_uz@Cyrl.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_vi.ts /home/tony/litecoin/src/qt/locale/bitcoin_vi.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_vi_VN.ts /home/tony/litecoin/src/qt/locale/bitcoin_vi_VN.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_zh_CN.ts /home/tony/litecoin/src/qt/locale/bitcoin_zh_CN.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_zh_HK.ts /home/tony/litecoin/src/qt/locale/bitcoin_zh_HK.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/locale/bitcoin_zh_TW.ts /home/tony/litecoin/src/qt/locale/bitcoin_zh_TW.ts
-diff -r /home/tony/projects/Feathercoin/src/qt/macdockiconhandler.h /home/tony/litecoin/src/qt/macdockiconhandler.h
-diff -r /home/tony/projects/Feathercoin/src/qt/macdockiconhandler.mm /home/tony/litecoin/src/qt/macdockiconhandler.mm
-diff -r /home/tony/projects/Feathercoin/src/qt/macnotificationhandler.h /home/tony/litecoin/src/qt/macnotificationhandler.h
-diff -r /home/tony/projects/Feathercoin/src/qt/macnotificationhandler.mm /home/tony/litecoin/src/qt/macnotificationhandler.mm
-
-Only in /home/tony/projects/Feathercoin/src/qt: multisigdialog.cpp
-Only in /home/tony/projects/Feathercoin/src/qt: multisigdialog.h
-
-diff -r /home/tony/projects/Feathercoin/src/qt/networkstyle.cpp /home/tony/litecoin/src/qt/networkstyle.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/networkstyle.h /home/tony/litecoin/src/qt/networkstyle.h
-diff -r /home/tony/projects/Feathercoin/src/qt/notificator.cpp /home/tony/litecoin/src/qt/notificator.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/notificator.h /home/tony/litecoin/src/qt/notificator.h
-diff -r /home/tony/projects/Feathercoin/src/qt/openuridialog.cpp /home/tony/litecoin/src/qt/openuridialog.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/openuridialog.h /home/tony/litecoin/src/qt/openuridialog.h
-diff -r /home/tony/projects/Feathercoin/src/qt/optionsdialog.cpp /home/tony/litecoin/src/qt/optionsdialog.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/optionsdialog.h /home/tony/litecoin/src/qt/optionsdialog.h
-diff -r /home/tony/projects/Feathercoin/src/qt/optionsmodel.cpp /home/tony/litecoin/src/qt/optionsmodel.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/optionsmodel.h /home/tony/litecoin/src/qt/optionsmodel.h
-diff -r /home/tony/projects/Feathercoin/src/qt/overviewpage.cpp /home/tony/litecoin/src/qt/overviewpage.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/overviewpage.h /home/tony/litecoin/src/qt/overviewpage.h
-diff -r /home/tony/projects/Feathercoin/src/qt/paymentrequestplus.cpp /home/tony/litecoin/src/qt/paymentrequestplus.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/paymentrequestplus.h /home/tony/litecoin/src/qt/paymentrequestplus.h
-diff -r /home/tony/projects/Feathercoin/src/qt/paymentserver.cpp /home/tony/litecoin/src/qt/paymentserver.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/paymentserver.h /home/tony/litecoin/src/qt/paymentserver.h
-diff -r /home/tony/projects/Feathercoin/src/qt/peertablemodel.cpp /home/tony/litecoin/src/qt/peertablemodel.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/peertablemodel.h /home/tony/litecoin/src/qt/peertablemodel.h
-
-Only in /home/tony/projects/Feathercoin/src/qt: qimagesource.cpp
-Only in /home/tony/projects/Feathercoin/src/qt: qimagesource.h
-
-diff -r /home/tony/projects/Feathercoin/src/qt/qvalidatedlineedit.cpp /home/tony/litecoin/src/qt/qvalidatedlineedit.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/qvalidatedlineedit.h /home/tony/litecoin/src/qt/qvalidatedlineedit.h
-diff -r /home/tony/projects/Feathercoin/src/qt/qvaluecombobox.cpp /home/tony/litecoin/src/qt/qvaluecombobox.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/qvaluecombobox.h /home/tony/litecoin/src/qt/qvaluecombobox.h
-diff -r /home/tony/projects/Feathercoin/src/qt/receivecoinsdialog.cpp /home/tony/litecoin/src/qt/receivecoinsdialog.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/receivecoinsdialog.h /home/tony/litecoin/src/qt/receivecoinsdialog.h
-diff -r /home/tony/projects/Feathercoin/src/qt/receiverequestdialog.cpp /home/tony/litecoin/src/qt/receiverequestdialog.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/receiverequestdialog.h /home/tony/litecoin/src/qt/receiverequestdialog.h
-diff -r /home/tony/projects/Feathercoin/src/qt/recentrequeststablemodel.cpp /home/tony/litecoin/src/qt/recentrequeststablemodel.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/recentrequeststablemodel.h /home/tony/litecoin/src/qt/recentrequeststablemodel.h
-
-Only in /home/tony/projects/Feathercoin/src/qt: reportview.cpp
-Only in /home/tony/projects/Feathercoin/src/qt: reportview.h
-
-diff -r /home/tony/projects/Feathercoin/src/qt/res/bitcoin-qt-res.rc /home/tony/litecoin/src/qt/res/bitcoin-qt-res.rc
-
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: about.png
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: about_qt.png
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: account-report.png
-
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/add.png and /home/tony/litecoin/src/qt/res/icons/add.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/address-book.png and /home/tony/litecoin/src/qt/res/icons/address-book.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/bitcoin.icns and /home/tony/litecoin/src/qt/res/icons/bitcoin.icns differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/bitcoin.ico and /home/tony/litecoin/src/qt/res/icons/bitcoin.ico differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/bitcoin.png and /home/tony/litecoin/src/qt/res/icons/bitcoin.png differ
-
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: bitmessage.png
-
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/clock1.png and /home/tony/litecoin/src/qt/res/icons/clock1.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/clock2.png and /home/tony/litecoin/src/qt/res/icons/clock2.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/clock3.png and /home/tony/litecoin/src/qt/res/icons/clock3.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/clock4.png and /home/tony/litecoin/src/qt/res/icons/clock4.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/clock5.png and /home/tony/litecoin/src/qt/res/icons/clock5.png differ
-
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: comment.png
-
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/configure.png and /home/tony/litecoin/src/qt/res/icons/configure.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/connect0_16.png and /home/tony/litecoin/src/qt/res/icons/connect0_16.png differ
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: connect0.png
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/connect1_16.png and /home/tony/litecoin/src/qt/res/icons/connect1_16.png differ
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: connect1.png
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/connect2_16.png and /home/tony/litecoin/src/qt/res/icons/connect2_16.png differ
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: connect2.png
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/connect3_16.png and /home/tony/litecoin/src/qt/res/icons/connect3_16.png differ
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: connect3.png
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/connect4_16.png and /home/tony/litecoin/src/qt/res/icons/connect4_16.png differ
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: connect4.png
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/debugwindow.png and /home/tony/litecoin/src/qt/res/icons/debugwindow.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/editcopy.png and /home/tony/litecoin/src/qt/res/icons/editcopy.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/editpaste.png and /home/tony/litecoin/src/qt/res/icons/editpaste.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/edit.png and /home/tony/litecoin/src/qt/res/icons/edit.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/export.png and /home/tony/litecoin/src/qt/res/icons/export.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/eye_minus.png and /home/tony/litecoin/src/qt/res/icons/eye_minus.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/eye_plus.png and /home/tony/litecoin/src/qt/res/icons/eye_plus.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/eye.png and /home/tony/litecoin/src/qt/res/icons/eye.png differ
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: Feahercoin.png
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: Feathercoin.png
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/filesave.png and /home/tony/litecoin/src/qt/res/icons/filesave.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/history.png and /home/tony/litecoin/src/qt/res/icons/history.png differ
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: info.png
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/key.png and /home/tony/litecoin/src/qt/res/icons/key.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/lock_closed.png and /home/tony/litecoin/src/qt/res/icons/lock_closed.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/lock_open.png and /home/tony/litecoin/src/qt/res/icons/lock_open.png differ
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: multisig.png
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: openname.png
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: open.png
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: openurl.png
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/overview.png and /home/tony/litecoin/src/qt/res/icons/overview.png differ
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: print.png
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/qrcode.png and /home/tony/litecoin/src/qt/res/icons/qrcode.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/quit.png and /home/tony/litecoin/src/qt/res/icons/quit.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/receive.png and /home/tony/litecoin/src/qt/res/icons/receive.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/remove.png and /home/tony/litecoin/src/qt/res/icons/remove.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/send.png and /home/tony/litecoin/src/qt/res/icons/send.png differ
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: snap.png
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: sx.png
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/synced.png and /home/tony/litecoin/src/qt/res/icons/synced.png differ
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: Thumbs.db
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: toolbar.png
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/transaction0.png and /home/tony/litecoin/src/qt/res/icons/transaction0.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/transaction2.png and /home/tony/litecoin/src/qt/res/icons/transaction2.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/transaction_conflicted.png and /home/tony/litecoin/src/qt/res/icons/transaction_conflicted.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/tx_inout.png and /home/tony/litecoin/src/qt/res/icons/tx_inout.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/tx_input.png and /home/tony/litecoin/src/qt/res/icons/tx_input.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/tx_mined.png and /home/tony/litecoin/src/qt/res/icons/tx_mined.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/icons/tx_output.png and /home/tony/litecoin/src/qt/res/icons/tx_output.png differ
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: verify.png
-Only in /home/tony/projects/Feathercoin/src/qt/res/icons: warning.png
-Binary files /home/tony/projects/Feathercoin/src/qt/res/images/about.png and /home/tony/litecoin/src/qt/res/images/about.png differ
-Only in /home/tony/projects/Feathercoin/src/qt/res/images: logo.png
-Only in /home/tony/projects/Feathercoin/src/qt/res/images: paper_wallet.png
-Only in /home/tony/projects/Feathercoin/src/qt/res/images: Thumbs.db
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-000.png and /home/tony/litecoin/src/qt/res/movies/spinner-000.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-001.png and /home/tony/litecoin/src/qt/res/movies/spinner-001.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-002.png and /home/tony/litecoin/src/qt/res/movies/spinner-002.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-003.png and /home/tony/litecoin/src/qt/res/movies/spinner-003.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-004.png and /home/tony/litecoin/src/qt/res/movies/spinner-004.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-005.png and /home/tony/litecoin/src/qt/res/movies/spinner-005.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-006.png and /home/tony/litecoin/src/qt/res/movies/spinner-006.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-007.png and /home/tony/litecoin/src/qt/res/movies/spinner-007.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-008.png and /home/tony/litecoin/src/qt/res/movies/spinner-008.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-009.png and /home/tony/litecoin/src/qt/res/movies/spinner-009.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-010.png and /home/tony/litecoin/src/qt/res/movies/spinner-010.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-011.png and /home/tony/litecoin/src/qt/res/movies/spinner-011.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-012.png and /home/tony/litecoin/src/qt/res/movies/spinner-012.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-013.png and /home/tony/litecoin/src/qt/res/movies/spinner-013.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-014.png and /home/tony/litecoin/src/qt/res/movies/spinner-014.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-015.png and /home/tony/litecoin/src/qt/res/movies/spinner-015.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-016.png and /home/tony/litecoin/src/qt/res/movies/spinner-016.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-017.png and /home/tony/litecoin/src/qt/res/movies/spinner-017.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-018.png and /home/tony/litecoin/src/qt/res/movies/spinner-018.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-019.png and /home/tony/litecoin/src/qt/res/movies/spinner-019.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-020.png and /home/tony/litecoin/src/qt/res/movies/spinner-020.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-021.png and /home/tony/litecoin/src/qt/res/movies/spinner-021.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-022.png and /home/tony/litecoin/src/qt/res/movies/spinner-022.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-023.png and /home/tony/litecoin/src/qt/res/movies/spinner-023.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-024.png and /home/tony/litecoin/src/qt/res/movies/spinner-024.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-025.png and /home/tony/litecoin/src/qt/res/movies/spinner-025.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-026.png and /home/tony/litecoin/src/qt/res/movies/spinner-026.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-027.png and /home/tony/litecoin/src/qt/res/movies/spinner-027.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-028.png and /home/tony/litecoin/src/qt/res/movies/spinner-028.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-029.png and /home/tony/litecoin/src/qt/res/movies/spinner-029.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-030.png and /home/tony/litecoin/src/qt/res/movies/spinner-030.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-031.png and /home/tony/litecoin/src/qt/res/movies/spinner-031.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-032.png and /home/tony/litecoin/src/qt/res/movies/spinner-032.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-033.png and /home/tony/litecoin/src/qt/res/movies/spinner-033.png differ
-Binary files /home/tony/projects/Feathercoin/src/qt/res/movies/spinner-034.png and /home/tony/litecoin/src/qt/res/movies/spinner-034.png differ
-Only in /home/tony/projects/Feathercoin/src/qt/res/movies: spinner-035.png
-Only in /home/tony/projects/Feathercoin/src/qt/res/movies: Thumbs.db
-
-diff -r /home/tony/projects/Feathercoin/src/qt/rpcconsole.cpp /home/tony/litecoin/src/qt/rpcconsole.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/rpcconsole.h /home/tony/litecoin/src/qt/rpcconsole.h
-
-Only in /home/tony/projects/Feathercoin/src/qt: scicon.cpp
-Only in /home/tony/projects/Feathercoin/src/qt: scicon.h
-
-diff -r /home/tony/projects/Feathercoin/src/qt/sendcoinsdialog.cpp /home/tony/litecoin/src/qt/sendcoinsdialog.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/sendcoinsdialog.h /home/tony/litecoin/src/qt/sendcoinsdialog.h
-diff -r /home/tony/projects/Feathercoin/src/qt/sendcoinsentry.cpp /home/tony/litecoin/src/qt/sendcoinsentry.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/sendcoinsentry.h /home/tony/litecoin/src/qt/sendcoinsentry.h
-diff -r /home/tony/projects/Feathercoin/src/qt/signverifymessagedialog.cpp /home/tony/litecoin/src/qt/signverifymessagedialog.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/signverifymessagedialog.h /home/tony/litecoin/src/qt/signverifymessagedialog.h
-
-Only in /home/tony/projects/Feathercoin/src/qt: snapwidget.cpp
-Only in /home/tony/projects/Feathercoin/src/qt: snapwidget.h
-
-diff -r /home/tony/projects/Feathercoin/src/qt/splashscreen.cpp /home/tony/litecoin/src/qt/splashscreen.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/splashscreen.h /home/tony/litecoin/src/qt/splashscreen.h
-diff -r /home/tony/projects/Feathercoin/src/qt/test/paymentrequestdata.h /home/tony/litecoin/src/qt/test/paymentrequestdata.h
-diff -r /home/tony/projects/Feathercoin/src/qt/test/paymentservertests.cpp /home/tony/litecoin/src/qt/test/paymentservertests.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/test/paymentservertests.h /home/tony/litecoin/src/qt/test/paymentservertests.h
-diff -r /home/tony/projects/Feathercoin/src/qt/test/test_main.cpp /home/tony/litecoin/src/qt/test/test_main.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/test/uritests.cpp /home/tony/litecoin/src/qt/test/uritests.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/test/uritests.h /home/tony/litecoin/src/qt/test/uritests.h
-diff -r /home/tony/projects/Feathercoin/src/qt/trafficgraphwidget.cpp /home/tony/litecoin/src/qt/trafficgraphwidget.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/trafficgraphwidget.h /home/tony/litecoin/src/qt/trafficgraphwidget.h
-diff -r /home/tony/projects/Feathercoin/src/qt/transactiondesc.cpp /home/tony/litecoin/src/qt/transactiondesc.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/transactiondescdialog.cpp /home/tony/litecoin/src/qt/transactiondescdialog.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/transactiondescdialog.h /home/tony/litecoin/src/qt/transactiondescdialog.h
-diff -r /home/tony/projects/Feathercoin/src/qt/transactiondesc.h /home/tony/litecoin/src/qt/transactiondesc.h
-diff -r /home/tony/projects/Feathercoin/src/qt/transactionfilterproxy.cpp /home/tony/litecoin/src/qt/transactionfilterproxy.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/transactionfilterproxy.h /home/tony/litecoin/src/qt/transactionfilterproxy.h
-diff -r /home/tony/projects/Feathercoin/src/qt/transactionrecord.cpp /home/tony/litecoin/src/qt/transactionrecord.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/transactionrecord.h /home/tony/litecoin/src/qt/transactionrecord.h
-diff -r /home/tony/projects/Feathercoin/src/qt/transactiontablemodel.cpp /home/tony/litecoin/src/qt/transactiontablemodel.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/transactiontablemodel.h /home/tony/litecoin/src/qt/transactiontablemodel.h
-diff -r /home/tony/projects/Feathercoin/src/qt/transactionview.cpp /home/tony/litecoin/src/qt/transactionview.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/transactionview.h /home/tony/litecoin/src/qt/transactionview.h
-diff -r /home/tony/projects/Feathercoin/src/qt/utilitydialog.cpp /home/tony/litecoin/src/qt/utilitydialog.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/utilitydialog.h /home/tony/litecoin/src/qt/utilitydialog.h
-
-Only in /home/tony/projects/Feathercoin/src/qt: verticallabel.cpp
-Only in /home/tony/projects/Feathercoin/src/qt: verticallabel.h
-
-diff -r /home/tony/projects/Feathercoin/src/qt/walletframe.cpp /home/tony/litecoin/src/qt/walletframe.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/walletframe.h /home/tony/litecoin/src/qt/walletframe.h
-diff -r /home/tony/projects/Feathercoin/src/qt/walletmodel.cpp /home/tony/litecoin/src/qt/walletmodel.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/walletmodel.h /home/tony/litecoin/src/qt/walletmodel.h
-diff -r /home/tony/projects/Feathercoin/src/qt/walletmodeltransaction.cpp /home/tony/litecoin/src/qt/walletmodeltransaction.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/walletmodeltransaction.h /home/tony/litecoin/src/qt/walletmodeltransaction.h
-diff -r /home/tony/projects/Feathercoin/src/qt/walletview.cpp /home/tony/litecoin/src/qt/walletview.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/walletview.h /home/tony/litecoin/src/qt/walletview.h
-diff -r /home/tony/projects/Feathercoin/src/qt/winshutdownmonitor.cpp /home/tony/litecoin/src/qt/winshutdownmonitor.cpp
-diff -r /home/tony/projects/Feathercoin/src/qt/winshutdownmonitor.h /home/tony/litecoin/src/qt/winshutdownmonitor.h
-diff -r /home/tony/projects/Feathercoin/src/random.cpp /home/tony/litecoin/src/random.cpp
-diff -r /home/tony/projects/Feathercoin/src/random.h /home/tony/litecoin/src/random.h
-diff -r /home/tony/projects/Feathercoin/src/rest.cpp /home/tony/litecoin/src/rest.cpp
-
-Only in /home/tony/projects/Feathercoin/src: reverselock.h
-
-diff -r /home/tony/projects/Feathercoin/src/rpcblockchain.cpp /home/tony/litecoin/src/rpcblockchain.cpp
-diff -r /home/tony/projects/Feathercoin/src/rpcclient.cpp /home/tony/litecoin/src/rpcclient.cpp
-diff -r /home/tony/projects/Feathercoin/src/rpcclient.h /home/tony/litecoin/src/rpcclient.h
-diff -r /home/tony/projects/Feathercoin/src/rpcmining.cpp /home/tony/litecoin/src/rpcmining.cpp
-diff -r /home/tony/projects/Feathercoin/src/rpcmisc.cpp /home/tony/litecoin/src/rpcmisc.cpp
-diff -r /home/tony/projects/Feathercoin/src/rpcnet.cpp /home/tony/litecoin/src/rpcnet.cpp
-diff -r /home/tony/projects/Feathercoin/src/rpcprotocol.cpp /home/tony/litecoin/src/rpcprotocol.cpp
-diff -r /home/tony/projects/Feathercoin/src/rpcprotocol.h /home/tony/litecoin/src/rpcprotocol.h
-diff -r /home/tony/projects/Feathercoin/src/rpcrawtransaction.cpp /home/tony/litecoin/src/rpcrawtransaction.cpp
-diff -r /home/tony/projects/Feathercoin/src/rpcserver.cpp /home/tony/litecoin/src/rpcserver.cpp
-diff -r /home/tony/projects/Feathercoin/src/rpcserver.h /home/tony/litecoin/src/rpcserver.h
-
-Only in /home/tony/projects/Feathercoin/src: scheduler.cpp
-Only in /home/tony/projects/Feathercoin/src: scheduler.h
-
-diff -r /home/tony/projects/Feathercoin/src/script/bitcoinconsensus.cpp /home/tony/litecoin/src/script/bitcoinconsensus.cpp
-diff -r /home/tony/projects/Feathercoin/src/script/bitcoinconsensus.h /home/tony/litecoin/src/script/bitcoinconsensus.h
-diff -r /home/tony/projects/Feathercoin/src/script/interpreter.cpp /home/tony/litecoin/src/script/interpreter.cpp
-diff -r /home/tony/projects/Feathercoin/src/script/interpreter.h /home/tony/litecoin/src/script/interpreter.h
-diff -r /home/tony/projects/Feathercoin/src/script/script.cpp /home/tony/litecoin/src/script/script.cpp
-diff -r /home/tony/projects/Feathercoin/src/script/script_error.cpp /home/tony/litecoin/src/script/script_error.cpp
-diff -r /home/tony/projects/Feathercoin/src/script/script_error.h /home/tony/litecoin/src/script/script_error.h
-diff -r /home/tony/projects/Feathercoin/src/script/script.h /home/tony/litecoin/src/script/script.h
-diff -r /home/tony/projects/Feathercoin/src/script/sigcache.cpp /home/tony/litecoin/src/script/sigcache.cpp
-diff -r /home/tony/projects/Feathercoin/src/script/sigcache.h /home/tony/litecoin/src/script/sigcache.h
-diff -r /home/tony/projects/Feathercoin/src/script/sign.cpp /home/tony/litecoin/src/script/sign.cpp
-diff -r /home/tony/projects/Feathercoin/src/script/sign.h /home/tony/litecoin/src/script/sign.h
-diff -r /home/tony/projects/Feathercoin/src/script/standard.cpp /home/tony/litecoin/src/script/standard.cpp
-diff -r /home/tony/projects/Feathercoin/src/script/standard.h /home/tony/litecoin/src/script/standard.h
-
-Only in /home/tony/projects/Feathercoin/src: scrypt.cpp
-Only in /home/tony/projects/Feathercoin/src: scrypt.h
-Only in /home/tony/projects/Feathercoin/src: scrypt-sse2.cpp
-Only in /home/tony/projects/Feathercoin/src/secp256k1: aclocal.m4
-Only in /home/tony/projects/Feathercoin/src/secp256k1/build-aux: config.guess
-Only in /home/tony/projects/Feathercoin/src/secp256k1/build-aux: config.sub
-Only in /home/tony/projects/Feathercoin/src/secp256k1/build-aux: ltmain.sh
-
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/build-aux/m4/bitcoin_secp.m4 /home/tony/litecoin/src/secp256k1/build-aux/m4/bitcoin_secp.m4
-
-Only in /home/tony/projects/Feathercoin/src/secp256k1/build-aux/m4: libtool.m4
-Only in /home/tony/projects/Feathercoin/src/secp256k1/build-aux/m4: lt~obsolete.m4
-Only in /home/tony/projects/Feathercoin/src/secp256k1/build-aux/m4: ltoptions.m4
-Only in /home/tony/projects/Feathercoin/src/secp256k1/build-aux/m4: ltsugar.m4
-Only in /home/tony/projects/Feathercoin/src/secp256k1/build-aux/m4: ltversion.m4
-
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/configure.ac /home/tony/litecoin/src/secp256k1/configure.ac
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/include/secp256k1.h /home/tony/litecoin/src/secp256k1/include/secp256k1.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/Makefile.am /home/tony/litecoin/src/secp256k1/Makefile.am
-
-Only in /home/tony/projects/Feathercoin/src/secp256k1: Makefile.in
-Only in /home/tony/projects/Feathercoin/src/secp256k1/src: bench.h
-Only in /home/tony/projects/Feathercoin/src/secp256k1/src: bench_internal.c
-Only in /home/tony/projects/Feathercoin/src/secp256k1/src: bench_recover.c
-
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/bench_sign.c /home/tony/litecoin/src/secp256k1/src/bench_sign.c
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/bench_verify.c /home/tony/litecoin/src/secp256k1/src/bench_verify.c
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/ecdsa.h /home/tony/litecoin/src/secp256k1/src/ecdsa.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/ecdsa_impl.h /home/tony/litecoin/src/secp256k1/src/ecdsa_impl.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/eckey.h /home/tony/litecoin/src/secp256k1/src/eckey.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/eckey_impl.h /home/tony/litecoin/src/secp256k1/src/eckey_impl.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/ecmult_gen.h /home/tony/litecoin/src/secp256k1/src/ecmult_gen.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/ecmult_gen_impl.h /home/tony/litecoin/src/secp256k1/src/ecmult_gen_impl.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/ecmult.h /home/tony/litecoin/src/secp256k1/src/ecmult.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/ecmult_impl.h /home/tony/litecoin/src/secp256k1/src/ecmult_impl.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/field_10x26.h /home/tony/litecoin/src/secp256k1/src/field_10x26.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/field_10x26_impl.h /home/tony/litecoin/src/secp256k1/src/field_10x26_impl.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/field_5x52_asm_impl.h /home/tony/litecoin/src/secp256k1/src/field_5x52_asm_impl.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/field_5x52.h /home/tony/litecoin/src/secp256k1/src/field_5x52.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/field_5x52_impl.h /home/tony/litecoin/src/secp256k1/src/field_5x52_impl.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/field_5x52_int128_impl.h /home/tony/litecoin/src/secp256k1/src/field_5x52_int128_impl.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/field.h /home/tony/litecoin/src/secp256k1/src/field.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/field_impl.h /home/tony/litecoin/src/secp256k1/src/field_impl.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/group.h /home/tony/litecoin/src/secp256k1/src/group.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/group_impl.h /home/tony/litecoin/src/secp256k1/src/group_impl.h
-
-Only in /home/tony/projects/Feathercoin/src/secp256k1/src: hash.h
-Only in /home/tony/projects/Feathercoin/src/secp256k1/src: hash_impl.h
-Only in /home/tony/projects/Feathercoin/src/secp256k1/src: libsecp256k1-config.h.in
-
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/num_gmp_impl.h /home/tony/litecoin/src/secp256k1/src/num_gmp_impl.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/scalar_4x64.h /home/tony/litecoin/src/secp256k1/src/scalar_4x64.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/scalar_4x64_impl.h /home/tony/litecoin/src/secp256k1/src/scalar_4x64_impl.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/scalar_8x32.h /home/tony/litecoin/src/secp256k1/src/scalar_8x32.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/scalar_8x32_impl.h /home/tony/litecoin/src/secp256k1/src/scalar_8x32_impl.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/scalar.h /home/tony/litecoin/src/secp256k1/src/scalar.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/scalar_impl.h /home/tony/litecoin/src/secp256k1/src/scalar_impl.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/secp256k1.c /home/tony/litecoin/src/secp256k1/src/secp256k1.c
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/testrand.h /home/tony/litecoin/src/secp256k1/src/testrand.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/testrand_impl.h /home/tony/litecoin/src/secp256k1/src/testrand_impl.h
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/tests.c /home/tony/litecoin/src/secp256k1/src/tests.c
-diff -r /home/tony/projects/Feathercoin/src/secp256k1/src/util.h /home/tony/litecoin/src/secp256k1/src/util.h
-diff -r /home/tony/projects/Feathercoin/src/serialize.h /home/tony/litecoin/src/serialize.h
-diff -r /home/tony/projects/Feathercoin/src/streams.h /home/tony/litecoin/src/streams.h
-
-Only in /home/tony/projects/Feathercoin/src: support
-
-diff -r /home/tony/projects/Feathercoin/src/sync.cpp /home/tony/litecoin/src/sync.cpp
-diff -r /home/tony/projects/Feathercoin/src/sync.h /home/tony/litecoin/src/sync.h
-diff -r /home/tony/projects/Feathercoin/src/test/accounting_tests.cpp /home/tony/litecoin/src/test/accounting_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/alert_tests.cpp /home/tony/litecoin/src/test/alert_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/allocator_tests.cpp /home/tony/litecoin/src/test/allocator_tests.cpp
-
-Only in /home/tony/projects/Feathercoin/src/test: arith_uint256_tests.cpp
-
-diff -r /home/tony/projects/Feathercoin/src/test/base32_tests.cpp /home/tony/litecoin/src/test/base32_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/base58_tests.cpp /home/tony/litecoin/src/test/base58_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/base64_tests.cpp /home/tony/litecoin/src/test/base64_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/bctest.py /home/tony/litecoin/src/test/bctest.py
-diff -r /home/tony/projects/Feathercoin/src/test/bignum.h /home/tony/litecoin/src/test/bignum.h
-diff -r /home/tony/projects/Feathercoin/src/test/bip32_tests.cpp /home/tony/litecoin/src/test/bip32_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/bitcoin-util-test.py /home/tony/litecoin/src/test/bitcoin-util-test.py
-diff -r /home/tony/projects/Feathercoin/src/test/bloom_tests.cpp /home/tony/litecoin/src/test/bloom_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/checkblock_tests.cpp /home/tony/litecoin/src/test/checkblock_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/Checkpoints_tests.cpp /home/tony/litecoin/src/test/Checkpoints_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/coins_tests.cpp /home/tony/litecoin/src/test/coins_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/compress_tests.cpp /home/tony/litecoin/src/test/compress_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/crypto_tests.cpp /home/tony/litecoin/src/test/crypto_tests.cpp
-Binary files /home/tony/projects/Feathercoin/src/test/data/alertTests.raw and /home/tony/litecoin/src/test/data/alertTests.raw differ
-diff -r /home/tony/projects/Feathercoin/src/test/data/base58_keys_valid.json /home/tony/litecoin/src/test/data/base58_keys_valid.json
-diff -r /home/tony/projects/Feathercoin/src/test/data/bitcoin-util-test.json /home/tony/litecoin/src/test/data/bitcoin-util-test.json
-diff -r /home/tony/projects/Feathercoin/src/test/data/script_invalid.json /home/tony/litecoin/src/test/data/script_invalid.json
-diff -r /home/tony/projects/Feathercoin/src/test/data/script_valid.json /home/tony/litecoin/src/test/data/script_valid.json
-diff -r /home/tony/projects/Feathercoin/src/test/data/txcreate1.hex /home/tony/litecoin/src/test/data/txcreate1.hex
-diff -r /home/tony/projects/Feathercoin/src/test/data/txcreatesign.hex /home/tony/litecoin/src/test/data/txcreatesign.hex
-diff -r /home/tony/projects/Feathercoin/src/test/data/tx_invalid.json /home/tony/litecoin/src/test/data/tx_invalid.json
-diff -r /home/tony/projects/Feathercoin/src/test/data/tx_valid.json /home/tony/litecoin/src/test/data/tx_valid.json
-diff -r /home/tony/projects/Feathercoin/src/test/DoS_tests.cpp /home/tony/litecoin/src/test/DoS_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/getarg_tests.cpp /home/tony/litecoin/src/test/getarg_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/hash_tests.cpp /home/tony/litecoin/src/test/hash_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/key_tests.cpp /home/tony/litecoin/src/test/key_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/main_tests.cpp /home/tony/litecoin/src/test/main_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/mempool_tests.cpp /home/tony/litecoin/src/test/mempool_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/miner_tests.cpp /home/tony/litecoin/src/test/miner_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/mruset_tests.cpp /home/tony/litecoin/src/test/mruset_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/multisig_tests.cpp /home/tony/litecoin/src/test/multisig_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/netbase_tests.cpp /home/tony/litecoin/src/test/netbase_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/pmt_tests.cpp /home/tony/litecoin/src/test/pmt_tests.cpp
-Only in /home/tony/projects/Feathercoin/src/test: policyestimator_tests.cpp
-Only in /home/tony/projects/Feathercoin/src/test: pow_tests.cpp
-Only in /home/tony/projects/Feathercoin/src/test: reverselock_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/rpc_tests.cpp /home/tony/litecoin/src/test/rpc_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/rpc_wallet_tests.cpp /home/tony/litecoin/src/test/rpc_wallet_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/sanity_tests.cpp /home/tony/litecoin/src/test/sanity_tests.cpp
-Only in /home/tony/projects/Feathercoin/src/test: scheduler_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/scriptnum_tests.cpp /home/tony/litecoin/src/test/scriptnum_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/script_P2SH_tests.cpp /home/tony/litecoin/src/test/script_P2SH_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/script_tests.cpp /home/tony/litecoin/src/test/script_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/serialize_tests.cpp /home/tony/litecoin/src/test/serialize_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/sighash_tests.cpp /home/tony/litecoin/src/test/sighash_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/sigopcount_tests.cpp /home/tony/litecoin/src/test/sigopcount_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/skiplist_tests.cpp /home/tony/litecoin/src/test/skiplist_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/test_bitcoin.cpp /home/tony/litecoin/src/test/test_bitcoin.cpp
-Only in /home/tony/projects/Feathercoin/src/test: test_bitcoin.h
-diff -r /home/tony/projects/Feathercoin/src/test/timedata_tests.cpp /home/tony/litecoin/src/test/timedata_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/transaction_tests.cpp /home/tony/litecoin/src/test/transaction_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/uint256_tests.cpp /home/tony/litecoin/src/test/uint256_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/univalue_tests.cpp /home/tony/litecoin/src/test/univalue_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/test/util_tests.cpp /home/tony/litecoin/src/test/util_tests.cpp
-diff -r /home/tony/projects/Feathercoin/src/threadsafety.h /home/tony/litecoin/src/threadsafety.h
-diff -r /home/tony/projects/Feathercoin/src/timedata.cpp /home/tony/litecoin/src/timedata.cpp
-diff -r /home/tony/projects/Feathercoin/src/timedata.h /home/tony/litecoin/src/timedata.h
-diff -r /home/tony/projects/Feathercoin/src/txdb.cpp /home/tony/litecoin/src/txdb.cpp
-diff -r /home/tony/projects/Feathercoin/src/txdb.h /home/tony/litecoin/src/txdb.h
-diff -r /home/tony/projects/Feathercoin/src/txmempool.cpp /home/tony/litecoin/src/txmempool.cpp
-diff -r /home/tony/projects/Feathercoin/src/txmempool.h /home/tony/litecoin/src/txmempool.h
-diff -r /home/tony/projects/Feathercoin/src/ui_interface.h /home/tony/litecoin/src/ui_interface.h
-diff -r /home/tony/projects/Feathercoin/src/uint256.cpp /home/tony/litecoin/src/uint256.cpp
-diff -r /home/tony/projects/Feathercoin/src/uint256.h /home/tony/litecoin/src/uint256.h
-diff -r /home/tony/projects/Feathercoin/src/undo.h /home/tony/litecoin/src/undo.h
-diff -r /home/tony/projects/Feathercoin/src/univalue/univalue.cpp /home/tony/litecoin/src/univalue/univalue.cpp
-diff -r /home/tony/projects/Feathercoin/src/univalue/univalue.h /home/tony/litecoin/src/univalue/univalue.h
-diff -r /home/tony/projects/Feathercoin/src/univalue/univalue_read.cpp /home/tony/litecoin/src/univalue/univalue_read.cpp
-diff -r /home/tony/projects/Feathercoin/src/univalue/univalue_write.cpp /home/tony/litecoin/src/univalue/univalue_write.cpp
-diff -r /home/tony/projects/Feathercoin/src/util.cpp /home/tony/litecoin/src/util.cpp
-diff -r /home/tony/projects/Feathercoin/src/util.h /home/tony/litecoin/src/util.h
-diff -r /home/tony/projects/Feathercoin/src/utilmoneystr.cpp /home/tony/litecoin/src/utilmoneystr.cpp
-diff -r /home/tony/projects/Feathercoin/src/utilmoneystr.h /home/tony/litecoin/src/utilmoneystr.h
-diff -r /home/tony/projects/Feathercoin/src/utilstrencodings.cpp /home/tony/litecoin/src/utilstrencodings.cpp
-diff -r /home/tony/projects/Feathercoin/src/utilstrencodings.h /home/tony/litecoin/src/utilstrencodings.h
-diff -r /home/tony/projects/Feathercoin/src/utiltime.cpp /home/tony/litecoin/src/utiltime.cpp
-diff -r /home/tony/projects/Feathercoin/src/utiltime.h /home/tony/litecoin/src/utiltime.h
-
-Only in /home/tony/projects/Feathercoin/src: validationinterface.cpp
-Only in /home/tony/projects/Feathercoin/src: validationinterface.h
-diff -r /home/tony/projects/Feathercoin/src/version.h /home/tony/litecoin/src/version.h
-Only in /home/tony/projects/Feathercoin/src: wallet
+diff -r ~/projects/Feathercoin/qa/rpc-tests/keypool.py ~/litecoin/qa/rpc-tests/keypool.py
+diff -r ~/projects/Feathercoin/qa/rpc-tests/listtransactions.py ~/litecoin/qa/rpc-tests/listtransactions.py
+
+Only in ~/projects/Feathercoin/qa/rpc-tests: maxblocksinflight.py
+
+diff -r ~/projects/Feathercoin/qa/rpc-tests/mempool_coinbase_spends.py ~/litecoin/qa/rpc-tests/mempool_coinbase_spends.py
+diff -r ~/projects/Feathercoin/qa/rpc-tests/mempool_resurrect_test.py ~/litecoin/qa/rpc-tests/mempool_resurrect_test.py
+diff -r ~/projects/Feathercoin/qa/rpc-tests/mempool_spendcoinbase.py ~/litecoin/qa/rpc-tests/mempool_spendcoinbase.py
+
+Only in ~/projects/Feathercoin/qa/rpc-tests: merkle_blocks.py
+Only in ~/projects/Feathercoin/qa/rpc-tests: p2p-acceptblock.py
+Only in ~/projects/Feathercoin/qa/rpc-tests: proxy_test.py
+Only in ~/projects/Feathercoin/qa/rpc-tests: pruning.py
+Only in ~/projects/Feathercoin/qa/rpc-tests: rawtransactions.py
+
+diff -r ~/projects/Feathercoin/qa/rpc-tests/README.md ~/litecoin/qa/rpc-tests/README.md
+diff -r ~/projects/Feathercoin/qa/rpc-tests/receivedby.py ~/litecoin/qa/rpc-tests/receivedby.py
+diff -r ~/projects/Feathercoin/qa/rpc-tests/reindex.py ~/litecoin/qa/rpc-tests/reindex.py
+diff -r ~/projects/Feathercoin/qa/rpc-tests/rest.py ~/litecoin/qa/rpc-tests/rest.py
+diff -r ~/projects/Feathercoin/qa/rpc-tests/rpcbind_test.py ~/litecoin/qa/rpc-tests/rpcbind_test.py
+
+Only in ~/projects/Feathercoin/qa/rpc-tests: script_test.py
+Only in ~/projects/Feathercoin/qa/rpc-tests: signrawtransactions.py
+
+diff -r ~/projects/Feathercoin/qa/rpc-tests/smartfees.py ~/litecoin/qa/rpc-tests/smartfees.py
+
+Only in ~/projects/Feathercoin/qa/rpc-tests: test_framework
+
+diff -r ~/projects/Feathercoin/qa/rpc-tests/txn_doublespend.py ~/litecoin/qa/rpc-tests/txn_doublespend.py
+diff -r ~/projects/Feathercoin/qa/rpc-tests/walletbackup.py ~/litecoin/qa/rpc-tests/walletbackup.py
+diff -r ~/projects/Feathercoin/qa/rpc-tests/wallet.py ~/litecoin/qa/rpc-tests/wallet.py
+
+Only in ~/projects/Feathercoin/qa/rpc-tests: zapwallettxes.py
+
+diff -r ~/projects/Feathercoin/README.md ~/litecoin/README.md
+diff -r ~/projects/Feathercoin/share/genbuild.sh ~/litecoin/share/genbuild.sh
+
+Only in ~/projects/Feathercoin/share/qt: bitcoin.ico
+Only in ~/projects/Feathercoin/share/qt: bitcoin.png
+Only in ~/projects/Feathercoin/share/qt: feathercoin16.png
+Only in ~/projects/Feathercoin/share/qt: feathercoin32.png
+Only in ~/projects/Feathercoin/share/qt: feathercoin48.png
+
+diff -r ~/projects/Feathercoin/share/qt/Info.plist.in ~/litecoin/share/qt/Info.plist.in
+diff -r ~/projects/Feathercoin/share/qt/make_windows_icon.sh ~/litecoin/share/qt/make_windows_icon.sh
+diff -r ~/projects/Feathercoin/share/setup.nsi.in ~/litecoin/share/setup.nsi.in
+diff -r ~/projects/Feathercoin/src/addrman.cpp ~/litecoin/src/addrman.cpp
+diff -r ~/projects/Feathercoin/src/addrman.h ~/litecoin/src/addrman.h
+diff -r ~/projects/Feathercoin/src/alert.cpp ~/litecoin/src/alert.cpp
+diff -r ~/projects/Feathercoin/src/alert.h ~/litecoin/src/alert.h
+diff -r ~/projects/Feathercoin/src/amount.cpp ~/litecoin/src/amount.cpp
+diff -r ~/projects/Feathercoin/src/amount.h ~/litecoin/src/amount.h
+
+Only in ~/projects/Feathercoin/src: arith_uint256.cpp
+Only in ~/projects/Feathercoin/src: arith_uint256.h
+
+diff -r ~/projects/Feathercoin/src/base58.cpp ~/litecoin/src/base58.cpp
+diff -r ~/projects/Feathercoin/src/base58.h ~/litecoin/src/base58.h
+
+Only in ~/projects/Feathercoin/src: bignum.h
+
+diff -r ~/projects/Feathercoin/src/bitcoin-cli.cpp ~/litecoin/src/bitcoin-cli.cpp
+diff -r ~/projects/Feathercoin/src/bitcoin-cli-res.rc ~/litecoin/src/bitcoin-cli-res.rc
+diff -r ~/projects/Feathercoin/src/bitcoind.cpp ~/litecoin/src/bitcoind.cpp
+diff -r ~/projects/Feathercoin/src/bitcoind-res.rc ~/litecoin/src/bitcoind-res.rc
+diff -r ~/projects/Feathercoin/src/bitcoin-tx.cpp ~/litecoin/src/bitcoin-tx.cpp
+
+Only in ~/projects/Feathercoin/src: bitcoin-tx-res.rc
+
+diff -r ~/projects/Feathercoin/src/bloom.cpp ~/litecoin/src/bloom.cpp
+diff -r ~/projects/Feathercoin/src/bloom.h ~/litecoin/src/bloom.h
+diff -r ~/projects/Feathercoin/src/chain.cpp ~/litecoin/src/chain.cpp
+diff -r ~/projects/Feathercoin/src/chain.h ~/litecoin/src/chain.h
+diff -r ~/projects/Feathercoin/src/chainparamsbase.cpp ~/litecoin/src/chainparamsbase.cpp
+diff -r ~/projects/Feathercoin/src/chainparamsbase.h ~/litecoin/src/chainparamsbase.h
+diff -r ~/projects/Feathercoin/src/chainparams.cpp ~/litecoin/src/chainparams.cpp
+diff -r ~/projects/Feathercoin/src/chainparams.h ~/litecoin/src/chainparams.h
+diff -r ~/projects/Feathercoin/src/chainparamsseeds.h ~/litecoin/src/chainparamsseeds.h
+diff -r ~/projects/Feathercoin/src/checkpoints.cpp ~/litecoin/src/checkpoints.cpp
+diff -r ~/projects/Feathercoin/src/checkpoints.h ~/litecoin/src/checkpoints.h
+
+Only in ~/projects/Feathercoin/src: checkpointsync.cpp
+Only in ~/projects/Feathercoin/src: checkpointsync.h
+
+diff -r ~/projects/Feathercoin/src/checkqueue.h ~/litecoin/src/checkqueue.h
+diff -r ~/projects/Feathercoin/src/clientversion.cpp ~/litecoin/src/clientversion.cpp
+diff -r ~/projects/Feathercoin/src/clientversion.h ~/litecoin/src/clientversion.h
+diff -r ~/projects/Feathercoin/src/coincontrol.h ~/litecoin/src/coincontrol.h
+diff -r ~/projects/Feathercoin/src/coins.cpp ~/litecoin/src/coins.cpp
+diff -r ~/projects/Feathercoin/src/coins.h ~/litecoin/src/coins.h
+
+Only in ~/projects/Feathercoin/src/compat: byteswap.h
+Only in ~/projects/Feathercoin/src/compat: endian.h
+
+diff -r ~/projects/Feathercoin/src/compat/glibc_compat.cpp ~/litecoin/src/compat/glibc_compat.cpp
+diff -r ~/projects/Feathercoin/src/compat/glibc_sanity.cpp ~/litecoin/src/compat/glibc_sanity.cpp
+diff -r ~/projects/Feathercoin/src/compat/glibcxx_sanity.cpp ~/litecoin/src/compat/glibcxx_sanity.cpp
+diff -r ~/projects/Feathercoin/src/compat/sanity.h ~/litecoin/src/compat/sanity.h
+diff -r ~/projects/Feathercoin/src/compat/strnlen.cpp ~/litecoin/src/compat/strnlen.cpp
+diff -r ~/projects/Feathercoin/src/compat.h ~/litecoin/src/compat.h
+diff -r ~/projects/Feathercoin/src/compressor.cpp ~/litecoin/src/compressor.cpp
+diff -r ~/projects/Feathercoin/src/compressor.h ~/litecoin/src/compressor.h
+
+Only in ~/projects/Feathercoin/src/config: bitcoin-config.h.in
+Only in ~/projects/Feathercoin/src: consensus
+
+diff -r ~/projects/Feathercoin/src/core_io.h ~/litecoin/src/core_io.h
+diff -r ~/projects/Feathercoin/src/core_read.cpp ~/litecoin/src/core_read.cpp
+diff -r ~/projects/Feathercoin/src/core_write.cpp ~/litecoin/src/core_write.cpp
+diff -r ~/projects/Feathercoin/src/crypto/common.h ~/litecoin/src/crypto/common.h
+diff -r ~/projects/Feathercoin/src/crypto/hmac_sha256.cpp ~/litecoin/src/crypto/hmac_sha256.cpp
+diff -r ~/projects/Feathercoin/src/crypto/hmac_sha256.h ~/litecoin/src/crypto/hmac_sha256.h
+diff -r ~/projects/Feathercoin/src/crypto/hmac_sha512.cpp ~/litecoin/src/crypto/hmac_sha512.cpp
+diff -r ~/projects/Feathercoin/src/crypto/hmac_sha512.h ~/litecoin/src/crypto/hmac_sha512.h
+diff -r ~/projects/Feathercoin/src/crypto/ripemd160.cpp ~/litecoin/src/crypto/ripemd160.cpp
+diff -r ~/projects/Feathercoin/src/crypto/ripemd160.h ~/litecoin/src/crypto/ripemd160.h
+diff -r ~/projects/Feathercoin/src/crypto/sha1.cpp ~/litecoin/src/crypto/sha1.cpp
+diff -r ~/projects/Feathercoin/src/crypto/sha1.h ~/litecoin/src/crypto/sha1.h
+diff -r ~/projects/Feathercoin/src/crypto/sha256.cpp ~/litecoin/src/crypto/sha256.cpp
+diff -r ~/projects/Feathercoin/src/crypto/sha256.h ~/litecoin/src/crypto/sha256.h
+diff -r ~/projects/Feathercoin/src/crypto/sha512.cpp ~/litecoin/src/crypto/sha512.cpp
+diff -r ~/projects/Feathercoin/src/crypto/sha512.h ~/litecoin/src/crypto/sha512.h
+diff -r ~/projects/Feathercoin/src/eccryptoverify.cpp ~/litecoin/src/eccryptoverify.cpp
+diff -r ~/projects/Feathercoin/src/eccryptoverify.h ~/litecoin/src/eccryptoverify.h
+diff -r ~/projects/Feathercoin/src/ecwrapper.cpp ~/litecoin/src/ecwrapper.cpp
+diff -r ~/projects/Feathercoin/src/ecwrapper.h ~/litecoin/src/ecwrapper.h
+diff -r ~/projects/Feathercoin/src/hash.cpp ~/litecoin/src/hash.cpp
+diff -r ~/projects/Feathercoin/src/hash.h ~/litecoin/src/hash.h
+diff -r ~/projects/Feathercoin/src/init.cpp ~/litecoin/src/init.cpp
+diff -r ~/projects/Feathercoin/src/init.h ~/litecoin/src/init.h
+diff -r ~/projects/Feathercoin/src/key.cpp ~/litecoin/src/key.cpp
+diff -r ~/projects/Feathercoin/src/key.h ~/litecoin/src/key.h
+diff -r ~/projects/Feathercoin/src/keystore.cpp ~/litecoin/src/keystore.cpp
+diff -r ~/projects/Feathercoin/src/keystore.h ~/litecoin/src/keystore.h
+diff -r ~/projects/Feathercoin/src/leveldbwrapper.cpp ~/litecoin/src/leveldbwrapper.cpp
+diff -r ~/projects/Feathercoin/src/leveldbwrapper.h ~/litecoin/src/leveldbwrapper.h
+diff -r ~/projects/Feathercoin/src/limitedmap.h ~/litecoin/src/limitedmap.h
+diff -r ~/projects/Feathercoin/src/main.cpp ~/litecoin/src/main.cpp
+diff -r ~/projects/Feathercoin/src/main.h ~/litecoin/src/main.h
+diff -r ~/projects/Feathercoin/src/Makefile.am ~/litecoin/src/Makefile.am
+diff -r ~/projects/Feathercoin/src/Makefile.qt.include ~/litecoin/src/Makefile.qt.include
+diff -r ~/projects/Feathercoin/src/Makefile.qttest.include ~/litecoin/src/Makefile.qttest.include
+diff -r ~/projects/Feathercoin/src/Makefile.test.include ~/litecoin/src/Makefile.test.include
+
+Only in ~/projects/Feathercoin/src: memusage.h
+
+diff -r ~/projects/Feathercoin/src/merkleblock.cpp ~/litecoin/src/merkleblock.cpp
+diff -r ~/projects/Feathercoin/src/merkleblock.h ~/litecoin/src/merkleblock.h
+diff -r ~/projects/Feathercoin/src/miner.cpp ~/litecoin/src/miner.cpp
+diff -r ~/projects/Feathercoin/src/miner.h ~/litecoin/src/miner.h
+diff -r ~/projects/Feathercoin/src/mruset.h ~/litecoin/src/mruset.h
+
+Only in ~/projects/Feathercoin/src: neoscrypt_asm.S
+Only in ~/projects/Feathercoin/src: neoscrypt.c
+Only in ~/projects/Feathercoin/src: neoscrypt.h
+
+diff -r ~/projects/Feathercoin/src/netbase.cpp ~/litecoin/src/netbase.cpp
+diff -r ~/projects/Feathercoin/src/netbase.h ~/litecoin/src/netbase.h
+diff -r ~/projects/Feathercoin/src/net.cpp ~/litecoin/src/net.cpp
+diff -r ~/projects/Feathercoin/src/net.h ~/litecoin/src/net.h
+diff -r ~/projects/Feathercoin/src/noui.cpp ~/litecoin/src/noui.cpp
+diff -r ~/projects/Feathercoin/src/noui.h ~/litecoin/src/noui.h
+
+Only in ~/projects/Feathercoin/src: policy
+
+diff -r ~/projects/Feathercoin/src/pow.cpp ~/litecoin/src/pow.cpp
+diff -r ~/projects/Feathercoin/src/pow.h ~/litecoin/src/pow.h
+diff -r ~/projects/Feathercoin/src/primitives/block.cpp ~/litecoin/src/primitives/block.cpp
+diff -r ~/projects/Feathercoin/src/primitives/block.h ~/litecoin/src/primitives/block.h
+diff -r ~/projects/Feathercoin/src/primitives/transaction.cpp ~/litecoin/src/primitives/transaction.cpp
+diff -r ~/projects/Feathercoin/src/primitives/transaction.h ~/litecoin/src/primitives/transaction.h
+diff -r ~/projects/Feathercoin/src/protocol.cpp ~/litecoin/src/protocol.cpp
+diff -r ~/projects/Feathercoin/src/protocol.h ~/litecoin/src/protocol.h
+diff -r ~/projects/Feathercoin/src/pubkey.cpp ~/litecoin/src/pubkey.cpp
+diff -r ~/projects/Feathercoin/src/pubkey.h ~/litecoin/src/pubkey.h
+diff -r ~/projects/Feathercoin/src/qt/addressbookpage.cpp ~/litecoin/src/qt/addressbookpage.cpp
+diff -r ~/projects/Feathercoin/src/qt/addressbookpage.h ~/litecoin/src/qt/addressbookpage.h
+diff -r ~/projects/Feathercoin/src/qt/addresstablemodel.cpp ~/litecoin/src/qt/addresstablemodel.cpp
+diff -r ~/projects/Feathercoin/src/qt/addresstablemodel.h ~/litecoin/src/qt/addresstablemodel.h
+diff -r ~/projects/Feathercoin/src/qt/askpassphrasedialog.cpp ~/litecoin/src/qt/askpassphrasedialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/askpassphrasedialog.h ~/litecoin/src/qt/askpassphrasedialog.h
+diff -r ~/projects/Feathercoin/src/qt/bitcoinaddressvalidator.cpp ~/litecoin/src/qt/bitcoinaddressvalidator.cpp
+diff -r ~/projects/Feathercoin/src/qt/bitcoinaddressvalidator.h ~/litecoin/src/qt/bitcoinaddressvalidator.h
+diff -r ~/projects/Feathercoin/src/qt/bitcoinamountfield.cpp ~/litecoin/src/qt/bitcoinamountfield.cpp
+diff -r ~/projects/Feathercoin/src/qt/bitcoinamountfield.h ~/litecoin/src/qt/bitcoinamountfield.h
+diff -r ~/projects/Feathercoin/src/qt/bitcoin.cpp ~/litecoin/src/qt/bitcoin.cpp
+diff -r ~/projects/Feathercoin/src/qt/bitcoingui.cpp ~/litecoin/src/qt/bitcoingui.cpp
+diff -r ~/projects/Feathercoin/src/qt/bitcoingui.h ~/litecoin/src/qt/bitcoingui.h
+diff -r ~/projects/Feathercoin/src/qt/bitcoin.qrc ~/litecoin/src/qt/bitcoin.qrc
+diff -r ~/projects/Feathercoin/src/qt/bitcoinunits.cpp ~/litecoin/src/qt/bitcoinunits.cpp
+diff -r ~/projects/Feathercoin/src/qt/bitcoinunits.h ~/litecoin/src/qt/bitcoinunits.h
+diff -r ~/projects/Feathercoin/src/qt/clientmodel.cpp ~/litecoin/src/qt/clientmodel.cpp
+diff -r ~/projects/Feathercoin/src/qt/clientmodel.h ~/litecoin/src/qt/clientmodel.h
+diff -r ~/projects/Feathercoin/src/qt/coincontroldialog.cpp ~/litecoin/src/qt/coincontroldialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/coincontroldialog.h ~/litecoin/src/qt/coincontroldialog.h
+diff -r ~/projects/Feathercoin/src/qt/coincontroltreewidget.cpp ~/litecoin/src/qt/coincontroltreewidget.cpp
+diff -r ~/projects/Feathercoin/src/qt/coincontroltreewidget.h ~/litecoin/src/qt/coincontroltreewidget.h
+
+Only in ~/projects/Feathercoin/src/qt: createmultisigaddrdialog.cpp
+Only in ~/projects/Feathercoin/src/qt: createmultisigaddrdialog.h
+
+diff -r ~/projects/Feathercoin/src/qt/csvmodelwriter.cpp ~/litecoin/src/qt/csvmodelwriter.cpp
+diff -r ~/projects/Feathercoin/src/qt/csvmodelwriter.h ~/litecoin/src/qt/csvmodelwriter.h
+diff -r ~/projects/Feathercoin/src/qt/editaddressdialog.cpp ~/litecoin/src/qt/editaddressdialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/editaddressdialog.h ~/litecoin/src/qt/editaddressdialog.h
+diff -r ~/projects/Feathercoin/src/qt/forms/addressbookpage.ui ~/litecoin/src/qt/forms/addressbookpage.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/coincontroldialog.ui ~/litecoin/src/qt/forms/coincontroldialog.ui
+
+Only in ~/projects/Feathercoin/src/qt/forms: commentdialog.ui
+Only in ~/projects/Feathercoin/src/qt/forms: createmultisigaddrdialog.ui
+Only in ~/projects/Feathercoin/src/qt/forms: debugdialog.ui
+
+diff -r ~/projects/Feathercoin/src/qt/forms/editaddressdialog.ui ~/litecoin/src/qt/forms/editaddressdialog.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/helpmessagedialog.ui ~/litecoin/src/qt/forms/helpmessagedialog.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/intro.ui ~/litecoin/src/qt/forms/intro.ui
+
+Only in ~/projects/Feathercoin/src/qt/forms: multisigdialog.ui
+
+diff -r ~/projects/Feathercoin/src/qt/forms/optionsdialog.ui ~/litecoin/src/qt/forms/optionsdialog.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/overviewpage.ui ~/litecoin/src/qt/forms/overviewpage.ui
+
+Only in ~/projects/Feathercoin/src/qt/forms: paperwalletdialog.ui
+Only in ~/projects/Feathercoin/src/qt/forms: qrcodedialog.ui
+
+diff -r ~/projects/Feathercoin/src/qt/forms/receivecoinsdialog.ui ~/litecoin/src/qt/forms/receivecoinsdialog.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/rpcconsole.ui ~/litecoin/src/qt/forms/rpcconsole.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/sendcoinsdialog.ui ~/litecoin/src/qt/forms/sendcoinsdialog.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/sendcoinsentry.ui ~/litecoin/src/qt/forms/sendcoinsentry.ui
+diff -r ~/projects/Feathercoin/src/qt/forms/signverifymessagedialog.ui ~/litecoin/src/qt/forms/signverifymessagedialog.ui
+
+Only in ~/projects/Feathercoin/src/qt/forms: snapwidget.ui
+
+diff -r ~/projects/Feathercoin/src/qt/guiconstants.h ~/litecoin/src/qt/guiconstants.h
+diff -r ~/projects/Feathercoin/src/qt/guiutil.cpp ~/litecoin/src/qt/guiutil.cpp
+diff -r ~/projects/Feathercoin/src/qt/guiutil.h ~/litecoin/src/qt/guiutil.h
+diff -r ~/projects/Feathercoin/src/qt/intro.cpp ~/litecoin/src/qt/intro.cpp
+diff -r ~/projects/Feathercoin/src/qt/intro.h ~/litecoin/src/qt/intro.h
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ach.ts ~/litecoin/src/qt/locale/bitcoin_ach.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_af_ZA.ts ~/litecoin/src/qt/locale/bitcoin_af_ZA.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ar.ts ~/litecoin/src/qt/locale/bitcoin_ar.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_be_BY.ts ~/litecoin/src/qt/locale/bitcoin_be_BY.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_bg.ts ~/litecoin/src/qt/locale/bitcoin_bg.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_bs.ts ~/litecoin/src/qt/locale/bitcoin_bs.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ca_ES.ts ~/litecoin/src/qt/locale/bitcoin_ca_ES.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ca.ts ~/litecoin/src/qt/locale/bitcoin_ca.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ca@valencia.ts ~/litecoin/src/qt/locale/bitcoin_ca@valencia.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_cmn.ts ~/litecoin/src/qt/locale/bitcoin_cmn.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_cs.ts ~/litecoin/src/qt/locale/bitcoin_cs.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_cy.ts ~/litecoin/src/qt/locale/bitcoin_cy.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_da.ts ~/litecoin/src/qt/locale/bitcoin_da.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_de.ts ~/litecoin/src/qt/locale/bitcoin_de.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_el_GR.ts ~/litecoin/src/qt/locale/bitcoin_el_GR.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_en.ts ~/litecoin/src/qt/locale/bitcoin_en.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_eo.ts ~/litecoin/src/qt/locale/bitcoin_eo.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_es_CL.ts ~/litecoin/src/qt/locale/bitcoin_es_CL.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_es_DO.ts ~/litecoin/src/qt/locale/bitcoin_es_DO.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_es_MX.ts ~/litecoin/src/qt/locale/bitcoin_es_MX.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_es.ts ~/litecoin/src/qt/locale/bitcoin_es.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_es_UY.ts ~/litecoin/src/qt/locale/bitcoin_es_UY.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_et.ts ~/litecoin/src/qt/locale/bitcoin_et.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_eu_ES.ts ~/litecoin/src/qt/locale/bitcoin_eu_ES.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_fa_IR.ts ~/litecoin/src/qt/locale/bitcoin_fa_IR.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_fa.ts ~/litecoin/src/qt/locale/bitcoin_fa.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_fi.ts ~/litecoin/src/qt/locale/bitcoin_fi.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_fr_CA.ts ~/litecoin/src/qt/locale/bitcoin_fr_CA.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_fr.ts ~/litecoin/src/qt/locale/bitcoin_fr.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_gl.ts ~/litecoin/src/qt/locale/bitcoin_gl.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_gu_IN.ts ~/litecoin/src/qt/locale/bitcoin_gu_IN.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_he.ts ~/litecoin/src/qt/locale/bitcoin_he.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_hi_IN.ts ~/litecoin/src/qt/locale/bitcoin_hi_IN.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_hr.ts ~/litecoin/src/qt/locale/bitcoin_hr.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_hu.ts ~/litecoin/src/qt/locale/bitcoin_hu.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_id_ID.ts ~/litecoin/src/qt/locale/bitcoin_id_ID.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_it.ts ~/litecoin/src/qt/locale/bitcoin_it.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ja.ts ~/litecoin/src/qt/locale/bitcoin_ja.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ka.ts ~/litecoin/src/qt/locale/bitcoin_ka.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_kk_KZ.ts ~/litecoin/src/qt/locale/bitcoin_kk_KZ.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ko_KR.ts ~/litecoin/src/qt/locale/bitcoin_ko_KR.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ky.ts ~/litecoin/src/qt/locale/bitcoin_ky.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_la.ts ~/litecoin/src/qt/locale/bitcoin_la.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_lt.ts ~/litecoin/src/qt/locale/bitcoin_lt.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_lv_LV.ts ~/litecoin/src/qt/locale/bitcoin_lv_LV.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_mn.ts ~/litecoin/src/qt/locale/bitcoin_mn.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ms_MY.ts ~/litecoin/src/qt/locale/bitcoin_ms_MY.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_nb.ts ~/litecoin/src/qt/locale/bitcoin_nb.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_nl.ts ~/litecoin/src/qt/locale/bitcoin_nl.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_pam.ts ~/litecoin/src/qt/locale/bitcoin_pam.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_pl.ts ~/litecoin/src/qt/locale/bitcoin_pl.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_pt_BR.ts ~/litecoin/src/qt/locale/bitcoin_pt_BR.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_pt_PT.ts ~/litecoin/src/qt/locale/bitcoin_pt_PT.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ro_RO.ts ~/litecoin/src/qt/locale/bitcoin_ro_RO.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ru.ts ~/litecoin/src/qt/locale/bitcoin_ru.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_sah.ts ~/litecoin/src/qt/locale/bitcoin_sah.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_sk.ts ~/litecoin/src/qt/locale/bitcoin_sk.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_sl_SI.ts ~/litecoin/src/qt/locale/bitcoin_sl_SI.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_sq.ts ~/litecoin/src/qt/locale/bitcoin_sq.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_sr.ts ~/litecoin/src/qt/locale/bitcoin_sr.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_sv.ts ~/litecoin/src/qt/locale/bitcoin_sv.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_th_TH.ts ~/litecoin/src/qt/locale/bitcoin_th_TH.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_tr.ts ~/litecoin/src/qt/locale/bitcoin_tr.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_uk.ts ~/litecoin/src/qt/locale/bitcoin_uk.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_ur_PK.ts ~/litecoin/src/qt/locale/bitcoin_ur_PK.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_uz@Cyrl.ts ~/litecoin/src/qt/locale/bitcoin_uz@Cyrl.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_vi.ts ~/litecoin/src/qt/locale/bitcoin_vi.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_vi_VN.ts ~/litecoin/src/qt/locale/bitcoin_vi_VN.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_zh_CN.ts ~/litecoin/src/qt/locale/bitcoin_zh_CN.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_zh_HK.ts ~/litecoin/src/qt/locale/bitcoin_zh_HK.ts
+diff -r ~/projects/Feathercoin/src/qt/locale/bitcoin_zh_TW.ts ~/litecoin/src/qt/locale/bitcoin_zh_TW.ts
+diff -r ~/projects/Feathercoin/src/qt/macdockiconhandler.h ~/litecoin/src/qt/macdockiconhandler.h
+diff -r ~/projects/Feathercoin/src/qt/macdockiconhandler.mm ~/litecoin/src/qt/macdockiconhandler.mm
+diff -r ~/projects/Feathercoin/src/qt/macnotificationhandler.h ~/litecoin/src/qt/macnotificationhandler.h
+diff -r ~/projects/Feathercoin/src/qt/macnotificationhandler.mm ~/litecoin/src/qt/macnotificationhandler.mm
+
+Only in ~/projects/Feathercoin/src/qt: multisigdialog.cpp
+Only in ~/projects/Feathercoin/src/qt: multisigdialog.h
+
+diff -r ~/projects/Feathercoin/src/qt/networkstyle.cpp ~/litecoin/src/qt/networkstyle.cpp
+diff -r ~/projects/Feathercoin/src/qt/networkstyle.h ~/litecoin/src/qt/networkstyle.h
+diff -r ~/projects/Feathercoin/src/qt/notificator.cpp ~/litecoin/src/qt/notificator.cpp
+diff -r ~/projects/Feathercoin/src/qt/notificator.h ~/litecoin/src/qt/notificator.h
+diff -r ~/projects/Feathercoin/src/qt/openuridialog.cpp ~/litecoin/src/qt/openuridialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/openuridialog.h ~/litecoin/src/qt/openuridialog.h
+diff -r ~/projects/Feathercoin/src/qt/optionsdialog.cpp ~/litecoin/src/qt/optionsdialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/optionsdialog.h ~/litecoin/src/qt/optionsdialog.h
+diff -r ~/projects/Feathercoin/src/qt/optionsmodel.cpp ~/litecoin/src/qt/optionsmodel.cpp
+diff -r ~/projects/Feathercoin/src/qt/optionsmodel.h ~/litecoin/src/qt/optionsmodel.h
+diff -r ~/projects/Feathercoin/src/qt/overviewpage.cpp ~/litecoin/src/qt/overviewpage.cpp
+diff -r ~/projects/Feathercoin/src/qt/overviewpage.h ~/litecoin/src/qt/overviewpage.h
+diff -r ~/projects/Feathercoin/src/qt/paymentrequestplus.cpp ~/litecoin/src/qt/paymentrequestplus.cpp
+diff -r ~/projects/Feathercoin/src/qt/paymentrequestplus.h ~/litecoin/src/qt/paymentrequestplus.h
+diff -r ~/projects/Feathercoin/src/qt/paymentserver.cpp ~/litecoin/src/qt/paymentserver.cpp
+diff -r ~/projects/Feathercoin/src/qt/paymentserver.h ~/litecoin/src/qt/paymentserver.h
+diff -r ~/projects/Feathercoin/src/qt/peertablemodel.cpp ~/litecoin/src/qt/peertablemodel.cpp
+diff -r ~/projects/Feathercoin/src/qt/peertablemodel.h ~/litecoin/src/qt/peertablemodel.h
+
+Only in ~/projects/Feathercoin/src/qt: qimagesource.cpp
+Only in ~/projects/Feathercoin/src/qt: qimagesource.h
+
+diff -r ~/projects/Feathercoin/src/qt/qvalidatedlineedit.cpp ~/litecoin/src/qt/qvalidatedlineedit.cpp
+diff -r ~/projects/Feathercoin/src/qt/qvalidatedlineedit.h ~/litecoin/src/qt/qvalidatedlineedit.h
+diff -r ~/projects/Feathercoin/src/qt/qvaluecombobox.cpp ~/litecoin/src/qt/qvaluecombobox.cpp
+diff -r ~/projects/Feathercoin/src/qt/qvaluecombobox.h ~/litecoin/src/qt/qvaluecombobox.h
+diff -r ~/projects/Feathercoin/src/qt/receivecoinsdialog.cpp ~/litecoin/src/qt/receivecoinsdialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/receivecoinsdialog.h ~/litecoin/src/qt/receivecoinsdialog.h
+diff -r ~/projects/Feathercoin/src/qt/receiverequestdialog.cpp ~/litecoin/src/qt/receiverequestdialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/receiverequestdialog.h ~/litecoin/src/qt/receiverequestdialog.h
+diff -r ~/projects/Feathercoin/src/qt/recentrequeststablemodel.cpp ~/litecoin/src/qt/recentrequeststablemodel.cpp
+diff -r ~/projects/Feathercoin/src/qt/recentrequeststablemodel.h ~/litecoin/src/qt/recentrequeststablemodel.h
+
+Only in ~/projects/Feathercoin/src/qt: reportview.cpp
+Only in ~/projects/Feathercoin/src/qt: reportview.h
+
+diff -r ~/projects/Feathercoin/src/qt/res/bitcoin-qt-res.rc ~/litecoin/src/qt/res/bitcoin-qt-res.rc
+
+Only in ~/projects/Feathercoin/src/qt/res/icons: about.png
+Only in ~/projects/Feathercoin/src/qt/res/icons: about_qt.png
+Only in ~/projects/Feathercoin/src/qt/res/icons: account-report.png
+
+Binary files ~/projects/Feathercoin/src/qt/res/icons/add.png and ~/litecoin/src/qt/res/icons/add.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/address-book.png and ~/litecoin/src/qt/res/icons/address-book.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/bitcoin.icns and ~/litecoin/src/qt/res/icons/bitcoin.icns differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/bitcoin.ico and ~/litecoin/src/qt/res/icons/bitcoin.ico differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/bitcoin.png and ~/litecoin/src/qt/res/icons/bitcoin.png differ
+
+Only in ~/projects/Feathercoin/src/qt/res/icons: bitmessage.png
+
+Binary files ~/projects/Feathercoin/src/qt/res/icons/clock1.png and ~/litecoin/src/qt/res/icons/clock1.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/clock2.png and ~/litecoin/src/qt/res/icons/clock2.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/clock3.png and ~/litecoin/src/qt/res/icons/clock3.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/clock4.png and ~/litecoin/src/qt/res/icons/clock4.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/clock5.png and ~/litecoin/src/qt/res/icons/clock5.png differ
+
+Only in ~/projects/Feathercoin/src/qt/res/icons: comment.png
+
+Binary files ~/projects/Feathercoin/src/qt/res/icons/configure.png and ~/litecoin/src/qt/res/icons/configure.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/connect0_16.png and ~/litecoin/src/qt/res/icons/connect0_16.png differ
+Only in ~/projects/Feathercoin/src/qt/res/icons: connect0.png
+Binary files ~/projects/Feathercoin/src/qt/res/icons/connect1_16.png and ~/litecoin/src/qt/res/icons/connect1_16.png differ
+Only in ~/projects/Feathercoin/src/qt/res/icons: connect1.png
+Binary files ~/projects/Feathercoin/src/qt/res/icons/connect2_16.png and ~/litecoin/src/qt/res/icons/connect2_16.png differ
+Only in ~/projects/Feathercoin/src/qt/res/icons: connect2.png
+Binary files ~/projects/Feathercoin/src/qt/res/icons/connect3_16.png and ~/litecoin/src/qt/res/icons/connect3_16.png differ
+Only in ~/projects/Feathercoin/src/qt/res/icons: connect3.png
+Binary files ~/projects/Feathercoin/src/qt/res/icons/connect4_16.png and ~/litecoin/src/qt/res/icons/connect4_16.png differ
+Only in ~/projects/Feathercoin/src/qt/res/icons: connect4.png
+Binary files ~/projects/Feathercoin/src/qt/res/icons/debugwindow.png and ~/litecoin/src/qt/res/icons/debugwindow.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/editcopy.png and ~/litecoin/src/qt/res/icons/editcopy.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/editpaste.png and ~/litecoin/src/qt/res/icons/editpaste.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/edit.png and ~/litecoin/src/qt/res/icons/edit.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/export.png and ~/litecoin/src/qt/res/icons/export.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/eye_minus.png and ~/litecoin/src/qt/res/icons/eye_minus.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/eye_plus.png and ~/litecoin/src/qt/res/icons/eye_plus.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/eye.png and ~/litecoin/src/qt/res/icons/eye.png differ
+Only in ~/projects/Feathercoin/src/qt/res/icons: Feahercoin.png
+Only in ~/projects/Feathercoin/src/qt/res/icons: Feathercoin.png
+Binary files ~/projects/Feathercoin/src/qt/res/icons/filesave.png and ~/litecoin/src/qt/res/icons/filesave.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/history.png and ~/litecoin/src/qt/res/icons/history.png differ
+Only in ~/projects/Feathercoin/src/qt/res/icons: info.png
+Binary files ~/projects/Feathercoin/src/qt/res/icons/key.png and ~/litecoin/src/qt/res/icons/key.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/lock_closed.png and ~/litecoin/src/qt/res/icons/lock_closed.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/lock_open.png and ~/litecoin/src/qt/res/icons/lock_open.png differ
+Only in ~/projects/Feathercoin/src/qt/res/icons: multisig.png
+Only in ~/projects/Feathercoin/src/qt/res/icons: openname.png
+Only in ~/projects/Feathercoin/src/qt/res/icons: open.png
+Only in ~/projects/Feathercoin/src/qt/res/icons: openurl.png
+Binary files ~/projects/Feathercoin/src/qt/res/icons/overview.png and ~/litecoin/src/qt/res/icons/overview.png differ
+Only in ~/projects/Feathercoin/src/qt/res/icons: print.png
+Binary files ~/projects/Feathercoin/src/qt/res/icons/qrcode.png and ~/litecoin/src/qt/res/icons/qrcode.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/quit.png and ~/litecoin/src/qt/res/icons/quit.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/receive.png and ~/litecoin/src/qt/res/icons/receive.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/remove.png and ~/litecoin/src/qt/res/icons/remove.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/send.png and ~/litecoin/src/qt/res/icons/send.png differ
+Only in ~/projects/Feathercoin/src/qt/res/icons: snap.png
+Only in ~/projects/Feathercoin/src/qt/res/icons: sx.png
+Binary files ~/projects/Feathercoin/src/qt/res/icons/synced.png and ~/litecoin/src/qt/res/icons/synced.png differ
+Only in ~/projects/Feathercoin/src/qt/res/icons: Thumbs.db
+Only in ~/projects/Feathercoin/src/qt/res/icons: toolbar.png
+Binary files ~/projects/Feathercoin/src/qt/res/icons/transaction0.png and ~/litecoin/src/qt/res/icons/transaction0.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/transaction2.png and ~/litecoin/src/qt/res/icons/transaction2.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/transaction_conflicted.png and ~/litecoin/src/qt/res/icons/transaction_conflicted.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/tx_inout.png and ~/litecoin/src/qt/res/icons/tx_inout.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/tx_input.png and ~/litecoin/src/qt/res/icons/tx_input.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/tx_mined.png and ~/litecoin/src/qt/res/icons/tx_mined.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/icons/tx_output.png and ~/litecoin/src/qt/res/icons/tx_output.png differ
+Only in ~/projects/Feathercoin/src/qt/res/icons: verify.png
+Only in ~/projects/Feathercoin/src/qt/res/icons: warning.png
+Binary files ~/projects/Feathercoin/src/qt/res/images/about.png and ~/litecoin/src/qt/res/images/about.png differ
+Only in ~/projects/Feathercoin/src/qt/res/images: logo.png
+Only in ~/projects/Feathercoin/src/qt/res/images: paper_wallet.png
+Only in ~/projects/Feathercoin/src/qt/res/images: Thumbs.db
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-000.png and ~/litecoin/src/qt/res/movies/spinner-000.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-001.png and ~/litecoin/src/qt/res/movies/spinner-001.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-002.png and ~/litecoin/src/qt/res/movies/spinner-002.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-003.png and ~/litecoin/src/qt/res/movies/spinner-003.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-004.png and ~/litecoin/src/qt/res/movies/spinner-004.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-005.png and ~/litecoin/src/qt/res/movies/spinner-005.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-006.png and ~/litecoin/src/qt/res/movies/spinner-006.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-007.png and ~/litecoin/src/qt/res/movies/spinner-007.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-008.png and ~/litecoin/src/qt/res/movies/spinner-008.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-009.png and ~/litecoin/src/qt/res/movies/spinner-009.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-010.png and ~/litecoin/src/qt/res/movies/spinner-010.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-011.png and ~/litecoin/src/qt/res/movies/spinner-011.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-012.png and ~/litecoin/src/qt/res/movies/spinner-012.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-013.png and ~/litecoin/src/qt/res/movies/spinner-013.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-014.png and ~/litecoin/src/qt/res/movies/spinner-014.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-015.png and ~/litecoin/src/qt/res/movies/spinner-015.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-016.png and ~/litecoin/src/qt/res/movies/spinner-016.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-017.png and ~/litecoin/src/qt/res/movies/spinner-017.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-018.png and ~/litecoin/src/qt/res/movies/spinner-018.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-019.png and ~/litecoin/src/qt/res/movies/spinner-019.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-020.png and ~/litecoin/src/qt/res/movies/spinner-020.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-021.png and ~/litecoin/src/qt/res/movies/spinner-021.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-022.png and ~/litecoin/src/qt/res/movies/spinner-022.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-023.png and ~/litecoin/src/qt/res/movies/spinner-023.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-024.png and ~/litecoin/src/qt/res/movies/spinner-024.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-025.png and ~/litecoin/src/qt/res/movies/spinner-025.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-026.png and ~/litecoin/src/qt/res/movies/spinner-026.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-027.png and ~/litecoin/src/qt/res/movies/spinner-027.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-028.png and ~/litecoin/src/qt/res/movies/spinner-028.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-029.png and ~/litecoin/src/qt/res/movies/spinner-029.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-030.png and ~/litecoin/src/qt/res/movies/spinner-030.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-031.png and ~/litecoin/src/qt/res/movies/spinner-031.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-032.png and ~/litecoin/src/qt/res/movies/spinner-032.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-033.png and ~/litecoin/src/qt/res/movies/spinner-033.png differ
+Binary files ~/projects/Feathercoin/src/qt/res/movies/spinner-034.png and ~/litecoin/src/qt/res/movies/spinner-034.png differ
+Only in ~/projects/Feathercoin/src/qt/res/movies: spinner-035.png
+Only in ~/projects/Feathercoin/src/qt/res/movies: Thumbs.db
+
+diff -r ~/projects/Feathercoin/src/qt/rpcconsole.cpp ~/litecoin/src/qt/rpcconsole.cpp
+diff -r ~/projects/Feathercoin/src/qt/rpcconsole.h ~/litecoin/src/qt/rpcconsole.h
+
+Only in ~/projects/Feathercoin/src/qt: scicon.cpp
+Only in ~/projects/Feathercoin/src/qt: scicon.h
+
+diff -r ~/projects/Feathercoin/src/qt/sendcoinsdialog.cpp ~/litecoin/src/qt/sendcoinsdialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/sendcoinsdialog.h ~/litecoin/src/qt/sendcoinsdialog.h
+diff -r ~/projects/Feathercoin/src/qt/sendcoinsentry.cpp ~/litecoin/src/qt/sendcoinsentry.cpp
+diff -r ~/projects/Feathercoin/src/qt/sendcoinsentry.h ~/litecoin/src/qt/sendcoinsentry.h
+diff -r ~/projects/Feathercoin/src/qt/signverifymessagedialog.cpp ~/litecoin/src/qt/signverifymessagedialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/signverifymessagedialog.h ~/litecoin/src/qt/signverifymessagedialog.h
+
+Only in ~/projects/Feathercoin/src/qt: snapwidget.cpp
+Only in ~/projects/Feathercoin/src/qt: snapwidget.h
+
+diff -r ~/projects/Feathercoin/src/qt/splashscreen.cpp ~/litecoin/src/qt/splashscreen.cpp
+diff -r ~/projects/Feathercoin/src/qt/splashscreen.h ~/litecoin/src/qt/splashscreen.h
+diff -r ~/projects/Feathercoin/src/qt/test/paymentrequestdata.h ~/litecoin/src/qt/test/paymentrequestdata.h
+diff -r ~/projects/Feathercoin/src/qt/test/paymentservertests.cpp ~/litecoin/src/qt/test/paymentservertests.cpp
+diff -r ~/projects/Feathercoin/src/qt/test/paymentservertests.h ~/litecoin/src/qt/test/paymentservertests.h
+diff -r ~/projects/Feathercoin/src/qt/test/test_main.cpp ~/litecoin/src/qt/test/test_main.cpp
+diff -r ~/projects/Feathercoin/src/qt/test/uritests.cpp ~/litecoin/src/qt/test/uritests.cpp
+diff -r ~/projects/Feathercoin/src/qt/test/uritests.h ~/litecoin/src/qt/test/uritests.h
+diff -r ~/projects/Feathercoin/src/qt/trafficgraphwidget.cpp ~/litecoin/src/qt/trafficgraphwidget.cpp
+diff -r ~/projects/Feathercoin/src/qt/trafficgraphwidget.h ~/litecoin/src/qt/trafficgraphwidget.h
+diff -r ~/projects/Feathercoin/src/qt/transactiondesc.cpp ~/litecoin/src/qt/transactiondesc.cpp
+diff -r ~/projects/Feathercoin/src/qt/transactiondescdialog.cpp ~/litecoin/src/qt/transactiondescdialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/transactiondescdialog.h ~/litecoin/src/qt/transactiondescdialog.h
+diff -r ~/projects/Feathercoin/src/qt/transactiondesc.h ~/litecoin/src/qt/transactiondesc.h
+diff -r ~/projects/Feathercoin/src/qt/transactionfilterproxy.cpp ~/litecoin/src/qt/transactionfilterproxy.cpp
+diff -r ~/projects/Feathercoin/src/qt/transactionfilterproxy.h ~/litecoin/src/qt/transactionfilterproxy.h
+diff -r ~/projects/Feathercoin/src/qt/transactionrecord.cpp ~/litecoin/src/qt/transactionrecord.cpp
+diff -r ~/projects/Feathercoin/src/qt/transactionrecord.h ~/litecoin/src/qt/transactionrecord.h
+diff -r ~/projects/Feathercoin/src/qt/transactiontablemodel.cpp ~/litecoin/src/qt/transactiontablemodel.cpp
+diff -r ~/projects/Feathercoin/src/qt/transactiontablemodel.h ~/litecoin/src/qt/transactiontablemodel.h
+diff -r ~/projects/Feathercoin/src/qt/transactionview.cpp ~/litecoin/src/qt/transactionview.cpp
+diff -r ~/projects/Feathercoin/src/qt/transactionview.h ~/litecoin/src/qt/transactionview.h
+diff -r ~/projects/Feathercoin/src/qt/utilitydialog.cpp ~/litecoin/src/qt/utilitydialog.cpp
+diff -r ~/projects/Feathercoin/src/qt/utilitydialog.h ~/litecoin/src/qt/utilitydialog.h
+
+Only in ~/projects/Feathercoin/src/qt: verticallabel.cpp
+Only in ~/projects/Feathercoin/src/qt: verticallabel.h
+
+diff -r ~/projects/Feathercoin/src/qt/walletframe.cpp ~/litecoin/src/qt/walletframe.cpp
+diff -r ~/projects/Feathercoin/src/qt/walletframe.h ~/litecoin/src/qt/walletframe.h
+diff -r ~/projects/Feathercoin/src/qt/walletmodel.cpp ~/litecoin/src/qt/walletmodel.cpp
+diff -r ~/projects/Feathercoin/src/qt/walletmodel.h ~/litecoin/src/qt/walletmodel.h
+diff -r ~/projects/Feathercoin/src/qt/walletmodeltransaction.cpp ~/litecoin/src/qt/walletmodeltransaction.cpp
+diff -r ~/projects/Feathercoin/src/qt/walletmodeltransaction.h ~/litecoin/src/qt/walletmodeltransaction.h
+diff -r ~/projects/Feathercoin/src/qt/walletview.cpp ~/litecoin/src/qt/walletview.cpp
+diff -r ~/projects/Feathercoin/src/qt/walletview.h ~/litecoin/src/qt/walletview.h
+diff -r ~/projects/Feathercoin/src/qt/winshutdownmonitor.cpp ~/litecoin/src/qt/winshutdownmonitor.cpp
+diff -r ~/projects/Feathercoin/src/qt/winshutdownmonitor.h ~/litecoin/src/qt/winshutdownmonitor.h
+diff -r ~/projects/Feathercoin/src/random.cpp ~/litecoin/src/random.cpp
+diff -r ~/projects/Feathercoin/src/random.h ~/litecoin/src/random.h
+diff -r ~/projects/Feathercoin/src/rest.cpp ~/litecoin/src/rest.cpp
+
+Only in ~/projects/Feathercoin/src: reverselock.h
+
+diff -r ~/projects/Feathercoin/src/rpcblockchain.cpp ~/litecoin/src/rpcblockchain.cpp
+diff -r ~/projects/Feathercoin/src/rpcclient.cpp ~/litecoin/src/rpcclient.cpp
+diff -r ~/projects/Feathercoin/src/rpcclient.h ~/litecoin/src/rpcclient.h
+diff -r ~/projects/Feathercoin/src/rpcmining.cpp ~/litecoin/src/rpcmining.cpp
+diff -r ~/projects/Feathercoin/src/rpcmisc.cpp ~/litecoin/src/rpcmisc.cpp
+diff -r ~/projects/Feathercoin/src/rpcnet.cpp ~/litecoin/src/rpcnet.cpp
+diff -r ~/projects/Feathercoin/src/rpcprotocol.cpp ~/litecoin/src/rpcprotocol.cpp
+diff -r ~/projects/Feathercoin/src/rpcprotocol.h ~/litecoin/src/rpcprotocol.h
+diff -r ~/projects/Feathercoin/src/rpcrawtransaction.cpp ~/litecoin/src/rpcrawtransaction.cpp
+diff -r ~/projects/Feathercoin/src/rpcserver.cpp ~/litecoin/src/rpcserver.cpp
+diff -r ~/projects/Feathercoin/src/rpcserver.h ~/litecoin/src/rpcserver.h
+
+Only in ~/projects/Feathercoin/src: scheduler.cpp
+Only in ~/projects/Feathercoin/src: scheduler.h
+
+diff -r ~/projects/Feathercoin/src/script/bitcoinconsensus.cpp ~/litecoin/src/script/bitcoinconsensus.cpp
+diff -r ~/projects/Feathercoin/src/script/bitcoinconsensus.h ~/litecoin/src/script/bitcoinconsensus.h
+diff -r ~/projects/Feathercoin/src/script/interpreter.cpp ~/litecoin/src/script/interpreter.cpp
+diff -r ~/projects/Feathercoin/src/script/interpreter.h ~/litecoin/src/script/interpreter.h
+diff -r ~/projects/Feathercoin/src/script/script.cpp ~/litecoin/src/script/script.cpp
+diff -r ~/projects/Feathercoin/src/script/script_error.cpp ~/litecoin/src/script/script_error.cpp
+diff -r ~/projects/Feathercoin/src/script/script_error.h ~/litecoin/src/script/script_error.h
+diff -r ~/projects/Feathercoin/src/script/script.h ~/litecoin/src/script/script.h
+diff -r ~/projects/Feathercoin/src/script/sigcache.cpp ~/litecoin/src/script/sigcache.cpp
+diff -r ~/projects/Feathercoin/src/script/sigcache.h ~/litecoin/src/script/sigcache.h
+diff -r ~/projects/Feathercoin/src/script/sign.cpp ~/litecoin/src/script/sign.cpp
+diff -r ~/projects/Feathercoin/src/script/sign.h ~/litecoin/src/script/sign.h
+diff -r ~/projects/Feathercoin/src/script/standard.cpp ~/litecoin/src/script/standard.cpp
+diff -r ~/projects/Feathercoin/src/script/standard.h ~/litecoin/src/script/standard.h
+
+Only in ~/projects/Feathercoin/src: scrypt.cpp
+Only in ~/projects/Feathercoin/src: scrypt.h
+Only in ~/projects/Feathercoin/src: scrypt-sse2.cpp
+Only in ~/projects/Feathercoin/src/secp256k1: aclocal.m4
+Only in ~/projects/Feathercoin/src/secp256k1/build-aux: config.guess
+Only in ~/projects/Feathercoin/src/secp256k1/build-aux: config.sub
+Only in ~/projects/Feathercoin/src/secp256k1/build-aux: ltmain.sh
+
+diff -r ~/projects/Feathercoin/src/secp256k1/build-aux/m4/bitcoin_secp.m4 ~/litecoin/src/secp256k1/build-aux/m4/bitcoin_secp.m4
+
+Only in ~/projects/Feathercoin/src/secp256k1/build-aux/m4: libtool.m4
+Only in ~/projects/Feathercoin/src/secp256k1/build-aux/m4: lt~obsolete.m4
+Only in ~/projects/Feathercoin/src/secp256k1/build-aux/m4: ltoptions.m4
+Only in ~/projects/Feathercoin/src/secp256k1/build-aux/m4: ltsugar.m4
+Only in ~/projects/Feathercoin/src/secp256k1/build-aux/m4: ltversion.m4
+
+diff -r ~/projects/Feathercoin/src/secp256k1/configure.ac ~/litecoin/src/secp256k1/configure.ac
+diff -r ~/projects/Feathercoin/src/secp256k1/include/secp256k1.h ~/litecoin/src/secp256k1/include/secp256k1.h
+diff -r ~/projects/Feathercoin/src/secp256k1/Makefile.am ~/litecoin/src/secp256k1/Makefile.am
+
+Only in ~/projects/Feathercoin/src/secp256k1: Makefile.in
+Only in ~/projects/Feathercoin/src/secp256k1/src: bench.h
+Only in ~/projects/Feathercoin/src/secp256k1/src: bench_internal.c
+Only in ~/projects/Feathercoin/src/secp256k1/src: bench_recover.c
+
+diff -r ~/projects/Feathercoin/src/secp256k1/src/bench_sign.c ~/litecoin/src/secp256k1/src/bench_sign.c
+diff -r ~/projects/Feathercoin/src/secp256k1/src/bench_verify.c ~/litecoin/src/secp256k1/src/bench_verify.c
+diff -r ~/projects/Feathercoin/src/secp256k1/src/ecdsa.h ~/litecoin/src/secp256k1/src/ecdsa.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/ecdsa_impl.h ~/litecoin/src/secp256k1/src/ecdsa_impl.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/eckey.h ~/litecoin/src/secp256k1/src/eckey.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/eckey_impl.h ~/litecoin/src/secp256k1/src/eckey_impl.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/ecmult_gen.h ~/litecoin/src/secp256k1/src/ecmult_gen.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/ecmult_gen_impl.h ~/litecoin/src/secp256k1/src/ecmult_gen_impl.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/ecmult.h ~/litecoin/src/secp256k1/src/ecmult.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/ecmult_impl.h ~/litecoin/src/secp256k1/src/ecmult_impl.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/field_10x26.h ~/litecoin/src/secp256k1/src/field_10x26.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/field_10x26_impl.h ~/litecoin/src/secp256k1/src/field_10x26_impl.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/field_5x52_asm_impl.h ~/litecoin/src/secp256k1/src/field_5x52_asm_impl.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/field_5x52.h ~/litecoin/src/secp256k1/src/field_5x52.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/field_5x52_impl.h ~/litecoin/src/secp256k1/src/field_5x52_impl.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/field_5x52_int128_impl.h ~/litecoin/src/secp256k1/src/field_5x52_int128_impl.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/field.h ~/litecoin/src/secp256k1/src/field.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/field_impl.h ~/litecoin/src/secp256k1/src/field_impl.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/group.h ~/litecoin/src/secp256k1/src/group.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/group_impl.h ~/litecoin/src/secp256k1/src/group_impl.h
+
+Only in ~/projects/Feathercoin/src/secp256k1/src: hash.h
+Only in ~/projects/Feathercoin/src/secp256k1/src: hash_impl.h
+Only in ~/projects/Feathercoin/src/secp256k1/src: libsecp256k1-config.h.in
+
+diff -r ~/projects/Feathercoin/src/secp256k1/src/num_gmp_impl.h ~/litecoin/src/secp256k1/src/num_gmp_impl.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/scalar_4x64.h ~/litecoin/src/secp256k1/src/scalar_4x64.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/scalar_4x64_impl.h ~/litecoin/src/secp256k1/src/scalar_4x64_impl.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/scalar_8x32.h ~/litecoin/src/secp256k1/src/scalar_8x32.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/scalar_8x32_impl.h ~/litecoin/src/secp256k1/src/scalar_8x32_impl.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/scalar.h ~/litecoin/src/secp256k1/src/scalar.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/scalar_impl.h ~/litecoin/src/secp256k1/src/scalar_impl.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/secp256k1.c ~/litecoin/src/secp256k1/src/secp256k1.c
+diff -r ~/projects/Feathercoin/src/secp256k1/src/testrand.h ~/litecoin/src/secp256k1/src/testrand.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/testrand_impl.h ~/litecoin/src/secp256k1/src/testrand_impl.h
+diff -r ~/projects/Feathercoin/src/secp256k1/src/tests.c ~/litecoin/src/secp256k1/src/tests.c
+diff -r ~/projects/Feathercoin/src/secp256k1/src/util.h ~/litecoin/src/secp256k1/src/util.h
+diff -r ~/projects/Feathercoin/src/serialize.h ~/litecoin/src/serialize.h
+diff -r ~/projects/Feathercoin/src/streams.h ~/litecoin/src/streams.h
+
+Only in ~/projects/Feathercoin/src: support
+
+diff -r ~/projects/Feathercoin/src/sync.cpp ~/litecoin/src/sync.cpp
+diff -r ~/projects/Feathercoin/src/sync.h ~/litecoin/src/sync.h
+diff -r ~/projects/Feathercoin/src/test/accounting_tests.cpp ~/litecoin/src/test/accounting_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/alert_tests.cpp ~/litecoin/src/test/alert_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/allocator_tests.cpp ~/litecoin/src/test/allocator_tests.cpp
+
+Only in ~/projects/Feathercoin/src/test: arith_uint256_tests.cpp
+
+diff -r ~/projects/Feathercoin/src/test/base32_tests.cpp ~/litecoin/src/test/base32_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/base58_tests.cpp ~/litecoin/src/test/base58_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/base64_tests.cpp ~/litecoin/src/test/base64_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/bctest.py ~/litecoin/src/test/bctest.py
+diff -r ~/projects/Feathercoin/src/test/bignum.h ~/litecoin/src/test/bignum.h
+diff -r ~/projects/Feathercoin/src/test/bip32_tests.cpp ~/litecoin/src/test/bip32_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/bitcoin-util-test.py ~/litecoin/src/test/bitcoin-util-test.py
+diff -r ~/projects/Feathercoin/src/test/bloom_tests.cpp ~/litecoin/src/test/bloom_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/checkblock_tests.cpp ~/litecoin/src/test/checkblock_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/Checkpoints_tests.cpp ~/litecoin/src/test/Checkpoints_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/coins_tests.cpp ~/litecoin/src/test/coins_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/compress_tests.cpp ~/litecoin/src/test/compress_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/crypto_tests.cpp ~/litecoin/src/test/crypto_tests.cpp
+Binary files ~/projects/Feathercoin/src/test/data/alertTests.raw and ~/litecoin/src/test/data/alertTests.raw differ
+diff -r ~/projects/Feathercoin/src/test/data/base58_keys_valid.json ~/litecoin/src/test/data/base58_keys_valid.json
+diff -r ~/projects/Feathercoin/src/test/data/bitcoin-util-test.json ~/litecoin/src/test/data/bitcoin-util-test.json
+diff -r ~/projects/Feathercoin/src/test/data/script_invalid.json ~/litecoin/src/test/data/script_invalid.json
+diff -r ~/projects/Feathercoin/src/test/data/script_valid.json ~/litecoin/src/test/data/script_valid.json
+diff -r ~/projects/Feathercoin/src/test/data/txcreate1.hex ~/litecoin/src/test/data/txcreate1.hex
+diff -r ~/projects/Feathercoin/src/test/data/txcreatesign.hex ~/litecoin/src/test/data/txcreatesign.hex
+diff -r ~/projects/Feathercoin/src/test/data/tx_invalid.json ~/litecoin/src/test/data/tx_invalid.json
+diff -r ~/projects/Feathercoin/src/test/data/tx_valid.json ~/litecoin/src/test/data/tx_valid.json
+diff -r ~/projects/Feathercoin/src/test/DoS_tests.cpp ~/litecoin/src/test/DoS_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/getarg_tests.cpp ~/litecoin/src/test/getarg_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/hash_tests.cpp ~/litecoin/src/test/hash_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/key_tests.cpp ~/litecoin/src/test/key_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/main_tests.cpp ~/litecoin/src/test/main_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/mempool_tests.cpp ~/litecoin/src/test/mempool_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/miner_tests.cpp ~/litecoin/src/test/miner_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/mruset_tests.cpp ~/litecoin/src/test/mruset_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/multisig_tests.cpp ~/litecoin/src/test/multisig_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/netbase_tests.cpp ~/litecoin/src/test/netbase_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/pmt_tests.cpp ~/litecoin/src/test/pmt_tests.cpp
+Only in ~/projects/Feathercoin/src/test: policyestimator_tests.cpp
+Only in ~/projects/Feathercoin/src/test: pow_tests.cpp
+Only in ~/projects/Feathercoin/src/test: reverselock_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/rpc_tests.cpp ~/litecoin/src/test/rpc_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/rpc_wallet_tests.cpp ~/litecoin/src/test/rpc_wallet_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/sanity_tests.cpp ~/litecoin/src/test/sanity_tests.cpp
+Only in ~/projects/Feathercoin/src/test: scheduler_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/scriptnum_tests.cpp ~/litecoin/src/test/scriptnum_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/script_P2SH_tests.cpp ~/litecoin/src/test/script_P2SH_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/script_tests.cpp ~/litecoin/src/test/script_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/serialize_tests.cpp ~/litecoin/src/test/serialize_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/sighash_tests.cpp ~/litecoin/src/test/sighash_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/sigopcount_tests.cpp ~/litecoin/src/test/sigopcount_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/skiplist_tests.cpp ~/litecoin/src/test/skiplist_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/test_bitcoin.cpp ~/litecoin/src/test/test_bitcoin.cpp
+Only in ~/projects/Feathercoin/src/test: test_bitcoin.h
+diff -r ~/projects/Feathercoin/src/test/timedata_tests.cpp ~/litecoin/src/test/timedata_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/transaction_tests.cpp ~/litecoin/src/test/transaction_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/uint256_tests.cpp ~/litecoin/src/test/uint256_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/univalue_tests.cpp ~/litecoin/src/test/univalue_tests.cpp
+diff -r ~/projects/Feathercoin/src/test/util_tests.cpp ~/litecoin/src/test/util_tests.cpp
+diff -r ~/projects/Feathercoin/src/threadsafety.h ~/litecoin/src/threadsafety.h
+diff -r ~/projects/Feathercoin/src/timedata.cpp ~/litecoin/src/timedata.cpp
+diff -r ~/projects/Feathercoin/src/timedata.h ~/litecoin/src/timedata.h
+diff -r ~/projects/Feathercoin/src/txdb.cpp ~/litecoin/src/txdb.cpp
+diff -r ~/projects/Feathercoin/src/txdb.h ~/litecoin/src/txdb.h
+diff -r ~/projects/Feathercoin/src/txmempool.cpp ~/litecoin/src/txmempool.cpp
+diff -r ~/projects/Feathercoin/src/txmempool.h ~/litecoin/src/txmempool.h
+diff -r ~/projects/Feathercoin/src/ui_interface.h ~/litecoin/src/ui_interface.h
+diff -r ~/projects/Feathercoin/src/uint256.cpp ~/litecoin/src/uint256.cpp
+diff -r ~/projects/Feathercoin/src/uint256.h ~/litecoin/src/uint256.h
+diff -r ~/projects/Feathercoin/src/undo.h ~/litecoin/src/undo.h
+diff -r ~/projects/Feathercoin/src/univalue/univalue.cpp ~/litecoin/src/univalue/univalue.cpp
+diff -r ~/projects/Feathercoin/src/univalue/univalue.h ~/litecoin/src/univalue/univalue.h
+diff -r ~/projects/Feathercoin/src/univalue/univalue_read.cpp ~/litecoin/src/univalue/univalue_read.cpp
+diff -r ~/projects/Feathercoin/src/univalue/univalue_write.cpp ~/litecoin/src/univalue/univalue_write.cpp
+diff -r ~/projects/Feathercoin/src/util.cpp ~/litecoin/src/util.cpp
+diff -r ~/projects/Feathercoin/src/util.h ~/litecoin/src/util.h
+diff -r ~/projects/Feathercoin/src/utilmoneystr.cpp ~/litecoin/src/utilmoneystr.cpp
+diff -r ~/projects/Feathercoin/src/utilmoneystr.h ~/litecoin/src/utilmoneystr.h
+diff -r ~/projects/Feathercoin/src/utilstrencodings.cpp ~/litecoin/src/utilstrencodings.cpp
+diff -r ~/projects/Feathercoin/src/utilstrencodings.h ~/litecoin/src/utilstrencodings.h
+diff -r ~/projects/Feathercoin/src/utiltime.cpp ~/litecoin/src/utiltime.cpp
+diff -r ~/projects/Feathercoin/src/utiltime.h ~/litecoin/src/utiltime.h
+
+Only in ~/projects/Feathercoin/src: validationinterface.cpp
+Only in ~/projects/Feathercoin/src: validationinterface.h
+diff -r ~/projects/Feathercoin/src/version.h ~/litecoin/src/version.h
+Only in ~/projects/Feathercoin/src: wallet
