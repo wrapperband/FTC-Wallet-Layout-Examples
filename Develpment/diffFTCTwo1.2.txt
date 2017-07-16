@@ -17,32 +17,50 @@ diff -r /home/tony/Feathercoin2/config.log /home/tony/Feathercoin/config.log
 diff -r /home/tony/Feathercoin2/config.status /home/tony/Feathercoin/config.status
 diff -r /home/tony/Feathercoin2/configure /home/tony/Feathercoin/configure
 diff -r /home/tony/Feathercoin2/configure.ac /home/tony/Feathercoin/configure.ac
+
 Only in /home/tony/Feathercoin2/contrib/macdeploy: DS_Store
 Only in /home/tony/Feathercoin2/contrib/macdeploy: macdeployqtplus
 Only in /home/tony/Feathercoin2: COPYING
+
 diff -r /home/tony/Feathercoin2/.git/config /home/tony/Feathercoin/.git/config
 diff -r /home/tony/Feathercoin2/.git/HEAD /home/tony/Feathercoin/.git/HEAD
+
 Binary files /home/tony/Feathercoin2/.git/index and /home/tony/Feathercoin/.git/index differ
+
 diff -r /home/tony/Feathercoin2/.git/logs/HEAD /home/tony/Feathercoin/.git/logs/HEAD
+
 Only in /home/tony/Feathercoin2/.git/logs/refs/heads: 0.11.1
+
 diff -r /home/tony/Feathercoin2/.git/logs/refs/remotes/origin/HEAD /home/tony/Feathercoin/.git/logs/refs/remotes/origin/HEAD
+
 Only in /home/tony/Feathercoin2/.git/objects/pack: pack-aaec5aedaf60953c4fbb71021f4fa4af3321a40a.idx
 Only in /home/tony/Feathercoin2/.git/objects/pack: pack-aaec5aedaf60953c4fbb71021f4fa4af3321a40a.pack
+
 diff -r /home/tony/Feathercoin2/.git/packed-refs /home/tony/Feathercoin/.git/packed-refs
+
 Only in /home/tony/Feathercoin2/.git/refs/heads: 0.11.1
+
 diff -r /home/tony/Feathercoin2/.git/refs/remotes/origin/HEAD /home/tony/Feathercoin/.git/refs/remotes/origin/HEAD
+
 Only in /home/tony/Feathercoin2: .gitattributes
+
 diff -r /home/tony/Feathercoin2/.gitignore /home/tony/Feathercoin/.gitignore
+
 Only in /home/tony/Feathercoin2: INSTALL
+
 diff -r /home/tony/Feathercoin2/libbitcoinconsensus.pc /home/tony/Feathercoin/libbitcoinconsensus.pc
 diff -r /home/tony/Feathercoin2/libtool /home/tony/Feathercoin/libtool
 diff -r /home/tony/Feathercoin2/Makefile /home/tony/Feathercoin/Makefile
 diff -r /home/tony/Feathercoin2/Makefile.in /home/tony/Feathercoin/Makefile.in
+
 Only in /home/tony/Feathercoin2/qa/pull-tester: run-bitcoin-cli
+
 diff -r /home/tony/Feathercoin2/qa/pull-tester/run-bitcoind-for-test.sh /home/tony/Feathercoin/qa/pull-tester/run-bitcoind-for-test.sh
 diff -r /home/tony/Feathercoin2/qa/pull-tester/tests-config.sh /home/tony/Feathercoin/qa/pull-tester/tests-config.sh
 diff -r /home/tony/Feathercoin2/README.md /home/tony/Feathercoin/README.md
+
 Only in /home/tony/Feathercoin2/share: pixmaps
+
 diff -r /home/tony/Feathercoin2/share/qt/Info.plist /home/tony/Feathercoin/share/qt/Info.plist
 diff -r /home/tony/Feathercoin2/share/qt/Info.plist.in /home/tony/Feathercoin/share/qt/Info.plist.in
 diff -r /home/tony/Feathercoin2/share/setup.nsi /home/tony/Feathercoin/share/setup.nsi
@@ -83,9 +101,11 @@ diff -r /home/tony/Feathercoin2/src/crypto/.deps/libbitcoinconsensus_la-sha1.Plo
 diff -r /home/tony/Feathercoin2/src/crypto/.deps/libbitcoinconsensus_la-sha256.Plo /home/tony/Feathercoin/src/crypto/.deps/libbitcoinconsensus_la-sha256.Plo
 diff -r /home/tony/Feathercoin2/src/crypto/.deps/libbitcoinconsensus_la-sha512.Plo /home/tony/Feathercoin/src/crypto/.deps/libbitcoinconsensus_la-sha512.Plo
 Binary files /home/tony/Feathercoin2/src/crypto/libbitcoin_crypto.a and /home/tony/Feathercoin/src/crypto/libbitcoin_crypto.a differ
+
 Only in /home/tony/Feathercoin2/src/.deps: bitcoin_cli-bitcoin-cli.Po
 Only in /home/tony/Feathercoin2/src/.deps: bitcoind-bitcoind.Po
 Only in /home/tony/Feathercoin2/src/.deps: bitcoin_tx-bitcoin-tx.Po
+
 diff -r /home/tony/Feathercoin2/src/.deps/feathercoin_cli-bitcoin-cli.Po /home/tony/Feathercoin/src/.deps/feathercoin_cli-bitcoin-cli.Po
 diff -r /home/tony/Feathercoin2/src/.deps/feathercoind-bitcoind.Po /home/tony/Feathercoin/src/.deps/feathercoind-bitcoind.Po
 diff -r /home/tony/Feathercoin2/src/.deps/feathercoin_tx-bitcoin-tx.Po /home/tony/Feathercoin/src/.deps/feathercoin_tx-bitcoin-tx.Po
@@ -153,11 +173,13 @@ diff -r /home/tony/Feathercoin2/src/.deps/libbitcoin_util_a-utiltime.Po /home/to
 diff -r /home/tony/Feathercoin2/src/init.cpp /home/tony/Feathercoin/src/init.cpp
 diff -r /home/tony/Feathercoin2/src/key.cpp /home/tony/Feathercoin/src/key.cpp
 diff -r /home/tony/Feathercoin2/src/key.h /home/tony/Feathercoin/src/key.h
+
 Only in /home/tony/Feathercoin2/src/leveldb: AUTHORS
 Only in /home/tony/Feathercoin2/src/leveldb: LICENSE
 Only in /home/tony/Feathercoin2/src/leveldb: NEWS
 Only in /home/tony/Feathercoin2/src/leveldb/port: README
 Only in /home/tony/Feathercoin2/src/leveldb: README
+
 diff -r /home/tony/Feathercoin2/src/leveldb/util/env_win.cc /home/tony/Feathercoin/src/leveldb/util/env_win.cc
 diff -r /home/tony/Feathercoin2/src/leveldbwrapper.cpp /home/tony/Feathercoin/src/leveldbwrapper.cpp
 diff -r /home/tony/Feathercoin2/src/leveldbwrapper.h /home/tony/Feathercoin/src/leveldbwrapper.h
@@ -166,6 +188,7 @@ Binary files /home/tony/Feathercoin2/src/libbitcoin_common.a and /home/tony/Feat
 Binary files /home/tony/Feathercoin2/src/libbitcoin_server.a and /home/tony/Feathercoin/src/libbitcoin_server.a differ
 Binary files /home/tony/Feathercoin2/src/libbitcoin_util.a and /home/tony/Feathercoin/src/libbitcoin_util.a differ
 Binary files /home/tony/Feathercoin2/src/libbitcoin_wallet.a and /home/tony/Feathercoin/src/libbitcoin_wallet.a differ
+
 diff -r /home/tony/Feathercoin2/src/main.cpp /home/tony/Feathercoin/src/main.cpp
 diff -r /home/tony/Feathercoin2/src/main.h /home/tony/Feathercoin/src/main.h
 diff -r /home/tony/Feathercoin2/src/Makefile /home/tony/Feathercoin/src/Makefile
@@ -184,8 +207,10 @@ diff -r /home/tony/Feathercoin2/src/primitives/block.h /home/tony/Feathercoin/sr
 diff -r /home/tony/Feathercoin2/src/primitives/.deps/libbitcoin_common_a-block.Po /home/tony/Feathercoin/src/primitives/.deps/libbitcoin_common_a-block.Po
 diff -r /home/tony/Feathercoin2/src/primitives/.deps/libbitcoin_common_a-transaction.Po /home/tony/Feathercoin/src/primitives/.deps/libbitcoin_common_a-transaction.Po
 diff -r /home/tony/Feathercoin2/src/primitives/.deps/libbitcoinconsensus_la-transaction.Plo /home/tony/Feathercoin/src/primitives/.deps/libbitcoinconsensus_la-transaction.Plo
+
 Only in /home/tony/Feathercoin2/src/primitives/.deps: libbitcoin_server_a-block.Po
 Only in /home/tony/Feathercoin2/src/primitives: libbitcoin_server_a-block.o
+
 diff -r /home/tony/Feathercoin2/src/primitives/transaction.cpp /home/tony/Feathercoin/src/primitives/transaction.cpp
 diff -r /home/tony/Feathercoin2/src/primitives/transaction.h /home/tony/Feathercoin/src/primitives/transaction.h
 diff -r /home/tony/Feathercoin2/src/protocol.cpp /home/tony/Feathercoin/src/protocol.cpp
@@ -199,7 +224,9 @@ diff -r /home/tony/Feathercoin2/src/qt/bitcoin.cpp /home/tony/Feathercoin/src/qt
 diff -r /home/tony/Feathercoin2/src/qt/bitcoingui.cpp /home/tony/Feathercoin/src/qt/bitcoingui.cpp
 diff -r /home/tony/Feathercoin2/src/qt/bitcoingui.h /home/tony/Feathercoin/src/qt/bitcoingui.h
 diff -r /home/tony/Feathercoin2/src/qt/bitcoin.qrc /home/tony/Feathercoin/src/qt/bitcoin.qrc
+
 Only in /home/tony/Feathercoin2/src/qt/.deps: qt_bitcoin_qt-bitcoin.Po
+
 diff -r /home/tony/Feathercoin2/src/qt/.deps/qt_feathercoin_qt-bitcoin.Po /home/tony/Feathercoin/src/qt/.deps/qt_feathercoin_qt-bitcoin.Po
 diff -r /home/tony/Feathercoin2/src/qt/.deps/qt_libbitcoinqt_a-addressbookpage.Po /home/tony/Feathercoin/src/qt/.deps/qt_libbitcoinqt_a-addressbookpage.Po
 diff -r /home/tony/Feathercoin2/src/qt/.deps/qt_libbitcoinqt_a-addresstablemodel.Po /home/tony/Feathercoin/src/qt/.deps/qt_libbitcoinqt_a-addresstablemodel.Po
@@ -303,7 +330,9 @@ diff -r /home/tony/Feathercoin2/src/qt/forms/sendcoinsdialog.ui /home/tony/Feath
 diff -r /home/tony/Feathercoin2/src/qt/forms/sendcoinsentry.ui /home/tony/Feathercoin/src/qt/forms/sendcoinsentry.ui
 diff -r /home/tony/Feathercoin2/src/qt/guiutil.cpp /home/tony/Feathercoin/src/qt/guiutil.cpp
 diff -r /home/tony/Feathercoin2/src/qt/guiutil.h /home/tony/Feathercoin/src/qt/guiutil.h
+
 Only in /home/tony/Feathercoin2/src/qt: libbitcoinqt.a
+
 diff -r /home/tony/Feathercoin2/src/qt/locale/bitcoin_ach.ts /home/tony/Feathercoin/src/qt/locale/bitcoin_ach.ts
 diff -r /home/tony/Feathercoin2/src/qt/locale/bitcoin_af_ZA.ts /home/tony/Feathercoin/src/qt/locale/bitcoin_af_ZA.ts
 diff -r /home/tony/Feathercoin2/src/qt/locale/bitcoin_ar.ts /home/tony/Feathercoin/src/qt/locale/bitcoin_ar.ts
@@ -376,11 +405,15 @@ diff -r /home/tony/Feathercoin2/src/qt/locale/bitcoin_zh_CN.ts /home/tony/Feathe
 diff -r /home/tony/Feathercoin2/src/qt/locale/bitcoin_zh_HK.ts /home/tony/Feathercoin/src/qt/locale/bitcoin_zh_HK.ts
 diff -r /home/tony/Feathercoin2/src/qt/locale/bitcoin_zh_TW.ts /home/tony/Feathercoin/src/qt/locale/bitcoin_zh_TW.ts
 diff -r /home/tony/Feathercoin2/src/qt/overviewpage.cpp /home/tony/Feathercoin/src/qt/overviewpage.cpp
+
 Only in /home/tony/Feathercoin2/src/qt: qt_bitcoin_qt-bitcoin.o
+
 diff -r /home/tony/Feathercoin2/src/qt/receivecoinsdialog.cpp /home/tony/Feathercoin/src/qt/receivecoinsdialog.cpp
 diff -r /home/tony/Feathercoin2/src/qt/res/bitcoin-qt-res.rc /home/tony/Feathercoin/src/qt/res/bitcoin-qt-res.rc
+
 Only in /home/tony/Feathercoin2/src/qt/res: .deps
 Only in /home/tony/Feathercoin2/src/qt/res: .dirstamp
+
 Binary files /home/tony/Feathercoin2/src/qt/res/icons/about.png and /home/tony/Feathercoin/src/qt/res/icons/about.png differ
 Binary files /home/tony/Feathercoin2/src/qt/res/icons/about_qt.png and /home/tony/Feathercoin/src/qt/res/icons/about_qt.png differ
 Binary files /home/tony/Feathercoin2/src/qt/res/icons/add.png and /home/tony/Feathercoin/src/qt/res/icons/add.png differ
@@ -455,6 +488,7 @@ Binary files /home/tony/Feathercoin2/src/qt/res/movies/spinner-031.png and /home
 Binary files /home/tony/Feathercoin2/src/qt/res/movies/spinner-032.png and /home/tony/Feathercoin/src/qt/res/movies/spinner-032.png differ
 Binary files /home/tony/Feathercoin2/src/qt/res/movies/spinner-033.png and /home/tony/Feathercoin/src/qt/res/movies/spinner-033.png differ
 Binary files /home/tony/Feathercoin2/src/qt/res/movies/spinner-034.png and /home/tony/Feathercoin/src/qt/res/movies/spinner-034.png differ
+
 diff -r /home/tony/Feathercoin2/src/qt/sendcoinsdialog.cpp /home/tony/Feathercoin/src/qt/sendcoinsdialog.cpp
 diff -r /home/tony/Feathercoin2/src/qt/sendcoinsdialog.h /home/tony/Feathercoin/src/qt/sendcoinsdialog.h
 diff -r /home/tony/Feathercoin2/src/qt/sendcoinsentry.cpp /home/tony/Feathercoin/src/qt/sendcoinsentry.cpp
@@ -515,7 +549,9 @@ diff -r /home/tony/Feathercoin2/src/secp256k1/build-aux/missing /home/tony/Feath
 diff -r /home/tony/Feathercoin2/src/secp256k1/config.log /home/tony/Feathercoin/src/secp256k1/config.log
 diff -r /home/tony/Feathercoin2/src/secp256k1/config.status /home/tony/Feathercoin/src/secp256k1/config.status
 diff -r /home/tony/Feathercoin2/src/secp256k1/configure /home/tony/Feathercoin/src/secp256k1/configure
+
 Only in /home/tony/Feathercoin2/src/secp256k1: COPYING
+
 diff -r /home/tony/Feathercoin2/src/secp256k1/libtool /home/tony/Feathercoin/src/secp256k1/libtool
 diff -r /home/tony/Feathercoin2/src/secp256k1/Makefile /home/tony/Feathercoin/src/secp256k1/Makefile
 diff -r /home/tony/Feathercoin2/src/secp256k1/Makefile.in /home/tony/Feathercoin/src/secp256k1/Makefile.in
@@ -523,7 +559,9 @@ diff -r /home/tony/Feathercoin2/src/secp256k1/src/.deps/libsecp256k1_la-secp256k
 diff -r /home/tony/Feathercoin2/src/secp256k1/src/libsecp256k1-config.h /home/tony/Feathercoin/src/secp256k1/src/libsecp256k1-config.h
 diff -r /home/tony/Feathercoin2/src/secp256k1/src/libsecp256k1-config.h.in /home/tony/Feathercoin/src/secp256k1/src/libsecp256k1-config.h.in
 diff -r /home/tony/Feathercoin2/src/secp256k1/src/libsecp256k1-config.h.in~ /home/tony/Feathercoin/src/secp256k1/src/libsecp256k1-config.h.in~
+
 Only in /home/tony/Feathercoin2/src/secp256k1: TODO
+
 diff -r /home/tony/Feathercoin2/src/serialize.h /home/tony/Feathercoin/src/serialize.h
 diff -r /home/tony/Feathercoin2/src/support/.deps/libbitcoin_util_a-cleanse.Po /home/tony/Feathercoin/src/support/.deps/libbitcoin_util_a-cleanse.Po
 diff -r /home/tony/Feathercoin2/src/support/.deps/libbitcoin_util_a-pagelocker.Po /home/tony/Feathercoin/src/support/.deps/libbitcoin_util_a-pagelocker.Po
@@ -536,7 +574,9 @@ diff -r /home/tony/Feathercoin2/src/uint256.h /home/tony/Feathercoin/src/uint256
 diff -r /home/tony/Feathercoin2/src/univalue/.deps/univalue.Po /home/tony/Feathercoin/src/univalue/.deps/univalue.Po
 diff -r /home/tony/Feathercoin2/src/univalue/.deps/univalue_read.Po /home/tony/Feathercoin/src/univalue/.deps/univalue_read.Po
 diff -r /home/tony/Feathercoin2/src/univalue/.deps/univalue_write.Po /home/tony/Feathercoin/src/univalue/.deps/univalue_write.Po
+
 Binary files /home/tony/Feathercoin2/src/univalue/libbitcoin_univalue.a and /home/tony/Feathercoin/src/univalue/libbitcoin_univalue.a differ
+
 diff -r /home/tony/Feathercoin2/src/version.h /home/tony/Feathercoin/src/version.h
 diff -r /home/tony/Feathercoin2/src/wallet/crypter.cpp /home/tony/Feathercoin/src/wallet/crypter.cpp
 diff -r /home/tony/Feathercoin2/src/wallet/crypter.h /home/tony/Feathercoin/src/wallet/crypter.h
