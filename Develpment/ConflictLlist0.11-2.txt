@@ -319,6 +319,13 @@ Updated to Head
 
 
 
+SelectParams(CBaseChainParams::MAIN);  
+
+LEFT in from 0.11 
+
+
+
+
 
 CONFLICT (modify/delete): src/test/alert_tests.cpp deleted in HEAD and modified in origin/0.11.2-wrapper. Version origin/0.11.2-wrapper of src/test/alert_tests.cpp left in tree.
 
@@ -326,13 +333,68 @@ CONFLICT (modify/delete): src/test/README deleted in origin/0.11.2-wrapper and m
 
 CONFLICT (modify/delete): src/test/Makefile.am deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/test/Makefile.am left in tree.
 
+
+Deleted
+
+
+
 Auto-merging src/test/DoS_tests.cpp
 
 CONFLICT (content): Merge conflict in src/test/DoS_tests.cpp
 
+
+
+updated to head
+
+
 Auto-merging src/test/Checkpoints_tests.cpp
 
 CONFLICT (content): Merge conflict in src/test/Checkpoints_tests.cpp
+
+<<<<<<< HEAD
+    uint256 p1 = uint256("0xfdbe99b90c90bae7505796461471d89ae8388ab953997aa06a355bbda8d915cb");
+    uint256 p41300 = uint256("0x8c4e02f6c0d20e856fd7e952a147fee30ce145ca6932a284f354924362d2b408");
+    BOOST_CHECK(Checkpoints::CheckBlock(1, p1));
+    BOOST_CHECK(Checkpoints::CheckBlock(41300, p41300));
+
+    
+    // Wrong hashes at checkpoints should fail:
+    BOOST_CHECK(!Checkpoints::CheckBlock(1, p41300));
+    BOOST_CHECK(!Checkpoints::CheckBlock(41300, p1));
+
+    // ... but any hash not at a checkpoint should succeed:
+    BOOST_CHECK(Checkpoints::CheckBlock(1+1, p41300));
+    BOOST_CHECK(Checkpoints::CheckBlock(41300+1, p1));
+
+    BOOST_CHECK(Checkpoints::GetTotalBlocksEstimate() >= 40000);
+=======
+    const Checkpoints::CCheckpointData& checkpoints = Params(CBaseChainParams::MAIN).Checkpoints();
+    uint256 p11111 = uint256S("0x0000000069e244f73d78e8fd29ba2fd2ed618bd6fa2ee92559f542fdb26e7c1d");
+    uint256 p134444 = uint256S("0x00000000000005b12ffd4cd315cd34ffd4a594f430ac814c91184a0d42d2b0fe");
+    BOOST_CHECK(Checkpoints::CheckBlock(checkpoints, 11111, p11111));
+    BOOST_CHECK(Checkpoints::CheckBlock(checkpoints, 134444, p134444));
+
+    
+    // Wrong hashes at checkpoints should fail:
+    BOOST_CHECK(!Checkpoints::CheckBlock(checkpoints, 11111, p134444));
+    BOOST_CHECK(!Checkpoints::CheckBlock(checkpoints, 134444, p11111));
+
+    // ... but any hash not at a checkpoint should succeed:
+    BOOST_CHECK(Checkpoints::CheckBlock(checkpoints, 11111+1, p134444));
+    BOOST_CHECK(Checkpoints::CheckBlock(checkpoints, 134444+1, p11111));
+
+    BOOST_CHECK(Checkpoints::GetTotalBlocksEstimate(checkpoints) >= 134444);
+>>>>>>> origin/0.11.2-wrapper
+
+updated to head
+
+
+BOOST_AUTO_TEST_CASE(DoS_checkSig)
+{  etc added
+
+Updated to Head
+
+
 
 Auto-merging src/support/pagelocker.h
 Auto-merging src/support/pagelocker.cpp
@@ -340,73 +402,192 @@ Auto-merging src/script/standard.cpp
 
 CONFLICT (content): Merge conflict in src/script/standard.cpp
 
+Updated to head
+
+
 Auto-merging src/script/script.h
 
 CONFLICT (content): Merge conflict in src/script/script.h
+
+??? done?
+
 
 Auto-merging src/rpcserver.h
 
 CONFLICT (content): Merge conflict in src/rpcserver.h
 
+
+???? done?
+
 Auto-merging src/rpcserver.cpp
 
 CONFLICT (content): Merge conflict in src/rpcserver.cpp
+
+??? done?
+
 
 Auto-merging src/rpcrawtransaction.cpp
 
 CONFLICT (content): Merge conflict in src/rpcrawtransaction.cpp
 
+<<<<<<< HEAD
+        int64_t nValue = out.tx->vout[out.i].nValue;
+        const CScript& pk = out.tx->vout[out.i].scriptPubKey;
+        Object entry;
+        entry.push_back(Pair("txid", out.tx->GetHash().GetHex()));
+        entry.push_back(Pair("vout", out.i));
+        CTxDestination address;
+        if (ExtractDestination(out.tx->vout[out.i].scriptPubKey, address))
+        {
+            entry.push_back(Pair("address", CBitcoinAddress(address).ToString()));
+            if (pwalletMain->mapAddressBook.count(address))
+                entry.push_back(Pair("account", pwalletMain->mapAddressBook[address].name));
+        }
+        entry.push_back(Pair("scriptPubKey", HexStr(pk.begin(), pk.end())));
+        if (pk.IsPayToScriptHash())
+        {
+            CTxDestination address;
+            if (ExtractDestination(pk, address))
+            {
+#warning BOOST_VERSION      
+#if ((BOOST_VERSION / 100000 == 1) && (BOOST_VERSION / 100 % 1000 == 58))
+		  const CScriptID& hash = boost::get<const CScriptID>(address);
+#else
+		  const CScriptID& hash = boost::get<const CScriptID&>(address);
+#endif
+                CScript redeemScript;
+                if (pwalletMain->GetCScript(hash, redeemScript))
+                    entry.push_back(Pair("redeemScript", HexStr(redeemScript.begin(), redeemScript.end())));
+            }
+        }
+        entry.push_back(Pair("amount",ValueFromAmount(nValue)));
+        entry.push_back(Pair("confirmations",out.nDepth));
+        results.push_back(entry);
+    }
+=======
+    CDataStream ssMB(ParseHexV(params[0], "proof"), SER_NETWORK, PROTOCOL_VERSION);
+    CMerkleBlock merkleBlock;
+    ssMB >> merkleBlock;
+
+    Array res;
+
+    vector<uint256> vMatch;
+    if (merkleBlock.txn.ExtractMatches(vMatch) != merkleBlock.header.hashMerkleRoot)
+        return res;
+
+    LOCK(cs_main);
+
+    if (!mapBlockIndex.count(merkleBlock.header.GetHash()) || !chainActive.Contains(mapBlockIndex[merkleBlock.header.GetHash()]))
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Block not found in chain");
+>>>>>>> origin/0.11.2-wrapper
+
+Left as 0.11
+
+
+
+
 Auto-merging src/rpcnet.cpp
 
 CONFLICT (content): Merge conflict in src/rpcnet.cpp
+
+uped to head
+
 
 Auto-merging src/rpcmisc.cpp
 
 CONFLICT (content): Merge conflict in src/rpcmisc.cpp
 
+-copyright
+
+
 Auto-merging src/rpcclient.cpp
 
 CONFLICT (content): Merge conflict in src/rpcclient.cpp
+
+Updated to head for send alert
+
 
 Auto-merging src/qt/walletmodel.h
 
 CONFLICT (content): Merge conflict in src/qt/walletmodel.h
 
+-copyright
+
 Auto-merging src/qt/walletmodel.cpp
 
 CONFLICT (content): Merge conflict in src/qt/walletmodel.cpp
+
+
+updated -copyright
+
+
 
 Auto-merging src/qt/utilitydialog.h
 
 CONFLICT (content): Merge conflict in src/qt/utilitydialog.h
 
+-copyright
+
+
 Auto-merging src/qt/utilitydialog.cpp
 
 CONFLICT (content): Merge conflict in src/qt/utilitydialog.cpp
+
+Updated to head
+
+
 
 Auto-merging src/qt/transactionview.cpp
 
 CONFLICT (content): Merge conflict in src/qt/transactionview.cpp
 
+
+Updated to head
+
+
+
+
 Auto-merging src/qt/transactiondesc.cpp
 
 CONFLICT (content): Merge conflict in src/qt/transactiondesc.cpp
+
+
+Updated to head  coinbase update
+
+
+
 
 Auto-merging src/qt/test/uritests.cpp
 
 CONFLICT (modify/delete): src/qt/test/Makefile.am deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/test/Makefile.am left in tree.
 
+Left in
+
 Auto-merging src/qt/splashscreen.cpp
 
 CONFLICT (content): Merge conflict in src/qt/splashscreen.cpp
+
+
+Updated to Head
+
 
 Auto-merging src/qt/snapwidget.h
 
 CONFLICT (content): Merge conflict in src/qt/snapwidget.h
 
+-copyright
+
+
 Auto-merging src/qt/snapwidget.cpp
 
 CONFLICT (content): Merge conflict in src/qt/snapwidget.cpp
+
+
+
+Updated to Head
+
+
+
 
 Removing src/qt/shiftdialog.h
 Removing src/qt/shiftdialog.cpp
