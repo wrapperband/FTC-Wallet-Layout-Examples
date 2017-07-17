@@ -5,18 +5,25 @@ warning: Cannot merge binary files: src/qt/res/icons/bitcoin.png (HEAD vs. origi
 Auto-merging src/wallet/walletdb.h
 Auto-merging src/wallet/walletdb.cpp
 
-CONFLICT (content): Merge conflict in src/wallet/walletdb.cpp
+CONFLICT (content): Merge conflict in src/wallet/walletdb.cpp -DONE
+
+-Copyright
 
 Auto-merging src/wallet/wallet.cpp
 
-CONFLICT (content): Merge conflict in src/wallet/wallet.cpp
+CONFLICT (content): Merge conflict in src/wallet/wallet.cpp  -DONE
+
+-Copyright
 
 Auto-merging src/wallet/test/wallet_tests.cpp
 Auto-merging src/wallet/stealth.h
 Auto-merging src/wallet/stealth.cpp
 Auto-merging src/wallet/rpcwallet.cpp
 
-CONFLICT (content): Merge conflict in src/wallet/rpcwallet.cpp
+CONFLICT (content): Merge conflict in src/wallet/rpcwallet.cpp -DONE
+
+-Copyright
+
 
 Auto-merging src/wallet/rpcdump.cpp
 
@@ -30,12 +37,21 @@ Removing src/wallet.h
 Auto-merging src/version.h
 
 CONFLICT (content): Merge conflict in src/version.h
+
 CONFLICT (modify/delete): src/version.cpp deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/version.cpp left in tree.
 
 Auto-merging src/test/util_tests.cpp
 Auto-merging src/test/transaction_tests.cpp
 
 CONFLICT (content): Merge conflict in src/test/transaction_tests.cpp
+
+<<<<<<< HEAD
+    t.vout[0].nValue = 6011; // not dust
+=======
+    t.vout[0].nValue = 2730; // not dust
+>>>>>>> origin/0.11.2-wrapper
+
+Updated to Head0.9.6.2
 
 Auto-merging src/test/sigopcount_tests.cpp
 Auto-merging src/test/scriptnum_tests.cpp
