@@ -86,8 +86,11 @@ Only in ~/Feathercoin0.9.6.2/qa/pull-tester: build-tests.sh.in
 Only in ~/Feathercoin0.9.6.2/qa/pull-tester: pull-tester.py
 
 Only in ~/Feathercoin0.9.6.2/qa/pull-tester: pull-tester.sh
+
 diff -r ~/Feathercoin0.9.6.2/qa/pull-tester/run-bitcoind-for-test.sh.in ~/Feathercoin0.11.2/qa/pull-tester/run-bitcoind-for-test.sh.in
+
 Only in ~/Feathercoin0.9.6.2/qa/rpc-tests: conflictedbalance.sh
+
 diff -r ~/Feathercoin0.9.6.2/qa/rpc-tests/listtransactions.py ~/Feathercoin0.11.2/qa/rpc-tests/listtransactions.py
 Only in ~/Feathercoin0.9.6.2/qa/rpc-tests: python-bitcoinrpc
 diff -r ~/Feathercoin0.9.6.2/qa/rpc-tests/README.md ~/Feathercoin0.11.2/qa/rpc-tests/README.md

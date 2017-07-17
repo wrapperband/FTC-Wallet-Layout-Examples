@@ -1,0 +1,415 @@
+warning: Cannot merge binary files: src/qt/res/images/paper_wallet.png (HEAD vs. origin/0.11.2-wrapper)
+warning: Cannot merge binary files: src/qt/res/images/about.png (HEAD vs. origin/0.11.2-wrapper)
+warning: Cannot merge binary files: src/qt/res/icons/bitcoin.png (HEAD vs. origin/0.11.2-wrapper)
+Auto-merging src/wallet/walletdb.h
+Auto-merging src/wallet/walletdb.cpp
+CONFLICT (content): Merge conflict in src/wallet/walletdb.cpp
+Auto-merging src/wallet/wallet.cpp
+CONFLICT (content): Merge conflict in src/wallet/wallet.cpp
+Auto-merging src/wallet/test/wallet_tests.cpp
+Auto-merging src/wallet/stealth.h
+Auto-merging src/wallet/stealth.cpp
+Auto-merging src/wallet/rpcwallet.cpp
+CONFLICT (content): Merge conflict in src/wallet/rpcwallet.cpp
+Auto-merging src/wallet/rpcdump.cpp
+CONFLICT (content): Merge conflict in src/wallet/rpcdump.cpp
+Auto-merging src/wallet/db.h
+Auto-merging src/wallet/db.cpp
+Auto-merging src/wallet/crypter.h
+Auto-merging src/wallet/crypter.cpp
+Removing src/wallet.h
+Auto-merging src/version.h
+CONFLICT (content): Merge conflict in src/version.h
+CONFLICT (modify/delete): src/version.cpp deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/version.cpp left in tree.
+Auto-merging src/test/util_tests.cpp
+Auto-merging src/test/transaction_tests.cpp
+CONFLICT (content): Merge conflict in src/test/transaction_tests.cpp
+Auto-merging src/test/sigopcount_tests.cpp
+Auto-merging src/test/scriptnum_tests.cpp
+CONFLICT (add/add): Merge conflict in src/test/scriptnum_tests.cpp
+Auto-merging src/test/script_tests.cpp
+CONFLICT (content): Merge conflict in src/test/script_tests.cpp
+Auto-merging src/test/script_P2SH_tests.cpp
+CONFLICT (content): Merge conflict in src/test/script_P2SH_tests.cpp
+Auto-merging src/test/rpc_wallet_tests.cpp
+CONFLICT (content): Merge conflict in src/test/rpc_wallet_tests.cpp
+Auto-merging src/test/rpc_tests.cpp
+Auto-merging src/test/multisig_tests.cpp
+CONFLICT (modify/delete): src/test/miner_tests.cpp deleted in HEAD and modified in origin/0.11.2-wrapper. Version origin/0.11.2-wrapper of src/test/miner_tests.cpp left in tree.
+Auto-merging src/test/main_tests.cpp
+CONFLICT (content): Merge conflict in src/test/main_tests.cpp
+Auto-merging src/test/key_tests.cpp
+CONFLICT (content): Merge conflict in src/test/key_tests.cpp
+Removing src/test/hmac_tests.cpp
+Auto-merging src/test/data/tx_valid.json
+CONFLICT (content): Merge conflict in src/test/data/tx_valid.json
+Removing src/test/data/sig_noncanonical.json
+Removing src/test/data/sig_canonical.json
+Auto-merging src/test/data/script_valid.json
+CONFLICT (content): Merge conflict in src/test/data/script_valid.json
+Auto-merging src/test/data/script_invalid.json
+CONFLICT (content): Merge conflict in src/test/data/script_invalid.json
+Removing src/test/data/README.md
+Removing src/test/canonical_tests.cpp
+CONFLICT (modify/delete): src/test/bloom_tests.cpp deleted in HEAD and modified in origin/0.11.2-wrapper. Version origin/0.11.2-wrapper of src/test/bloom_tests.cpp left in tree.
+Removing src/test/bignum_tests.cpp
+Auto-merging src/test/base58_tests.cpp
+CONFLICT (content): Merge conflict in src/test/base58_tests.cpp
+CONFLICT (modify/delete): src/test/alert_tests.cpp deleted in HEAD and modified in origin/0.11.2-wrapper. Version origin/0.11.2-wrapper of src/test/alert_tests.cpp left in tree.
+CONFLICT (modify/delete): src/test/README deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/test/README left in tree.
+CONFLICT (modify/delete): src/test/Makefile.am deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/test/Makefile.am left in tree.
+Auto-merging src/test/DoS_tests.cpp
+CONFLICT (content): Merge conflict in src/test/DoS_tests.cpp
+Auto-merging src/test/Checkpoints_tests.cpp
+CONFLICT (content): Merge conflict in src/test/Checkpoints_tests.cpp
+Auto-merging src/support/pagelocker.h
+Auto-merging src/support/pagelocker.cpp
+Auto-merging src/script/standard.cpp
+CONFLICT (content): Merge conflict in src/script/standard.cpp
+Auto-merging src/script/script.h
+CONFLICT (content): Merge conflict in src/script/script.h
+Auto-merging src/rpcserver.h
+CONFLICT (content): Merge conflict in src/rpcserver.h
+Auto-merging src/rpcserver.cpp
+CONFLICT (content): Merge conflict in src/rpcserver.cpp
+Auto-merging src/rpcrawtransaction.cpp
+CONFLICT (content): Merge conflict in src/rpcrawtransaction.cpp
+Auto-merging src/rpcnet.cpp
+CONFLICT (content): Merge conflict in src/rpcnet.cpp
+Auto-merging src/rpcmisc.cpp
+CONFLICT (content): Merge conflict in src/rpcmisc.cpp
+Auto-merging src/rpcclient.cpp
+CONFLICT (content): Merge conflict in src/rpcclient.cpp
+Auto-merging src/qt/walletmodel.h
+CONFLICT (content): Merge conflict in src/qt/walletmodel.h
+Auto-merging src/qt/walletmodel.cpp
+CONFLICT (content): Merge conflict in src/qt/walletmodel.cpp
+Auto-merging src/qt/utilitydialog.h
+CONFLICT (content): Merge conflict in src/qt/utilitydialog.h
+Auto-merging src/qt/utilitydialog.cpp
+CONFLICT (content): Merge conflict in src/qt/utilitydialog.cpp
+Auto-merging src/qt/transactionview.cpp
+CONFLICT (content): Merge conflict in src/qt/transactionview.cpp
+Auto-merging src/qt/transactiondesc.cpp
+CONFLICT (content): Merge conflict in src/qt/transactiondesc.cpp
+Auto-merging src/qt/test/uritests.cpp
+CONFLICT (modify/delete): src/qt/test/Makefile.am deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/test/Makefile.am left in tree.
+Auto-merging src/qt/splashscreen.cpp
+CONFLICT (content): Merge conflict in src/qt/splashscreen.cpp
+Auto-merging src/qt/snapwidget.h
+CONFLICT (content): Merge conflict in src/qt/snapwidget.h
+Auto-merging src/qt/snapwidget.cpp
+CONFLICT (content): Merge conflict in src/qt/snapwidget.cpp
+Removing src/qt/shiftdialog.h
+Removing src/qt/shiftdialog.cpp
+Auto-merging src/qt/sendcoinsdialog.cpp
+CONFLICT (content): Merge conflict in src/qt/sendcoinsdialog.cpp
+Removing src/qt/res/src/questionmark.svg
+Removing src/qt/res/src/inout.svg
+Removing src/qt/res/src/clock_green.svg
+Removing src/qt/res/src/clock5.svg
+Removing src/qt/res/src/clock4.svg
+Removing src/qt/res/src/clock3.svg
+Removing src/qt/res/src/clock2.svg
+Removing src/qt/res/src/clock1.svg
+Removing src/qt/res/src/bitcoin.svg
+Removing src/qt/res/images/splash_testnet.png
+CONFLICT (modify/delete): src/qt/res/images/splash.png deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/res/images/splash.png left in tree.
+Auto-merging src/qt/res/images/paper_wallet.png
+CONFLICT (content): Merge conflict in src/qt/res/images/paper_wallet.png
+CONFLICT (modify/delete): src/qt/res/images/mainbg.png deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/res/images/mainbg.png left in tree.
+Removing src/qt/res/images/coinnector.png
+Removing src/qt/res/images/about_bitcoin.png
+Auto-merging src/qt/res/images/about.png
+CONFLICT (content): Merge conflict in src/qt/res/images/about.png
+CONFLICT (modify/delete): src/qt/res/images/LOGO.png deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/res/images/LOGO.png left in tree.
+Removing src/qt/res/icons/toolbar_testnet.png
+CONFLICT (modify/delete): src/qt/res/icons/shapeshift.png deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/res/icons/shapeshift.png left in tree.
+Removing src/qt/res/icons/coinnector.png
+Removing src/qt/res/icons/bitcoin_testnet.png
+CONFLICT (modify/delete): src/qt/res/icons/bitcoin_testnet.ico deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/res/icons/bitcoin_testnet.ico left in tree.
+Auto-merging src/qt/res/icons/bitcoin.png
+CONFLICT (content): Merge conflict in src/qt/res/icons/bitcoin.png
+Removing src/qt/res/fonts/ComicNeue-Regular.ttf
+Removing src/qt/res/fonts/ComicNeue-Regular-Oblique.ttf
+Removing src/qt/res/fonts/ComicNeue-Light.ttf
+Removing src/qt/res/fonts/ComicNeue-Light-Oblique.ttf
+Removing src/qt/res/fonts/ComicNeue-Bold.ttf
+Removing src/qt/res/fonts/ComicNeue-Bold-Oblique.ttf
+Removing src/qt/res/feathercoin-qt-res.rc
+Auto-merging src/qt/reportview.h
+CONFLICT (content): Merge conflict in src/qt/reportview.h
+Auto-merging src/qt/qimagesource.cpp
+Auto-merging src/qt/optionsdialog.cpp
+CONFLICT (content): Merge conflict in src/qt/optionsdialog.cpp
+Auto-merging src/qt/multisigdialog.cpp
+Removing src/qt/monitoreddatamapper.h
+Removing src/qt/monitoreddatamapper.cpp
+Removing src/qt/locale/bitcoin_de_AT.ts
+CONFLICT (modify/delete): src/qt/forms/shiftdialog.ui deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/forms/shiftdialog.ui left in tree.
+Auto-merging src/qt/forms/sendcoinsdialog.ui
+CONFLICT (content): Merge conflict in src/qt/forms/sendcoinsdialog.ui
+Auto-merging src/qt/forms/receivecoinsdialog.ui
+CONFLICT (content): Merge conflict in src/qt/forms/receivecoinsdialog.ui
+Auto-merging src/qt/forms/paperwalletdialog.ui
+Auto-merging src/qt/forms/overviewpage.ui
+CONFLICT (content): Merge conflict in src/qt/forms/overviewpage.ui
+CONFLICT (modify/delete): src/qt/forms/opennamedialog.ui deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/forms/opennamedialog.ui left in tree.
+Auto-merging src/qt/forms/helpmessagedialog.ui
+CONFLICT (content): Merge conflict in src/qt/forms/helpmessagedialog.ui
+Auto-merging src/qt/forms/debugdialog.ui
+CONFLICT (content): Merge conflict in src/qt/forms/debugdialog.ui
+Auto-merging src/qt/forms/commentdialog.ui
+Removing src/qt/forms/coinnectordialog.ui
+CONFLICT (modify/delete): src/qt/forms/aboutdialog.ui deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/forms/aboutdialog.ui left in tree.
+CONFLICT (modify/delete): src/qt/feathercoin.qrc deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/feathercoin.qrc left in tree.
+CONFLICT (modify/delete): src/qt/coinnectordialog.h deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/coinnectordialog.h left in tree.
+CONFLICT (modify/delete): src/qt/coinnectordialog.cpp deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/coinnectordialog.cpp left in tree.
+Removing src/qt/bitcoinstrings.cpp
+Auto-merging src/qt/bitcoingui.h
+CONFLICT (content): Merge conflict in src/qt/bitcoingui.h
+Auto-merging src/qt/bitcoingui.cpp
+CONFLICT (content): Merge conflict in src/qt/bitcoingui.cpp
+Auto-merging src/qt/bitcoin.cpp
+CONFLICT (content): Merge conflict in src/qt/bitcoin.cpp
+Auto-merging src/qt/addressbookpage.cpp
+CONFLICT (content): Merge conflict in src/qt/addressbookpage.cpp
+CONFLICT (modify/delete): src/qt/Makefile.am deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/Makefile.am left in tree.
+Removing src/obj/.gitignore
+Removing src/obj-test/.gitignore
+Auto-merging src/net.cpp
+CONFLICT (content): Merge conflict in src/net.cpp
+Auto-merging src/miner.cpp
+CONFLICT (content): Merge conflict in src/miner.cpp
+Auto-merging src/main.h
+CONFLICT (content): Merge conflict in src/main.h
+Auto-merging src/main.cpp
+CONFLICT (content): Merge conflict in src/main.cpp
+Removing src/leveldb/port/README
+Removing src/leveldb/README
+Removing src/leveldb/NEWS
+Removing src/leveldb/LICENSE
+Removing src/leveldb/AUTHORS
+Auto-merging src/key.cpp
+CONFLICT (content): Merge conflict in src/key.cpp
+Removing src/json/json_spirit_writer.cpp
+Removing src/json/json_spirit_value.cpp
+Removing src/json/json_spirit_reader.cpp
+Removing src/json/LICENSE.txt
+Auto-merging src/init.cpp
+CONFLICT (content): Merge conflict in src/init.cpp
+Removing src/feathercoind.cpp
+Removing src/feathercoin-cli.cpp
+Removing src/feathercoin-cli-res.rc
+Removing src/core.h
+Removing src/core.cpp
+Auto-merging src/coins.cpp
+CONFLICT (content): Merge conflict in src/coins.cpp
+Auto-merging src/clientversion.h
+CONFLICT (content): Merge conflict in src/clientversion.h
+Auto-merging src/checkpointsync.h
+Auto-merging src/checkpointsync.cpp
+CONFLICT (content): Merge conflict in src/checkpointsync.cpp
+Auto-merging src/checkpoints.cpp
+CONFLICT (content): Merge conflict in src/checkpoints.cpp
+Auto-merging src/chainparams.h
+CONFLICT (content): Merge conflict in src/chainparams.h
+Auto-merging src/chainparams.cpp
+CONFLICT (content): Merge conflict in src/chainparams.cpp
+Auto-merging src/bitcoin-tx-res.rc
+CONFLICT (rename/delete): src/bitcoin-config.h.in deleted in origin/0.11.2-wrapper and renamed in HEAD. Version HEAD of src/bitcoin-config.h.in left in tree.
+Auto-merging src/base58.cpp
+CONFLICT (content): Merge conflict in src/base58.cpp
+CONFLICT (modify/delete): src/base40.h deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/base40.h left in tree.
+Removing src/auxpow.h
+Removing src/auxpow.cpp
+Auto-merging src/alert.h
+CONFLICT (content): Merge conflict in src/alert.h
+Auto-merging src/alert.cpp
+CONFLICT (content): Merge conflict in src/alert.cpp
+Removing src/Makefile.include
+Removing share/ui.rc
+Removing share/qt/protobuf.pri
+CONFLICT (modify/delete): share/qt/make_spinner.py deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of share/qt/make_spinner.py left in tree.
+CONFLICT (modify/delete): share/qt/img/reload.xcf deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of share/qt/img/reload.xcf left in tree.
+CONFLICT (modify/delete): share/qt/img/reload.png deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of share/qt/img/reload.png left in tree.
+Removing share/qt/extract_strings_qt.py
+Auto-merging share/qt/Info.plist.in
+CONFLICT (content): Merge conflict in share/qt/Info.plist.in
+Removing share/pixmaps/send20mask.bmp
+Removing share/pixmaps/send20.bmp
+Removing share/pixmaps/send16masknoshadow.bmp
+Removing share/pixmaps/send16mask.bmp
+Removing share/pixmaps/send16.bmp
+CONFLICT (modify/delete): share/pixmaps/nsis-wizard.bmp deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of share/pixmaps/nsis-wizard.bmp left in tree.
+CONFLICT (modify/delete): share/pixmaps/nsis-header.bmp deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of share/pixmaps/nsis-header.bmp left in tree.
+Removing share/pixmaps/favicon.ico
+Removing share/pixmaps/check.ico
+Removing share/pixmaps/bitcoin64.xpm
+Removing share/pixmaps/bitcoin64.png
+Removing share/pixmaps/bitcoin32.xpm
+Removing share/pixmaps/bitcoin32.png
+Removing share/pixmaps/bitcoin256.xpm
+Removing share/pixmaps/bitcoin256.png
+Removing share/pixmaps/bitcoin16.xpm
+Removing share/pixmaps/bitcoin16.png
+Removing share/pixmaps/bitcoin128.xpm
+Removing share/pixmaps/bitcoin128.png
+CONFLICT (modify/delete): share/pixmaps/bitcoin.ico deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of share/pixmaps/bitcoin.ico left in tree.
+Removing share/pixmaps/bitcoin-bc.ico
+Removing share/pixmaps/addressbook20mask.bmp
+Removing share/pixmaps/addressbook20.bmp
+Removing share/pixmaps/addressbook16mask.bmp
+Removing share/pixmaps/addressbook16.bmp
+Removing share/certs/PrivateKeyNotes.md
+Removing share/certs/BitcoinFoundation_Comodo_Cert.pem
+Removing share/certs/BitcoinFoundation_Apple_Cert.pem
+Removing qa/rpc-tests/walletbackup.sh
+Removing qa/rpc-tests/wallet.sh
+Removing qa/rpc-tests/util.sh
+Removing qa/rpc-tests/util.py
+Removing qa/rpc-tests/txnmall.sh
+Auto-merging qa/rpc-tests/test_framework/authproxy.py
+Removing qa/rpc-tests/skeleton.py
+Removing qa/rpc-tests/send.sh
+Removing qa/rpc-tests/python-bitcoinrpc/setup.py
+Removing qa/rpc-tests/python-bitcoinrpc/bitcoinrpc/__init__.py
+Removing qa/rpc-tests/python-bitcoinrpc/bitcoinrpc/.gitignore
+Removing qa/rpc-tests/conflictedbalance.sh
+Removing qa/pull-tester/pull-tester.sh
+Removing qa/pull-tester/pull-tester.py
+Removing qa/pull-tester/build-tests.sh.in
+Removing pkg.m4
+Removing doc_install/release-notes-0.9.0.md
+Removing doc/gitian-building/select_startup_disk.png
+Removing doc/gitian-building/port_forwarding_rules.png
+Removing doc/gitian-building/network_settings.png
+Removing doc/gitian-building/debian_install_9_user_password.png
+Removing doc/gitian-building/debian_install_8_set_up_username.png
+Removing doc/gitian-building/debian_install_7_set_up_user_fullname.png
+Removing doc/gitian-building/debian_install_6a_set_up_root_password.png
+Removing doc/gitian-building/debian_install_6_domain_name.png
+Removing doc/gitian-building/debian_install_5_configure_the_network.png
+Removing doc/gitian-building/debian_install_4_configure_keyboard.png
+Removing doc/gitian-building/debian_install_3_select_location.png
+Removing doc/gitian-building/debian_install_2_select_a_language.png
+Removing doc/gitian-building/debian_install_21_finish_installation.png
+Removing doc/gitian-building/debian_install_20_install_grub.png
+Removing doc/gitian-building/debian_install_1_boot_menu.png
+Removing doc/gitian-building/debian_install_19_software_selection.png
+Removing doc/gitian-building/debian_install_18_proxy_settings.png
+Removing doc/gitian-building/debian_install_17_choose_a_mirror2.png
+Removing doc/gitian-building/debian_install_16_choose_a_mirror.png
+Removing doc/gitian-building/debian_install_15_write_changes.png
+Removing doc/gitian-building/debian_install_14_finish.png
+Removing doc/gitian-building/debian_install_13_partition_scheme.png
+Removing doc/gitian-building/debian_install_12_choose_disk.png
+Removing doc/gitian-building/debian_install_11_partition_disks.png
+Removing doc/gitian-building/debian_install_10_configure_clock.png
+Removing doc/gitian-building/create_vm_storage_physical_hard_drive.png
+Removing doc/gitian-building/create_vm_page1.png
+Removing doc/gitian-building/create_vm_memsize.png
+Removing doc/gitian-building/create_vm_hard_drive_file_type.png
+Removing doc/gitian-building/create_vm_hard_drive.png
+Removing doc/gitian-building/create_vm_file_location_size.png
+Removing doc/coding.md
+Removing doc/build-msw.md
+Auto-merging doc/README.md
+CONFLICT (content): Merge conflict in doc/README.md
+Removing doc/Doxyfile
+Removing contrib/verifysfbinaries/verify.sh
+Removing contrib/verifysfbinaries/README.md
+Removing contrib/tidy_datadir.sh
+Removing contrib/testgen/gen_base58_test_vectors.py
+Removing contrib/testgen/base58.py
+Removing contrib/testgen/README.md
+Removing contrib/test-patches/temp-revert-2.patch
+Removing contrib/test-patches/README.md
+Removing contrib/spendfrom/spendfrom.py
+Removing contrib/spendfrom/setup.py
+Removing contrib/spendfrom/README.md
+Removing contrib/seeds/makeseeds.py
+Removing contrib/seeds/README.md
+Removing contrib/qt_translations.py
+Removing contrib/qos/tc.sh
+Removing contrib/qos/README.md
+Removing contrib/pyminer/pyminer.py
+Removing contrib/pyminer/example-config.cfg
+Removing contrib/pyminer/README.md
+CONFLICT (modify/delete): contrib/macdeploy/macdeployqtplus deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of contrib/macdeploy/macdeployqtplus left in tree.
+Auto-merging contrib/macdeploy/fancy.plist
+CONFLICT (modify/delete): contrib/macdeploy/background.psd deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of contrib/macdeploy/background.psd left in tree.
+CONFLICT (modify/delete): contrib/macdeploy/background.png deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of contrib/macdeploy/background.png left in tree.
+CONFLICT (modify/delete): contrib/macdeploy/README.md deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of contrib/macdeploy/README.md left in tree.
+Removing contrib/macdeploy/LICENSE
+Removing contrib/macdeploy/DS_Store
+Removing contrib/linearize/linearize.py
+Removing contrib/linearize/example-linearize.cfg
+Removing contrib/linearize/README.md
+Removing contrib/gitian-downloader/wtogami-key.pgp
+Removing contrib/gitian-downloader/win32-download-config
+Removing contrib/gitian-downloader/tcatm-key.pgp
+Removing contrib/gitian-downloader/sipa-key.pgp
+Removing contrib/gitian-downloader/michagogo-key.pgp
+Removing contrib/gitian-downloader/luke-jr-key.pgp
+Removing contrib/gitian-downloader/linux-download-config
+Removing contrib/gitian-downloader/laanwj-key.pgp
+Removing contrib/gitian-downloader/gavinandresen-key.pgp
+Removing contrib/gitian-downloader/devrandom-key.pgp
+Removing contrib/gitian-downloader/bluematt-key.pgp
+Removing contrib/gitian-downloader/aschildbach-key.pgp
+Removing contrib/gitian-descriptors/qt-win.yml
+Removing contrib/gitian-descriptors/protobuf-win.yml
+Removing contrib/gitian-descriptors/gitian-win.yml
+Removing contrib/gitian-descriptors/gitian-linux.yml
+Removing contrib/gitian-descriptors/deps-win.yml
+Removing contrib/gitian-descriptors/deps-linux.yml
+Removing contrib/gitian-descriptors/boost-win.yml
+Removing contrib/gitian-descriptors/boost-linux.yml
+Removing contrib/gitian-descriptors/README.md
+Removing contrib/devtools/github-merge.sh
+Removing contrib/devtools/fix-copyright-headers.py
+Removing contrib/devtools/README.md
+Removing contrib/debian/watch
+Removing contrib/debian/source/format
+Removing contrib/debian/rules
+Removing contrib/debian/patches/series
+Removing contrib/debian/patches/README
+CONFLICT (rename/delete): contrib/debian/manpages/feathercoind.1 deleted in origin/0.11.2-wrapper and renamed in HEAD. Version HEAD of contrib/debian/manpages/feathercoind.1 left in tree.
+CONFLICT (rename/delete): contrib/debian/manpages/feathercoin.conf.5 deleted in origin/0.11.2-wrapper and renamed in HEAD. Version HEAD of contrib/debian/manpages/feathercoin.conf.5 left in tree.
+CONFLICT (rename/delete): contrib/debian/manpages/feathercoin-qt.1 deleted in origin/0.11.2-wrapper and renamed in HEAD. Version HEAD of contrib/debian/manpages/feathercoin-qt.1 left in tree.
+Removing contrib/debian/gbp.conf
+Removing contrib/debian/examples/bitcoin.conf
+Removing contrib/debian/copyright
+Removing contrib/debian/control
+Removing contrib/debian/compat
+Removing contrib/debian/changelog
+Removing contrib/debian/bitcoind.manpages
+Removing contrib/debian/bitcoind.lintian-overrides
+Removing contrib/debian/bitcoind.install
+Removing contrib/debian/bitcoind.examples
+Removing contrib/debian/bitcoind.bash-completion
+Removing contrib/debian/bitcoin-qt.protocol
+Removing contrib/debian/bitcoin-qt.lintian-overrides
+Removing contrib/debian/bitcoin-qt.install
+Removing contrib/debian/bitcoin-qt.desktop
+Removing contrib/debian/README.md
+Removing contrib/bitrpc/bitrpc.py
+Removing contrib/bitrpc/README.md
+Removing contrib/bitcoind.bash-completion
+Auto-merging contrib/bitcoin-qt.pro
+Removing contrib/README.md
+Auto-merging configure.ac
+CONFLICT (content): Merge conflict in configure.ac
+Auto-merging autogen.sh
+CONFLICT (content): Merge conflict in autogen.sh
+Auto-merging aclocal.m4
+CONFLICT (add/add): Merge conflict in aclocal.m4
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+CONFLICT (modify/delete): INSTALL deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of INSTALL left in tree.
+CONFLICT (modify/delete): COPYING deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of COPYING left in tree.
+Auto-merging .gitignore
+CONFLICT (content): Merge conflict in .gitignore
+Removing .gitattributes
+Automatic merge failed; fix conflicts and then commit the result.
