@@ -150,44 +150,180 @@ CONFLICT (content): Merge conflict in src/test/rpc_wallet_tests.cpp
 >>>>>>> origin/0.11.2-wrapper
 
 
+Updated to head removed test
+
+
 
 Auto-merging src/test/rpc_tests.cpp
 Auto-merging src/test/multisig_tests.cpp
 
 CONFLICT (modify/delete): src/test/miner_tests.cpp deleted in HEAD and modified in origin/0.11.2-wrapper. Version origin/0.11.2-wrapper of src/test/miner_tests.cpp left in tree.
+
+Deleted miner_tests.cpp
+
+
 Auto-merging src/test/main_tests.cpp
 
 CONFLICT (content): Merge conflict in src/test/main_tests.cpp
+
+<<<<<<< HEAD
+    uint64_t nSum = 0;
+    for (int nHeight = 0 ; nHeight < 204638; nHeight += 1000) {
+        uint64_t nSubsidy = GetBlockValue(nHeight, 0);
+        BOOST_CHECK(nSubsidy <= 200 * COIN);
+        nSum += nSubsidy * 1000;
+        BOOST_CHECK(MoneyRange(nSum));
+    }
+    for (int nHeight = 204639 ; nHeight < 23919999; nHeight += 1000) {
+        uint64_t nSubsidy = GetBlockValue(nHeight, 0);
+        BOOST_CHECK(nSubsidy <= 80 * COIN);
+        nSum += nSubsidy * 1000;
+        BOOST_CHECK(MoneyRange(nSum));
+    }
+    BOOST_CHECK_EQUAL(nSum, 33599996093750000ULL);
+=======
+    const Consensus::Params& consensusParams = Params(CBaseChainParams::MAIN).GetConsensus();
+    CAmount nSum = 0;
+    for (int nHeight = 0; nHeight < 14000000; nHeight += 1000) {
+        CAmount nSubsidy = GetBlockSubsidy(nHeight, consensusParams);
+        BOOST_CHECK(nSubsidy <= 50 * COIN);
+        nSum += nSubsidy * 1000;
+        BOOST_CHECK(MoneyRange(nSum));
+    }
+    BOOST_CHECK_EQUAL(nSum, 2099999997690000ULL);
+}
+
+bool ReturnFalse() { return false; }
+bool ReturnTrue() { return true; }
+
+BOOST_AUTO_TEST_CASE(test_combiner_all)
+{
+    boost::signals2::signal<bool (), CombinerAll> Test;
+    BOOST_CHECK(Test());
+    Test.connect(&ReturnFalse);
+    BOOST_CHECK(!Test());
+    Test.connect(&ReturnTrue);
+    BOOST_CHECK(!Test());
+    Test.disconnect(&ReturnFalse);
+    BOOST_CHECK(Test());
+    Test.disconnect(&ReturnTrue);
+    BOOST_CHECK(Test());
+>>>>>>> origin/0.11.2-wrapper
+
+
+Updated to Head
+
 
 Auto-merging src/test/key_tests.cpp
 
 CONFLICT (content): Merge conflict in src/test/key_tests.cpp
 
+<<<<<<< HEAD
+    
+    
+    CSecret secret1C = bsecret1C.GetSecret(fCompressed);
+    CKey key1C;
+    key1C.SetSecret(secret1C, fCompressed);
+    BOOST_CHECK(key1C.IsCompressed() == true);
+    
+    CSecret secret2C = bsecret2C.GetSecret(fCompressed);
+    CKey key2C;
+    key2C.SetSecret(secret2C, fCompressed);
+=======
+    CKey key1C = bsecret1C.GetKey();
+    BOOST_CHECK(key1C.IsCompressed() == true);
+    CKey key2C = bsecret2C.GetKey();
+>>>>>>> origin/0.11.2-wrapper
+
+Updated to Head
+
+
 Removing src/test/hmac_tests.cpp
 Auto-merging src/test/data/tx_valid.json
 
 CONFLICT (content): Merge conflict in src/test/data/tx_valid.json
+
+
+<<<<<<< HEAD
+=======
+["The following is 23b397edccd3740a74adb603c9756370fafcde9bcc4483eb271ecad09a94dd63"],
+["It is of particular interest because it contains an invalidly-encoded signature which OpenSSL accepts"],
+["See http://r6.ca/blog/20111119T211504Z.html"],
+["It is also the first OP_CHECKMULTISIG transaction in standard form"],
+[[["60a20bd93aa49ab4b28d514ec10b06e1829ce6818ec06cd3aabd013ebcdc4bb1", 0, "1 0x41 0x04cc71eb30d653c0c3163990c47b976f3fb3f37cccdcbedb169a1dfef58bbfbfaff7d8a473e7e2e6d317b87bafe8bde97e3cf8f065dec022b51d11fcdd0d348ac4 0x41 0x0461cbdcc5409fb4b4d42b51d33381354d80e550078cb532a34bfa2fcfdeb7d76519aecc62770f5b0e4ef8551946d8a540911abe3e7854a26f39f58b25c15342af 2 OP_CHECKMULTISIG"]],
+"0100000001b14bdcbc3e01bdaad36cc08e81e69c82e1060bc14e518db2b49aa43ad90ba26000000000490047304402203f16c6f40162ab686621ef3000b04e75418a0c0cb2d8aebeac894ae360ac1e780220ddc15ecdfc3507ac48e1681a33eb60996631bf6bf5bc0a0682c4db743ce7ca2b01ffffffff0140420f00000000001976a914660d4ef3a743e3e696ad990364e555c271ad504b88ac00000000", "P2SH"],
+
+["The following is a tweaked form of 23b397edccd3740a74adb603c9756370fafcde9bcc4483eb271ecad09a94dd63"],
+["It is an OP_CHECKMULTISIG with an arbitrary extra byte stuffed into the signature at pos length - 2"],
+["The dummy byte is fine however, so the NULLDUMMY flag should be happy"],
+[[["60a20bd93aa49ab4b28d514ec10b06e1829ce6818ec06cd3aabd013ebcdc4bb1", 0, "1 0x41 0x04cc71eb30d653c0c3163990c47b976f3fb3f37cccdcbedb169a1dfef58bbfbfaff7d8a473e7e2e6d317b87bafe8bde97e3cf8f065dec022b51d11fcdd0d348ac4 0x41 0x0461cbdcc5409fb4b4d42b51d33381354d80e550078cb532a34bfa2fcfdeb7d76519aecc62770f5b0e4ef8551946d8a540911abe3e7854a26f39f58b25c15342af 2 OP_CHECKMULTISIG"]],
+"0100000001b14bdcbc3e01bdaad36cc08e81e69c82e1060bc14e518db2b49aa43ad90ba260000000004a0048304402203f16c6f40162ab686621ef3000b04e75418a0c0cb2d8aebeac894ae360ac1e780220ddc15ecdfc3507ac48e1681a33eb60996631bf6bf5bc0a0682c4db743ce7ca2bab01ffffffff0140420f00000000001976a914660d4ef3a743e3e696ad990364e555c271ad504b88ac00000000", "P2SH,NULLDUMMY"],
+
+["The following is a tweaked form of 23b397edccd3740a74adb603c9756370fafcde9bcc4483eb271ecad09a94dd63"],
+["It is an OP_CHECKMULTISIG with the dummy value set to something other than an empty string"],
+[[["60a20bd93aa49ab4b28d514ec10b06e1829ce6818ec06cd3aabd013ebcdc4bb1", 0, "1 0x41 0x04cc71eb30d653c0c3163990c47b976f3fb3f37cccdcbedb169a1dfef58bbfbfaff7d8a473e7e2e6d317b87bafe8bde97e3cf8f065dec022b51d11fcdd0d348ac4 0x41 0x0461cbdcc5409fb4b4d42b51d33381354d80e550078cb532a34bfa2fcfdeb7d76519aecc62770f5b0e4ef8551946d8a540911abe3e7854a26f39f58b25c15342af 2 OP_CHECKMULTISIG"]],
+"0100000001b14bdcbc3e01bdaad36cc08e81e69c82e1060bc14e518db2b49aa43ad90ba260000000004a01ff47304402203f16c6f40162ab686621ef3000b04e75418a0c0cb2d8aebeac894ae360ac1e780220ddc15ecdfc3507ac48e1681a33eb60996631bf6bf5bc0a0682c4db743ce7ca2b01ffffffff0140420f00000000001976a914660d4ef3a743e3e696ad990364e555c271ad504b88ac00000000", "P2SH"],
+
+["As above, but using a OP_1"],
+[[["60a20bd93aa49ab4b28d514ec10b06e1829ce6818ec06cd3aabd013ebcdc4bb1", 0, "1 0x41 0x04cc71eb30d653c0c3163990c47b976f3fb3f37cccdcbedb169a1dfef58bbfbfaff7d8a473e7e2e6d317b87bafe8bde97e3cf8f065dec022b51d11fcdd0d348ac4 0x41 0x0461cbdcc5409fb4b4d42b51d33381354d80e550078cb532a34bfa2fcfdeb7d76519aecc62770f5b0e4ef8551946d8a540911abe3e7854a26f39f58b25c15342af 2 OP_CHECKMULTISIG"]],
+"0100000001b14bdcbc3e01bdaad36cc08e81e69c82e1060bc14e518db2b49aa43ad90ba26000000000495147304402203f16c6f40162ab686621ef3000b04e75418a0c0cb2d8aebeac894ae360ac1e780220ddc15ecdfc3507ac48e1681a33eb60996631bf6bf5bc0a0682c4db743ce7ca2b01ffffffff0140420f00000000001976a914660d4ef3a743e3e696ad990364e555c271ad504b88ac00000000", "P2SH"],
+
+["As above, but using a OP_1NEGATE"],
+[[["60a20bd93aa49ab4b28d514ec10b06e1829ce6818ec06cd3aabd013ebcdc4bb1", 0, "1 0x41 0x04cc71eb30d653c0c3163990c47b976f3fb3f37cccdcbedb169a1dfef58bbfbfaff7d8a473e7e2e6d317b87bafe8bde97e3cf8f065dec022b51d11fcdd0d348ac4 0x41 0x0461cbdcc5409fb4b4d42b51d33381354d80e550078cb532a34bfa2fcfdeb7d76519aecc62770f5b0e4ef8551946d8a540911abe3e7854a26f39f58b25c15342af 2 OP_CHECKMULTISIG"]],
+"0100000001b14bdcbc3e01bdaad36cc08e81e69c82e1060bc14e518db2b49aa43ad90ba26000000000494f47304402203f16c6f40162ab686621ef3000b04e75418a0c0cb2d8aebeac894ae360ac1e780220ddc15ecdfc3507ac48e1681a33eb60996631bf6bf5bc0a0682c4db743ce7ca2b01ffffffff0140420f00000000001976a914660d4ef3a743e3e696ad990364e555c271ad504b88ac00000000", "P2SH"],
+
+>>>>>>> origin/0.11.2-wrapper
+
+Updated to head
+
+
 Removing src/test/data/sig_noncanonical.json
 Removing src/test/data/sig_canonical.json
 Auto-merging src/test/data/script_valid.json
 
 CONFLICT (content): Merge conflict in src/test/data/script_valid.json
 
+Updated to head
+
 Auto-merging src/test/data/script_invalid.json
 
 CONFLICT (content): Merge conflict in src/test/data/script_invalid.json
+
+Updated to Head0.9.6.2
+
 
 Removing src/test/data/README.md
 Removing src/test/canonical_tests.cpp
 
 CONFLICT (modify/delete): src/test/bloom_tests.cpp deleted in HEAD and modified in origin/0.11.2-wrapper. Version origin/0.11.2-wrapper of src/test/bloom_tests.cpp left in tree.
 
+Deleted
+
 Removing src/test/bignum_tests.cpp
 Auto-merging src/test/base58_tests.cpp
 
+
+
 CONFLICT (content): Merge conflict in src/test/base58_tests.cpp
+
+<<<<<<< HEAD
+                            EncodeBase58(&sourcedata[0], &sourcedata[sourcedata.size()]) == base58string,
+                            strTest);
+=======
+                    EncodeBase58(begin_ptr(sourcedata), end_ptr(sourcedata)) == base58string,
+                    strTest);
+>>>>>>> origin/0.11.2-wrapper
+
+Updated to Head
+
+
+
+
+
 CONFLICT (modify/delete): src/test/alert_tests.cpp deleted in HEAD and modified in origin/0.11.2-wrapper. Version origin/0.11.2-wrapper of src/test/alert_tests.cpp left in tree.
+
 CONFLICT (modify/delete): src/test/README deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/test/README left in tree.
+
 CONFLICT (modify/delete): src/test/Makefile.am deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/test/Makefile.am left in tree.
 
 Auto-merging src/test/DoS_tests.cpp
