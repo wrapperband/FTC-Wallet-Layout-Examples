@@ -57,15 +57,100 @@ Auto-merging src/test/sigopcount_tests.cpp
 Auto-merging src/test/scriptnum_tests.cpp
 
 CONFLICT (add/add): Merge conflict in src/test/scriptnum_tests.cpp
+
+
+<<<<<< HEAD
+    CScriptNum scriptnum2(scriptnum.getvch());
+    BOOST_CHECK(verify(bignum2, scriptnum2));
+
+    CBigNum bignum3(scriptnum2.getvch());
+    CScriptNum scriptnum3(bignum2.getvch());
+=======
+    CScriptNum scriptnum2(scriptnum.getvch(), false);
+    BOOST_CHECK(verify(bignum2, scriptnum2));
+
+    CBigNum bignum3(scriptnum2.getvch());
+    CScriptNum scriptnum3(bignum2.getvch(), false);
+>>>>>>> origin/0.11.2-wrapper
+
+Updated to Head
+
+
 Auto-merging src/test/script_tests.cpp
 
 CONFLICT (content): Merge conflict in src/test/script_tests.cpp
+
+Updated to Head
+
 Auto-merging src/test/script_P2SH_tests.cpp
 
 CONFLICT (content): Merge conflict in src/test/script_P2SH_tests.cpp
+
+<<<<<<< HEAD
+    inner[0].SetDestination(key[0].GetPubKey().GetID());
+    inner[1].SetMultisig(2, std::vector<CKey>(keys.begin(), keys.begin()+2));
+    inner[2].SetMultisig(1, std::vector<CKey>(keys.begin(), keys.begin()+2));
+    inner[3].SetMultisig(2, std::vector<CKey>(keys.begin(), keys.begin()+3));
+=======
+    inner[0] = GetScriptForDestination(key[0].GetPubKey().GetID());
+    inner[1] = GetScriptForMultisig(2, std::vector<CPubKey>(keys.begin(), keys.begin()+2));
+    inner[2] = GetScriptForMultisig(1, std::vector<CPubKey>(keys.begin(), keys.begin()+2));
+    inner[3] = GetScriptForMultisig(2, std::vector<CPubKey>(keys.begin(), keys.begin()+3));
+>>>>>>> origin/0.11.2-wrapper
+
+Updated to Head
+
+
+
+
+
 Auto-merging src/test/rpc_wallet_tests.cpp
 
 CONFLICT (content): Merge conflict in src/test/rpc_wallet_tests.cpp
+
+
+<<<<<<< HEAD
+=======
+    CPubKey demoPubkey = pwalletMain->GenerateNewKey();
+    CBitcoinAddress demoAddress = CBitcoinAddress(CTxDestination(demoPubkey.GetID()));
+    Value retValue;
+    string strAccount = "walletDemoAccount";
+    string strPurpose = "receive";
+    BOOST_CHECK_NO_THROW({ /*Initialize Wallet with an account */
+        CWalletDB walletdb(pwalletMain->strWalletFile);
+        CAccount account;
+        account.vchPubKey = demoPubkey;
+        pwalletMain->SetAddressBook(account.vchPubKey.GetID(), strAccount, strPurpose);
+        walletdb.WriteAccount(strAccount, account);
+    });
+
+    CPubKey setaccountDemoPubkey = pwalletMain->GenerateNewKey();
+    CBitcoinAddress setaccountDemoAddress = CBitcoinAddress(CTxDestination(setaccountDemoPubkey.GetID()));
+
+    /*********************************
+     * 			setaccount
+     *********************************/
+    BOOST_CHECK_NO_THROW(CallRPC("setaccount " + setaccountDemoAddress.ToString() + " nullaccount"));
+    /* 1D1ZrZNe3JUo7ZycKEYQQiQAWd9y54F4XZ is not owned by the test wallet. */
+    BOOST_CHECK_THROW(CallRPC("setaccount 1D1ZrZNe3JUo7ZycKEYQQiQAWd9y54F4XZ nullaccount"), runtime_error);
+    BOOST_CHECK_THROW(CallRPC("setaccount"), runtime_error);
+    /* 1D1ZrZNe3JUo7ZycKEYQQiQAWd9y54F4X (33 chars) is an illegal address (should be 34 chars) */
+    BOOST_CHECK_THROW(CallRPC("setaccount 1D1ZrZNe3JUo7ZycKEYQQiQAWd9y54F4X nullaccount"), runtime_error);
+
+
+    /*********************************
+     *                  getbalance
+     *********************************/
+    BOOST_CHECK_NO_THROW(CallRPC("getbalance"));
+    BOOST_CHECK_NO_THROW(CallRPC("getbalance " + demoAddress.ToString()));
+
+    /*********************************
+     * 			listunspent
+     *********************************/
+>>>>>>> origin/0.11.2-wrapper
+
+
+
 Auto-merging src/test/rpc_tests.cpp
 Auto-merging src/test/multisig_tests.cpp
 
