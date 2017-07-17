@@ -595,6 +595,9 @@ Auto-merging src/qt/sendcoinsdialog.cpp
 
 CONFLICT (content): Merge conflict in src/qt/sendcoinsdialog.cpp
 
+-Copyright
+
+
 Removing src/qt/res/src/questionmark.svg
 Removing src/qt/res/src/inout.svg
 Removing src/qt/res/src/clock_green.svg
@@ -608,30 +611,57 @@ Removing src/qt/res/images/splash_testnet.png
 
 CONFLICT (modify/delete): src/qt/res/images/splash.png deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/res/images/splash.png left in tree.
 
+Good, new splash screen left
+
+
+
 Auto-merging src/qt/res/images/paper_wallet.png
 
 CONFLICT (content): Merge conflict in src/qt/res/images/paper_wallet.png
 CONFLICT (modify/delete): src/qt/res/images/mainbg.png deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/res/images/mainbg.png left in tree.
+
+good new paper wallet left in
+
 
 Removing src/qt/res/images/coinnector.png
 Removing src/qt/res/images/about_bitcoin.png
 Auto-merging src/qt/res/images/about.png
 
 CONFLICT (content): Merge conflict in src/qt/res/images/about.png
+
+
+
+
+??? Is this new about check ...
+
+
+
+
 CONFLICT (modify/delete): src/qt/res/images/LOGO.png deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/res/images/LOGO.png left in tree.
+
+Good new Logo used
 
 Removing src/qt/res/icons/toolbar_testnet.png
 
 CONFLICT (modify/delete): src/qt/res/icons/shapeshift.png deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/res/icons/shapeshift.png left in tree.
+
+Good new logo
+
 
 Removing src/qt/res/icons/coinnector.png
 Removing src/qt/res/icons/bitcoin_testnet.png
 
 CONFLICT (modify/delete): src/qt/res/icons/bitcoin_testnet.ico deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/res/icons/bitcoin_testnet.ico left in tree.
 
+Good new logo
+
 Auto-merging src/qt/res/icons/bitcoin.png
 
 CONFLICT (content): Merge conflict in src/qt/res/icons/bitcoin.png
+
+??? Is this correct copy back.
+
+
 
 Removing src/qt/res/fonts/ComicNeue-Regular.ttf
 Removing src/qt/res/fonts/ComicNeue-Regular-Oblique.ttf
@@ -644,10 +674,17 @@ Auto-merging src/qt/reportview.h
 
 CONFLICT (content): Merge conflict in src/qt/reportview.h
 
+
+
+
 Auto-merging src/qt/qimagesource.cpp
 Auto-merging src/qt/optionsdialog.cpp
 
 CONFLICT (content): Merge conflict in src/qt/optionsdialog.cpp
+
+Updated to Head
+
+
 
 Auto-merging src/qt/multisigdialog.cpp
 Removing src/qt/monitoreddatamapper.h
@@ -656,27 +693,55 @@ Removing src/qt/locale/bitcoin_de_AT.ts
 
 CONFLICT (modify/delete): src/qt/forms/shiftdialog.ui deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/forms/shiftdialog.ui left in tree.
 
+Left in for the moment check
+
+
 Auto-merging src/qt/forms/sendcoinsdialog.ui
 
 CONFLICT (content): Merge conflict in src/qt/forms/sendcoinsdialog.ui
+
+
+Updated to Head
+
 
 Auto-merging src/qt/forms/receivecoinsdialog.ui
 
 CONFLICT (content): Merge conflict in src/qt/forms/receivecoinsdialog.ui
 
+           <string>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Feathercoin network.</string>
+
+           Updated to Head
+
+
+
 Auto-merging src/qt/forms/paperwalletdialog.ui
 Auto-merging src/qt/forms/overviewpage.ui
 
 CONFLICT (content): Merge conflict in src/qt/forms/overviewpage.ui
+
+
+
+
 CONFLICT (modify/delete): src/qt/forms/opennamedialog.ui deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/forms/opennamedialog.ui left in tree.
+
+Remerge nameview ---
+
+
 
 Auto-merging src/qt/forms/helpmessagedialog.ui
 
 CONFLICT (content): Merge conflict in src/qt/forms/helpmessagedialog.ui
 
+
+updated to head
+
+
 Auto-merging src/qt/forms/debugdialog.ui
 
 CONFLICT (content): Merge conflict in src/qt/forms/debugdialog.ui
+
+Updated to head
+
 
 Auto-merging src/qt/forms/commentdialog.ui
 Removing src/qt/forms/coinnectordialog.ui
@@ -686,24 +751,227 @@ CONFLICT (modify/delete): src/qt/feathercoin.qrc deleted in origin/0.11.2-wrappe
 CONFLICT (modify/delete): src/qt/coinnectordialog.h deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/coinnectordialog.h left in tree.
 CONFLICT (modify/delete): src/qt/coinnectordialog.cpp deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/coinnectordialog.cpp left in tree.
 
+Left in for the moments
+
+
 Removing src/qt/bitcoinstrings.cpp
 
 Auto-merging src/qt/bitcoingui.h
 
 CONFLICT (content): Merge conflict in src/qt/bitcoingui.h
 
+Added back from Head
+
+    QAction *accountReportAction;
+    QAction *bitmessageAction;
+//   QAction *shapeshiftAction;
+
+
+
+Retained 0.11 update :
+    QAction *addressBookAction;
+    QAction *debugAction;
+    QAction *bitmessageAction;
+
+
+<<<<<<< HEAD
+    /** Visit Shapeshift' API */
+ //   void openShapeshiftClicked();
+    /** Visit Coinnector' API */
+//    void openCoinnectorClicked();
+        
+#endif
+=======
+
+added back for the moment
+    
+
+
 Auto-merging src/qt/bitcoingui.cpp
 
 CONFLICT (content): Merge conflict in src/qt/bitcoingui.cpp
+
+<<<<<<< HEAD
+    usedSendingAddressesAction = new QAction(QIcon(":/icons/send"), tr("&Sending addresses..."), this);
+    usedSendingAddressesAction->setStatusTip(tr("Show the list of used sending addresses and labels"));
+    usedReceivingAddressesAction = new QAction(QIcon(":/icons/receiving_addresses"), tr("&Receiving addresses..."), this);
+=======
+    usedSendingAddressesAction = new QAction(TextColorIcon(":/icons/address-book"), tr("&Sending addresses..."), this);
+    usedSendingAddressesAction->setStatusTip(tr("Show the list of used sending addresses and labels"));
+    usedReceivingAddressesAction = new QAction(TextColorIcon(":/icons/address-book"), tr("&Receiving addresses..."), this);
+>>>>>>> origin/0.11.2-wrapper
+
+
+Left as new Head commented incase ---   check 
+
+
+    bitmessageAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_7));
+    	
+    /*
+     * Shapeshift and coinnector don't work for feathercoin anymore
+     * therefore remove the menu entries
+     * 
+    shapeshiftAction = new QAction(QIcon(":/icons/shapeshift"), tr("Shapeshift..."), this);
+    shapeshiftAction->setStatusTip(tr("Exchange other coins with your feathercoin on Shapeshift"));
+    shapeshiftAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_8));
+    coinnectorAction = new QAction(QIcon(":/icons/coinnector"), tr("Coinnector..."), this);
+    coinnectorAction->setStatusTip(tr("Exchange other coins with your feathercoin on Coinnector"));
+    coinnectorAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_9));
+    *
+    */
+    
+    showHelpMessageAction = new QAction(QApplication::style()->standardIcon(QStyle::SP_MessageBoxInformation), tr("&Command-line options"), this);
+    showHelpMessageAction->setStatusTip(tr("Show the Feathercoin Core help message to get a list with possible Feathercoin command-line options"));
+    
+    Added from Head   BITMESSAGE -- shapeshift for the moment
+    
+    
+            connect(bitmessageAction, SIGNAL(triggered()), this, SLOT(openBitmessageClicked()));
+//        connect(shapeshiftAction, SIGNAL(triggered()), this, SLOT(openShapeshiftClicked()));
+//        connect(coinnectorAction, SIGNAL(triggered()), this, SLOT(openCoinnectorClicked()));
+        connect(paperWalletAction, SIGNAL(triggered()), walletFrame, SLOT(printPaperWallets()));
+
+        
+        Added back for the moment check
+
+
+    
+    QMenu *advanced = appMenuBar->addMenu(tr("&Advanced"));
+    if(walletFrame)
+    {
+        advanced->addAction(accountReportAction);
+        advanced->addAction(multiSigAction);
+        advanced->addSeparator();
+        advanced->addAction(inertBlockChainAction);
+        advanced->addAction(opennameAction);
+    }
+    
+    QMenu *plugins = appMenuBar->addMenu(tr("&Plugins"));
+    if(walletFrame)
+    { 
+        plugins->addAction(bitmessageAction);
+        plugins->addSeparator();
+     //   plugins->addAction(shapeshiftAction);
+     //   plugins->addAction(coinnectorAction);
+    }
+    
+=======
+    settings->addAction(optionsAction);
+
+>>>>>>> origin/0.11.2-wrapper
+
+
+added bac fro head for moment
+
+
+  <<<<<<< HEAD
+    accountReportAction->setEnabled(enabled);
+    bitmessageAction->setEnabled(enabled);
+  //  shapeshiftAction->setEnabled(enabled);
+  //  coinnectorAction->setEnabled(enabled);
+    paperWalletAction->setEnabled(enabled);
+=======
+>>>>>>> origin/0.11.2-wrapper
+
+Paper wallet added back   check was missing
+
+
+
+
+<<<<<<< HEAD
+/* 
+ * Coinnector and shapeshift disabled
+ * 
+ * 
+void BitcoinGUI::openShapeshiftClicked()
+=======
+void BitcoinGUI::showDebugWindow()
+>>>>>>> origin/0.11.2-wrapper
+
+
+added back for the moment
+
+
+        
+        
 
 Auto-merging src/qt/bitcoin.cpp
 
 CONFLICT (content): Merge conflict in src/qt/bitcoin.cpp
 
+
+-copyright
+
+
+
 Auto-merging src/qt/addressbookpage.cpp
 
 CONFLICT (content): Merge conflict in src/qt/addressbookpage.cpp
+
+<<<<<<< HEAD
+#ifdef USE_QRCODE
+#include "qrcodedialog.h"
+#include "snapwidget.h"
+#endif
+=======
+#include "signverifymessagedialog.h"
+>>>>>>> origin/0.11.2-wrapper
+
+add both  check  
+
+
+
+void AddressBookPage::on_showQRCode_clicked()
+{
+#ifdef USE_QRCODE
+    if(!model)
+        return;
+        
+    QTableView *table = ui->tableView;
+    QModelIndexList indexes = table->selectionModel()->selectedRows(AddressTableModel::Address);
+
+    Q_FOREACH (const QModelIndex index, indexes)
+    {
+        QString address = index.data().toString();
+        QString label = index.sibling(index.row(), 0).data(Qt::EditRole).toString();
+
+        QRCodeDialog *dialog = new QRCodeDialog(address, label, tab == ReceivingTab, this);
+        dialog->setModel(optionsModel);
+        dialog->setAttribute(Qt::WA_DeleteOnClose);
+        dialog->show();
+    }
+#endif
+}
+
+void AddressBookPage::on_importQRCodeButton_clicked()
+{
+#ifdef USE_ZXING
+    SnapWidget* snap = new SnapWidget(this);
+    connect(snap, SIGNAL(finished(QString)), this, SLOT(onSnapClosed(QString))); 
+#endif
+}
+
+void AddressBookPage::onSnapClosed(QString privKey)
+{
+    if (privKey.size() > 0)
+        //to do : some more parsing and validation is needed here
+        //todo: prompt for a label
+        //todo: display a dialog if it doesn't work
+        Q_EMIT importWallet(privKey);
+}
+>>>>>>> origin/0.11.2-wrapper
+
+
+
+Left this in  check
+
+
+
+
 CONFLICT (modify/delete): src/qt/Makefile.am deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of src/qt/Makefile.am left in tree.
+
+Left in for moment  check
+
 
 Removing src/obj/.gitignore
 Removing src/obj-test/.gitignore
@@ -711,17 +979,1154 @@ Auto-merging src/net.cpp
 
 CONFLICT (content): Merge conflict in src/net.cpp
 
+<<<<<<< HEAD
+=======
+#include "crypto/common.h"
+#include "primitives/block.h"
+>>>>>>> origin/0.11.2-wrapper
+
+
+
+
+
+
+
 Auto-merging src/miner.cpp
 
 CONFLICT (content): Merge conflict in src/miner.cpp
+
+<<<<<<< HEAD
+// ScanHash_CryptoPP not used
+//unsigned int static ScanHash_CryptoPP(char* pmidstate, char* pdata, char* phash1, char* phash, unsigned int& nHashesDone)
+//{
+//    unsigned int& nNonce = *(unsigned int*)(pdata + 12);
+//    for (;;)
+//    {
+//        // Crypto++ SHA256
+//        // Hash pdata using pmidstate as the starting state into
+//        // pre-formatted buffer phash1, then hash phash1 into phash
+//        nNonce++;
+//        SHA256Transform(phash1, pdata, pmidstate);
+//        SHA256Transform(phash, phash1, pSHA256InitState);
+//
+//        // Return the nonce if the hash has at least some zero bits,
+//        // caller will check if it has enough to reach the target
+//        if (((unsigned short*)phash)[14] == 0)
+//            return nNonce;
+//
+//        // If nothing found after trying for a while, return -1
+//        if ((nNonce & 0xffff) == 0)
+//        {
+//            nHashesDone = 0xffff+1;
+//            return (unsigned int) -1;
+//        }
+//        if ((nNonce & 0xfff) == 0)
+//            boost::this_thread::interruption_point();
+//    }
+//}
+=======
+bool static ScanHash(const CBlockHeader *pblock, uint32_t& nNonce, uint256 *phash)
+{
+    // Write the first 76 bytes of the block header to a double-SHA256 state.
+    CHash256 hasher;
+    CDataStream ss(SER_NETWORK, PROTOCOL_VERSION);
+    ss << *pblock;
+    assert(ss.size() == 80);
+    hasher.Write((unsigned char*)&ss[0], 76);
+
+    while (true) {
+        nNonce++;
+
+        // Write the last 4 bytes of the block header (the nonce) to a copy of
+        // the double-SHA256 state, and compute the result.
+        CHash256(hasher).Write((unsigned char*)&nNonce, 4).Finalize((unsigned char*)phash);
+
+        // Return the nonce if the hash has at least some zero bits,
+        // caller will check if it has enough to reach the target
+        if (((uint16_t*)phash)[15] == 0)
+            return true;
+
+        // If nothing found after trying for a while, return -1
+        if ((nNonce & 0xfff) == 0)
+            return false;
+    }
+}
+>>>>>>> origin/0.11.2-wrapper
+
+Left this in and head commented check 
+
+
+
+
+
+
+
 
 Auto-merging src/main.h
 
 CONFLICT (content): Merge conflict in src/main.h
 
+
+
+??????
+
+
+
 Auto-merging src/main.cpp
 
 CONFLICT (content): Merge conflict in src/main.cpp
+
+
+
+<<<<<<< HEAD
+map<uint256, CBlock*> mapOrphanBlocksA;
+map<uint256, COrphanBlock*> mapOrphanBlocks;
+multimap<uint256, COrphanBlock*> mapOrphanBlocksByPrev;
+=======
+CTxMemPool mempool(::minRelayTxFee);
+>>>>>>> origin/0.11.2-wrapper
+
+
+Left both in ????   check
+
+
+
+
+<<<<<<< HEAD
+        if (!CheckInputs(tx, state, view, true, SCRIPT_VERIFY_P2SH | SCRIPT_VERIFY_STRICTENC |SCRIPT_VERIFY_DERSIG))
+=======
+        if (!CheckInputs(tx, state, view, true, STANDARD_SCRIPT_VERIFY_FLAGS, true))
+        {
+        		LogPrintf("AcceptToMemoryPool,STANDARD_SCRIPT_VERIFY_FLAGS=%i\n", STANDARD_SCRIPT_VERIFY_FLAGS);
+            return error("AcceptToMemoryPool: ConnectInputs failed %s", hash.ToString());
+        }
+
+        // Check again against just the consensus-critical mandatory script
+        // verification flags, in case of bugs in the standard flags that cause
+        // transactions to pass as valid when they're actually invalid. For
+        // instance the STRICTENC flag was incorrectly allowing certain
+        // CHECKSIG NOT scripts to pass, even though they were invalid.
+        //
+        // There is a similar check in CreateNewBlock() to prevent creating
+        // invalid blocks, however allowing such transactions into the mempool
+        // can be exploited as a DoS attack.
+        if (!CheckInputs(tx, state, view, true, MANDATORY_SCRIPT_VERIFY_FLAGS, true))
+>>>>>>> origin/0.11.2-wrapper
+
+
+Updated to head  version check  ????
+
+
+=======
+    if (fTxIndex) {
+        CDiskTxPos postx;
+        if (pblocktree->ReadTxIndex(hash, postx)) {
+            CAutoFile file(OpenBlockFile(postx, true), SER_DISK, CLIENT_VERSION);
+            if (file.IsNull())
+                return error("%s: OpenBlockFile failed", __func__);
+            CBlockHeader header;
+            try {
+                file >> header;
+                fseek(file.Get(), postx.nTxOffset, SEEK_CUR);
+                file >> txOut;
+            } catch (const std::exception& e) {
+                return error("%s: Deserialize or I/O error - %s", __func__, e.what());
+>>>>>>> origin/0.11.2-wrapper
+
+0.11 code removed
+
+
+
+// pblockindexFBBHLast : no longer used 
+// static CBlockIndex* pblockindexFBBHLast;
+bool WriteBlockToDisk(CBlock& block, CDiskBlockPos& pos)
+=======
+
+bool WriteBlockToDisk(CBlock& block, CDiskBlockPos& pos, const CMessageHeader::MessageStartChars& messageStart)
+>>>>>>> origin/0.11.2-wrapper
+
+
+
+Message start from 0.11 used
+
+
+
+<<<<<<< HEAD
+    if (mapOrphanBlocksByPrev.size() <= (size_t)std::max((int64_t)0, GetArg("-maxorphanblocks", DEFAULT_MAX_ORPHAN_BLOCKS)))
+        return;
+
+    // Pick a random orphan block.
+    int pos = insecure_rand() % mapOrphanBlocksByPrev.size();
+    std::multimap<uint256, COrphanBlock*>::iterator it = mapOrphanBlocksByPrev.begin();
+    while (pos--) it++;
+
+    // As long as this block has other orphans depending on it, move to one of those successors.
+    do {
+        std::multimap<uint256, COrphanBlock*>::iterator it2 = mapOrphanBlocksByPrev.find(it->second->hashBlock);
+        if (it2 == mapOrphanBlocksByPrev.end())
+            break;
+        it = it2;
+    } while(1);
+
+    uint256 hash = it->second->hashBlock;
+    delete it->second;
+    mapOrphanBlocksByPrev.erase(it);
+    mapOrphanBlocks.erase(hash);
+}
+
+int64_t GetBlockValue(int nHeight, int64_t nFees)
+{    
+    int64_t nSubsidy = 200 * COIN;
+	
+		if(nHeight >= nForkThree || (TestNet()))
+			nSubsidy = 80 * COIN;
+
+    // Halving subsidy happens every 2,100,000 blocks. The code below takes account for the
+    // fact that the first 204,639 blocks took 2.5 minutes and after changed to 1 minute.
+    nSubsidy >>= (nHeight + 306960) / 2100000;
+
+    return nSubsidy + nFees;
+}
+
+// Feathercoin: eHRC at 3rd hard fork
+int nTargetTimespan = 3.5 * 24 * 60 * 60; // 3.5 days
+int nTargetSpacing = 2.5 * 60; // 2.5 minutes
+//static const int64_t nInterval = nTargetTimespan / nTargetSpacing;
+
+//
+// minimum amount of work that could possibly be required nTime after
+// minimum work required was nBase
+//
+unsigned int ComputeMinWork(unsigned int nBase, int64_t nTime)
+{
+    const CBigNum &bnLimit = Params().ProofOfWorkLimit();
+    // Testnet has min-difficulty blocks
+    // after nTargetSpacing*2 time between blocks:
+    if (TestNet() && nTime > nTargetSpacing*2)
+        return bnLimit.GetCompact();
+
+    CBigNum bnResult;
+    bnResult.SetCompact(nBase);
+    while (nTime > 0 && bnResult < bnLimit)
+    {
+        // Maximum 400% adjustment...
+        bnResult *= 4;
+        // ... in best-case exactly 4-times-normal target time
+        nTime -= nTargetTimespan*4;
+    }
+    if (bnResult > bnLimit)
+        bnResult = bnLimit;
+    return bnResult.GetCompact();
+}
+
+unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
+{
+    unsigned int nProofOfWorkLimit = Params().ProofOfWorkLimit().GetCompact();
+
+    // Genesis block
+    if (pindexLast == NULL)
+        return nProofOfWorkLimit;
+
+    // The next block
+    int nHeight = pindexLast->nHeight + 1;
+    LogPrintf("GetNextWorkRequired pindexLast block Height=%d,nBits=%d \n",pindexLast->nHeight,pindexLast->nBits);
+    LogPrintf("GetNextWorkRequired the next block Height=%d \n",nHeight);
+
+    /* The 4th hard fork and testnet hard fork */
+    if((nHeight >= nForkFour) || (TestNet() && (nHeight >= nTestnetFork))) {
+        if(!fNeoScrypt) fNeoScrypt = true;
+        /* Difficulty reset after the switch */
+        if((nHeight == nForkFour) || (TestNet() && (nHeight == nTestnetFork)))
+          return(bnNeoScryptSwitch.GetCompact());
+    }
+    LogPrintf("GetNextWorkRequired fork\n");
+    
+    if (nHeight >= nForkOne)
+			nTargetTimespan = (7 * 24 * 60 * 60) / 8; // 7/8 days
+
+    if (nHeight >= nForkTwo)
+			nTargetTimespan = (7 * 24 * 60 * 60) / 32; // 7/32 days
+		
+    if (nHeight >= nForkThree || TestNet()) {
+        nTargetTimespan = 60; // 1 minute timespan
+        nTargetSpacing = 60; // 1 minute block
+    }
+
+    // 2016 blocks initial, 504 after the 1st, 126 after the 2nd hard fork, 15 after the 3rd hard fork
+    int nInterval = nTargetTimespan / nTargetSpacing;
+
+    bool fHardFork = (nHeight == nForkOne) || (nHeight == nForkTwo) || (nHeight == nForkThree) || (nHeight == nForkFour);
+    if(TestNet()) {
+        if (nHeight == nTestnetFork) {
+            fHardFork = true;
+        } else {
+            fHardFork = false;
+        }
+    }
+    	
+    	
+    // Difficulty rules regular blocks
+    if((nHeight % nInterval != 0) && !(fHardFork) && (nHeight < nForkThree))
+    {
+        if (TestNet())
+        {
+            // Special difficulty rule for testnet:
+            // If the new block's timestamp is more than 2* 10 minutes
+            // then allow mining of a min-difficulty block.
+            if (pblock->nTime > pindexLast->nTime + nTargetSpacing*2)
+                return nProofOfWorkLimit;
+            else
+            {
+                // Return the last non-special-min-difficulty-rules-block
+                const CBlockIndex* pindex = pindexLast;
+                while (pindex->pprev && pindex->nHeight % nInterval != 0 && pindex->nBits == nProofOfWorkLimit)
+                    pindex = pindex->pprev;
+                return pindex->nBits;
+            }
+        }
+        return pindexLast->nBits;
+    }
+    LogPrintf("Difficulty rules regular blocks \n");
+    
+    // The 1st retarget after genesis
+    if(nInterval >= nHeight) nInterval = nHeight - 1;    
+
+    // Go back by nInterval
+    const CBlockIndex* pindexFirst = pindexLast;
+    for (int i = 0; pindexFirst && i < nInterval; i++)
+        pindexFirst = pindexFirst->pprev;
+    assert(pindexFirst);
+
+    // Limit adjustment step
+    int64_t nActualTimespan = pindexLast->GetBlockTime() - pindexFirst->GetBlockTime();
+    LogPrintf("GetNextWorkRequired(), nActualTimespan = %d  before bounds\n", nActualTimespan);
+    
+    // Additional averaging over 4x nInterval window
+    if((nHeight >= nForkTwo) && (nHeight < nForkThree)) {
+        nInterval *= 4;
+
+        const CBlockIndex* pindexFirst = pindexLast;
+        for(int i = 0; pindexFirst && i < nInterval; i++)
+          pindexFirst = pindexFirst->pprev;
+
+        int nActualTimespanLong =
+          (pindexLast->GetBlockTime() - pindexFirst->GetBlockTime())/4;
+
+        // Average between short and long windows
+        int nActualTimespanAvg = (nActualTimespan + nActualTimespanLong)/2;
+
+        // Apply .25 damping
+        nActualTimespan = nActualTimespanAvg + 3*nTargetTimespan;
+        nActualTimespan /= 4;
+
+        LogPrintf("RETARGET: nActualTimespanLong = %d, nActualTimeSpanAvg = %d, nActualTimespan (damped) = %d\n",
+          nActualTimespanLong, nActualTimespanAvg, nActualTimespan);
+    }
+    
+  //eHRC  
+	// Additional averaging over 15, 120 and 480 block window
+    if((nHeight >= nForkThree) || TestNet()) {
+	
+        nInterval *= 480;
+
+        int pindexFirstShortTime = 0;
+        int pindexFirstMediumTime = 0;
+        const CBlockIndex* pindexFirstLong = pindexLast;
+		for(int i = 0; pindexFirstLong && i < nInterval && i < nHeight - 1; i++) {  // i < nHeight - 1 special rule for testnet
+			pindexFirstLong = pindexFirstLong->pprev;
+			if (i == 14) {
+                pindexFirstShortTime = pindexFirstLong->GetBlockTime();
+			}
+			if (i == 119) {
+                pindexFirstMediumTime = pindexFirstLong->GetBlockTime();
+			}
+		}
+
+		int nActualTimespanShort =
+            (pindexLast->GetBlockTime() - pindexFirstShortTime)/15;
+		
+		int nActualTimespanMedium =
+            (pindexLast->GetBlockTime() - pindexFirstMediumTime)/120;
+
+        int nActualTimespanLong =
+			(pindexLast->GetBlockTime() - pindexFirstLong->GetBlockTime())/480;
+
+        int nActualTimespanAvg = 0;
+        nActualTimespanAvg = (nActualTimespanShort + nActualTimespanMedium + nActualTimespanLong)/3;
+
+		// Apply .25 damping
+		nActualTimespan = nActualTimespanAvg + 3*nTargetTimespan;
+		nActualTimespan /= 4;
+
+		LogPrintf("RETARGET: nActualTimespanShort = %d, nActualTimespanMedium = %d, nActualTimespanLong = %d, nActualTimeSpanAvg = %d, nActualTimespan (damped) = %d\n",
+		nActualTimespanShort, nActualTimespanMedium, nActualTimespanLong, nActualTimespanAvg, nActualTimespan);
+    }
+
+    // The initial settings (4.0 difficulty limiter)
+    int nActualTimespanMax = nTargetTimespan*4;
+    int nActualTimespanMin = nTargetTimespan/4;
+
+    // The 1st hard fork (1.4142857 aka 41% difficulty limiter)
+    if(nHeight >= nForkOne) {
+        nActualTimespanMax = nTargetTimespan*99/70;
+        nActualTimespanMin = nTargetTimespan*70/99;
+    }
+
+    // The 2nd hard fork (1.0905077 aka 9% difficulty limiter)
+    if(nHeight >= nForkTwo || TestNet()) {
+        nActualTimespanMax = nTargetTimespan*494/453;
+        nActualTimespanMin = nTargetTimespan*453/494;
+    }
+
+    if(nActualTimespan < nActualTimespanMin) nActualTimespan = nActualTimespanMin;
+    if(nActualTimespan > nActualTimespanMax) nActualTimespan = nActualTimespanMax;
+
+    LogPrintf("RETARGET: nActualTimespan = %d after bounds\n", nActualTimespan);
+    LogPrintf("RETARGET: nTargetTimespan = %d, nTargetTimespan/nActualTimespan = %.4f\n", nTargetTimespan, (float) nTargetTimespan/nActualTimespan);
+
+
+    // Retarget
+    CBigNum bnNew;
+    bnNew.SetCompact(pindexLast->nBits);
+    //watch
+    bnNew *= nActualTimespan;
+    bnNew /= nTargetTimespan;
+
+    if (bnNew > Params().ProofOfWorkLimit())
+        bnNew = Params().ProofOfWorkLimit();
+
+    /// debug print
+    LogPrintf("GetNextWorkRequired RETARGET\n");
+    LogPrintf("nTargetTimespan = %d    nActualTimespan = %d\n", nTargetTimespan, nActualTimespan);
+    LogPrintf("Before: %08x  %s\n", pindexLast->nBits, CBigNum().SetCompact(pindexLast->nBits).getuint256().ToString());
+    LogPrintf("After:  %08x  %s\n", bnNew.GetCompact(), bnNew.getuint256().ToString());
+
+    return bnNew.GetCompact();
+}
+
+bool CheckProofOfWork(uint256 hash, unsigned int nBits)
+{
+    CBigNum bnTarget;
+    bnTarget.SetCompact(nBits);
+
+    // Check range
+    if (bnTarget <= 0 || bnTarget > Params().ProofOfWorkLimit())
+        return error("Check range CheckProofOfWork() : nBits below minimum work");
+
+    // Check proof of work matches claimed amount
+    //LogPrintf("CheckProofOfWork() hash=%s \n",hash.ToString().c_str());
+    //LogPrintf("CheckProofOfWork() nBits=%i \n",nBits);
+    //LogPrintf("CheckProofOfWork() bnTarget.getuint256=%s \n",bnTarget.getuint256().ToString().c_str());
+    if (hash > bnTarget.getuint256())
+        return error("matches claimed amount, CheckProofOfWork() : hash doesn't match nBits");
+
+    return true;
+}
+
+bool IsInitialBlockDownload()
+{
+    LOCK(cs_main);
+    if (fImporting || fReindex || chainActive.Height() < Checkpoints::GetTotalBlocksEstimate())
+        return true;
+    static int64_t nLastUpdate;
+    static CBlockIndex* pindexLastBest;
+    if (chainActive.Tip() != pindexLastBest)
+    {
+        pindexLastBest = chainActive.Tip();
+        nLastUpdate = GetTime();
+    }
+    return (GetTime() - nLastUpdate < 10 &&
+            chainActive.Tip()->GetBlockTime() < GetTime() - 24 * 60 * 60);
+=======
+    const CChainParams& chainParams = Params();
+    LOCK(cs_main);
+    if (fImporting || fReindex)
+        return true;
+    if (fCheckpointsEnabled && chainActive.Height() < Checkpoints::GetTotalBlocksEstimate(chainParams.Checkpoints()))
+        return true;
+    static bool lockIBDState = false;
+    if (lockIBDState)
+        return false;
+    bool state = (chainActive.Height() < pindexBestHeader->nHeight - 24 * 6 ||
+            pindexBestHeader->GetBlockTime() < GetTime() - chainParams.MaxTipAge());
+    if (!state)
+        lockIBDState = true;
+    return state;
+>>>>>>> origin/0.11.2-wrapper
+
+
+
+0.11 version taken bbut   check   has forks in now removed ?????
+
+
+<<<<<<< HEAD
+            if (coins.IsCoinBase()) {
+            	
+            	  int minDepth = GetRequiredMaturityDepth(coins.nHeight);            	  
+                //if (nSpendHeight - coins.nHeight < COINBASE_MATURITY)
+                if (nSpendHeight - coins.nHeight < minDepth)
+=======
+            if (coins->IsCoinBase()) {
+            		int minDepth = GetRequiredMaturityDepth(coins->nHeight);            		
+                if (nSpendHeight - coins->nHeight < minDepth)
+>>>>>>> origin/0.11.2-wrapper
+
+
+
+Include coinbase fix check ?????
+
+
+<<<<<<< HEAD
+    	if (pindexNew->pprev && !CheckSyncCheckpoint(pindexNew->GetBlockHash(), pindexNew->pprev))
+=======
+    	if (pindexBestHeader->pprev && !CheckSyncCheckpoint(pindexBestHeader->GetBlockHash(), pindexBestHeader->pprev))
+>>>>>>> origin/0.11.2-wrapper
+
+
+Pulled from head   check ?????
+
+
+
+<<<<<<< HEAD
+  
+//for 0.8.7 ACP
+bool SetBestChain(CValidationState &state, CBlockIndex* pindexNew)
+{
+=======
+
+
+//for 0.8.7 ACP
+bool SetBestChain(CValidationState &state, CBlockIndex* pindexNew)
+{
+		const CChainParams& chainParams = Params();  
+		
+>>>>>>> origin/0.11.2-wrapper
+
+has this been removed check   - left as 0.11  for moment ?????
+
+
+
+<<<<<<< HEAD
+=======
+		//hard retuen 
+		if (pindexNew->GetBlockHash() == hardhashCheckpoint) {
+				LogPrintf("SetBestChain:101  hard return\n");	
+				return true;
+		}
+				
+>>>>>>> origin/0.11.2-wrapper
+
+Left as 0.11 for moment check ?????
+
+
+
+<<<<<<< HEAD
+        			
+    // All modifications to the coin state will be done in this cache.
+    // Only when all have succeeded, we push it to pcoinsTip.
+    CCoinsViewCache view(*pcoinsTip, true);
+
+    // Find the fork (ä»pindexOldTipéå°pindexNew)  
+=======
+    // rollback
+    if (pindexNew->nHeight - pindexOldTip->nHeight >= 1)
+    		return true;
+        			
+    // All modifications to the coin state will be done in this cache.
+    // Only when all have succeeded, we push it to pcoinsTip.
+    CCoinsViewCache view(pcoinsTip);
+    
+    // Find the fork (ŽÓpindexOldTipÍËµœpindexNew)  
+>>>>>>> origin/0.11.2-wrapper
+
+update to head check ????
+
+
+
+
+
+<<<<<<< HEAD
+    // List of what to disconnect (ä»pindexOldTipéå°pindexNew=pfork)
+=======
+    // List of what to disconnect (ŽÓpindexOldTipÍËµœpindexNew=pfork)
+>>>>>>> origin/0.11.2-wrapper
+
+
+update to head check ????
+
+
+
+
+<<<<<<< HEAD
+        LogPrintf("SetBestChain:120: Disconnect %" PRIszu " blocks; %s...\n", vDisconnect.size(), pfork->GetBlockHash().ToString());
+        LogPrintf("SetBestChain:120: Connect %" PRIszu " blocks; ...%s\n", vConnect.size(), pindexNew->GetBlockHash().ToString());
+    }
+    
+    
+    // Disconnect shorter branch
+    vector<CTransaction> vResurrect;
+    BOOST_FOREACH(CBlockIndex* pindex, vDisconnect) {
+        CBlock block;
+        if (!ReadBlockFromDisk(block, pindex))
+            return state.Abort(_("Failed to read block"));
+        int64 nStart = GetTimeMicros();
+=======
+        LogPrintf("SetBestChain:120: Disconnect %d blocks; %s...\n", vDisconnect.size(), pfork->GetBlockHash().ToString());
+        LogPrintf("SetBestChain:120: Connect %d blocks; ...%s\n", vConnect.size(), pindexNew->GetBlockHash().ToString());
+    }
+
+    // Disconnect shorter branch
+    vector<CTransaction> vResurrect;
+    BOOST_FOREACH(CBlockIndex* pindex, vDisconnect) {        
+        LogPrintf("SetBestChain:121,pindex->nHeight=%d,pindex->blockhash=%s\n",pindex->nHeight,pindex->GetBlockHash().ToString());
+        CDiskBlockPos pos = pindex->GetUndoPos();
+        LogPrintf("SetBestChain:122,pos=%s\n",pos.ToString());
+        
+        CBlock block;
+        if (!ReadBlockFromDisk(block, pindex))
+            return AbortNode(state, "Failed to read block");
+        int64_t nStart = GetTimeMicros();
+>>>>>>> origin/0.11.2-wrapper
+
+
+update to head   check ?????
+
+
+
+            if (!tx.IsCoinBase() && pindex->nHeight > Checkpoints::GetTotalBlocksEstimate())
+                vResurrect.push_back(tx);
+    }
+    
+=======
+            if (!tx.IsCoinBase() && pindex->nHeight > Checkpoints::GetTotalBlocksEstimate(chainParams.Checkpoints()))
+                vResurrect.push_back(tx);
+    }
+
+>>>>>>> origin/0.11.2-wrapper
+
+
+
+Update to head ??? check
+
+
+
+
+
+
+<<<<<<< HEAD
+            return state.Abort(_("Failed to read block"));
+        int64 nStart = GetTimeMicros();
+        if (!ConnectBlock(block, state, pindex, view)) {
+            if (state.IsInvalid()) {
+                InvalidChainFound(pindexNew);
+                InvalidBlockFound(pindex,state);
+            }
+            return error("SetBestBlock() : ConnectBlock %s failed", pindex->GetBlockHash().ToString().c_str());
+        }
+        if (fBenchmark)
+            LogPrintf("- Connect: %.2fms\n", (GetTimeMicros() - nStart) * 0.001);
+
+        // Queue memory transactions to delete
+        BOOST_FOREACH(const CTransaction& tx, block.vtx)
+            vDelete.push_back(tx);
+    }
+    LogPrintf("SetBestChain:130: \n");
+    
+    // Flush changes to global coin state
+    int64 nStart = GetTimeMicros();
+    int nModified = view.GetCacheSize();
+    assert(view.Flush());
+    int64 nTime = GetTimeMicros() - nStart;
+    if (fBenchmark)
+        LogPrintf("- Flush %i transactions: %.2fms (%.4fms/tx)\n", nModified, 0.001 * nTime, 0.001 * nTime / nModified);    
+    
+    if (!WriteChainState(state))
+        return false;
+        
+    // Resurrect memory transactions that were in the disconnected branch
+    BOOST_FOREACH(CTransaction& tx, vResurrect) {
+        // ignore validation errors in resurrected transactions
+        CValidationState stateDummy;
+        list<CTransaction> removed;
+        if (!AcceptToMemoryPool(mempool, stateDummy, tx, false, NULL))
+            mempool.remove(tx, removed, true);               
+    }
+    
+    // Delete redundant memory transactions that are in the connected branch
+    list<CTransaction> txConflicted;
+    BOOST_FOREACH(CTransaction& tx, vDelete) {
+        list<CTransaction> removed;
+        mempool.remove(tx, removed);
+        mempool.removeConflicts(tx, txConflicted);
+    }
+    
+    mempool.check(pcoinsTip);
+    LogPrintf("SetBestChain:140: \n");
+    
+    UpdateTip(pindexNew);
+    
+    // Tell wallet about transactions that went from mempool to conflicted:
+    BOOST_FOREACH(const CTransaction &tx, txConflicted) {
+        SyncWithWallets(tx.GetHash(), tx, NULL);
+    }
+    
+		LogPrintf("SetBestChain:150 true.\n");
+    return true;
+}
+
+// Try to activate to the most-work chain (thereby connecting it).
+bool ActivateBestChain(CValidationState &state) {
+    LOCK(cs_main);
+    CBlockIndex *pindexOldTip = chainActive.Tip();
+    bool fComplete = false;
+    while (!fComplete) {
+        FindMostWorkChain();
+        fComplete = true;
+
+        // Check whether we have something to do.
+        if (chainMostWork.Tip() == NULL) break;
+
+        // Disconnect active blocks which are no longer in the best chain.
+        while (chainActive.Tip() && !chainMostWork.Contains(chainActive.Tip())) {
+            if (!DisconnectTip(state))
+                return false;
+        }
+
+        // Connect new blocks.
+        while (!chainActive.Contains(chainMostWork.Tip())) {
+            CBlockIndex *pindexConnect = chainMostWork[chainActive.Height() + 1];
+            if (!ConnectTip(state, pindexConnect)) {
+                if (state.IsInvalid()) {
+                    // The block violates a consensus rule.
+                    if (!state.CorruptionPossible())
+                        InvalidChainFound(chainMostWork.Tip());
+                    fComplete = false;
+                    state = CValidationState();
+                    break;
+                } else {
+                    // A system error occurred (disk space, database error, ...).
+                    return false;
+                }
+=======
+            return AbortNode(state, "Failed to read block");
+        int64_t nStart = GetTimeMicros();
+        if (!ConnectBlock(block, state, pindex, view)) {
+            if (state.IsInvalid()) {
+            		LogPrintf("SetBestChain,InvalidChainFound,InvalidBlockFound.\n");
+                InvalidChainFound(pindexNew);
+                InvalidBlockFound(pindex,state);
+>>>>>>> origin/0.11.2-wrapper
+
+
+
+
+
+Update to head
+
+
+
+
+
+
+
+
+<<<<<<< HEAD
+// to enable merged mining:
+// - set a block from which it will be enabled
+// - set a unique chain ID
+//   (if two have the same ID, they can't be merge mined together)
+int GetAuxPowStartBlock()
+{
+    if (TestNet())
+        return AUXPOW_START_TESTNET;
+    else
+        return AUXPOW_START_MAINNET;
+}
+
+bool CBlockHeader::CheckProofOfWork(int nHeight) const
+{	
+	//LogPrintf("CBlockHeader::CheckProofOfWork(), nHeight=%i \n",nHeight);
+	if (TestNet())
+	{
+		 //work in testnet
+			if (nHeight==INT_MAX)
+			{
+					if (!::CheckProofOfWork(GetPoWHashS(), nBits))
+					{
+							if (!::CheckProofOfWork(GetPoWHash(), nBits))
+							{
+									LogPrintf("CBlockHeader::CheckProofOfWork(),GetPoWHash, nHeight=%i \n",nHeight);
+							    return error("CBlockHeader::CheckProofOfWork() GetPoWHash: INT_MAX proof of work failed.");	
+							}
+					}
+					return true;
+			}			
+			if (nHeight>=600)
+			{
+				if (!::CheckProofOfWork(GetPoWHash(), nBits))
+				{
+						LogPrintf("CBlockHeader::CheckProofOfWork(),GetPoWHash in testnet, nHeight=%i \n",nHeight);
+				    return error("CBlockHeader::CheckProofOfWork() GetPoWHash in testnet: proof of work failed.");	
+				}
+			}
+			else
+			{
+				if (!::CheckProofOfWork(GetPoWHashS(), nBits))
+				{
+						LogPrintf("CBlockHeader::CheckProofOfWork(),GetPoWHashS in testnet, nHeight=%i \n",nHeight);
+				    return error("CBlockHeader::CheckProofOfWork() GetPoWHashS in testnet: proof of work failed.");	
+				}
+			}
+	}
+	else
+	{
+		  //work in mainnet
+			if (nHeight==INT_MAX)
+			{
+					if (!::CheckProofOfWork(GetPoWHashS(), nBits))
+					{
+							if (!::CheckProofOfWork(GetPoWHash(), nBits))
+							{
+									LogPrintf("CBlockHeader::CheckProofOfWork(),GetPoWHash, nHeight=%i \n",nHeight);
+							    return error("CBlockHeader::CheckProofOfWork() GetPoWHash: INT_MAX proof of work failed.");	
+							}
+					}
+					return true;
+			}	
+			if (nHeight>=nForkFour)
+			{
+				if (!::CheckProofOfWork(GetPoWHash(), nBits))
+				{
+						LogPrintf("CBlockHeader::CheckProofOfWork(),GetPoWHash in mainnet, nHeight=%i \n",nHeight);
+				    return error("CBlockHeader::CheckProofOfWork() GetPoWHash in mainnet: proof of work failed.");	
+				}
+			}
+			else
+			{
+				if (!::CheckProofOfWork(GetPoWHashS(), nBits))
+				{
+						LogPrintf("CBlockHeader::CheckProofOfWork(),GetPoWHashS in mainnet, nHeight=%i \n",nHeight);
+				    return error("CBlockHeader::CheckProofOfWork() GetPoWHashS in mainnet: proof of work failed.");	
+				}
+			}
+	}
+	return true;
+}
+
+=======
+
+
+Update to head   check ????
+
+
+
+
+
+
+<<<<<<< HEAD
+                             
+
+
+        // ppcoin: check that the block satisfies synchronized checkpoint
+        // if not in checkpoint advisory mode
+        if (IsSyncCheckpointEnforced() && !CheckSyncCheckpoint(hash, pindexPrev))
+        	return error("checkpoint AcceptBlock() : rejected by synchronized checkpoint");
+
+=======
+
+        // ppcoin: check that the block satisfies synchronized checkpoint
+        // checkpoint advisory mode
+        if (!IsSyncCheckpointEnforced() && !CheckSyncCheckpoint(hash, pindexPrev))
+        	return error("checkpoint ContextualCheckBlockHeader() : rejected by synchronized checkpoint");
+        	
+>>>>>>> origin/0.11.2-wrapper
+
+
+
+update to head
+
+
+
+
+
+<<<<<<< HEAD
+
+    uint256 hash = pindex->GetBlockHash();
+
+    // Check that all transactions are finalized
+    BOOST_FOREACH(const CTransaction& tx, block.vtx)
+        if (!IsFinalTx(tx, nHeight, block.GetBlockTime())) {
+            pindex->nStatus |= BLOCK_FAILED_VALID;
+            return state.DoS(10, error("AcceptBlock() : contains a non-final transaction"),
+                             REJECT_INVALID, "bad-txns-nonfinal");
+        }
+
+    // Enforce block.nVersion=2 rule that the coinbase starts with serialized block height
+    if (block.nVersion == 2 && block.nTime > nSwitchV2 ) 
+    {
+        // if 750 of the last 1,000 blocks are version 2 or greater (51/100 if testnet):
+        if ((!TestNet() && CBlockIndex::IsSuperMajority(2, pindex->pprev, 750, 1000)) ||
+            (TestNet() && CBlockIndex::IsSuperMajority(2, pindex->pprev, 51, 100)))
+        {
+            CScript expect = CScript() << nHeight;
+            if (block.vtx[0].vin[0].scriptSig.size() < expect.size() ||
+                !std::equal(expect.begin(), expect.end(), block.vtx[0].vin[0].scriptSig.begin())) 
+            {
+                pindex->nStatus |= BLOCK_FAILED_VALID;
+                LogPrintf("AcceptBlock() block.nVersion=%d,nHeight=%d:\n",block.nVersion,nHeight);
+                LogPrintf("AcceptBlock() block.vtx[0].vin[0].scriptSig.size()=%d,expect.size()=%d:\n",block.vtx[0].vin[0].scriptSig.size(),expect.size());
+                return state.DoS(100, error("AcceptBlock() : block nVersion 2 height mismatch in coinbase"),
+                                 REJECT_INVALID, "bad-cb-height");
+            }
+        }
+    }
+    
+    if (block.nVersion == 4 )
+    {
+        // if 750 of the last 1,000 blocks are version 2 or greater (51/100 if testnet):
+        if ((!TestNet() && CBlockIndex::IsSuperMajority(2, pindex->pprev, 750, 1000)) ||
+            (TestNet() && CBlockIndex::IsSuperMajority(2, pindex->pprev, 51, 100)))
+        {
+            CScript expect = CScript() << nHeight;
+            if (block.vtx[0].vin[0].scriptSig.size() < expect.size() ||
+                !std::equal(expect.begin(), expect.end(), block.vtx[0].vin[0].scriptSig.begin())) 
+            {
+                pindex->nStatus |= BLOCK_FAILED_VALID;
+                LogPrintf("AcceptBlock() block.nVersion=%d,nHeight=%d:\n",block.nVersion,nHeight);
+                LogPrintf("AcceptBlock() block.vtx[0].vin[0].scriptSig.size()=%d,expect.size()=%d:\n",block.vtx[0].vin[0].scriptSig.size(),expect.size());
+                return state.DoS(100, error("AcceptBlock() : block nVersion 4 height mismatch in coinbase"),
+                                 REJECT_INVALID, "bad-cb-height");
+            }
+        }
+=======
+    else
+    {
+    	//LogPrintf("AcceptBlock CheckBlock true,nHeight=%d.\n",pindex->nHeight);
+>>>>>>> origin/0.11.2-wrapper
+
+
+
+Update to head check ?????
+
+
+
+
+    // Feathercoin: temporarily disable v2 block lockin until we are ready for v2 transition
+    // 1000äžªäž­æ750äžªæ°çæ¬
+    // return false;
+    
+=======
+>>>>>>> origin/0.11.2-wrapper
+
+
+update to head but comment ony check ????
+
+
+
+
+<<<<<<< HEAD
+bool CBlockIndex::IsInMainChain() const
+{
+		return chainActive.Contains(this);
+}
+
+int64_t CBlockIndex::GetMedianTime() const
+{
+    AssertLockHeld(cs_main);
+    const CBlockIndex* pindex = this;
+    for (int i = 0; i < nMedianTimeSpan/2; i++)
+    {
+        if (!chainActive.Next(pindex))
+            return GetBlockTime();
+        pindex = chainActive.Next(pindex);
+    }
+    return pindex->GetMedianTimePast();
+}
+
+std::string CBlockIndex::ToString() const
+{
+    return strprintf("CBlockIndex(pprev=%p, nHeight=%d, merkle=%s, hashBlock=%s)",
+                     pprev, nHeight,
+                     hashMerkleRoot.ToString().substr(0,10).c_str(),
+                     GetBlockHash().ToString().c_str());               
+}
+=======
+>>>>>>> origin/0.11.2-wrapper
+
+
+
+Update to head   check ???
+
+
+
+<<<<<<< HEAD
+        vRecv >> checkpoint;  //æ¶å°çæ£æ¥ç¹
+        LogPrintf("Receive checkpoint,hashCheckpoint=%s\n.",checkpoint.hashCheckpoint.ToString().c_str());
+=======
+        vRecv >> checkpoint;  //ž³ÖµÁËhashCheckpoint
+>>>>>>> origin/0.11.2-wrapper
+
+
+updated to head  check ???
+
+
+
+
+<<<<<<< HEAD
+        		LogPrintf("checkpoint.ProcessSyncCheckpoint(pfrom)=true, hashCheckpoint=%s\n.",checkpoint.hashCheckpoint.ToString().c_str());
+=======
+        		LogPrintf("checkpoint.ProcessSyncCheckpoint(pfrom)=true, hashCheckpoint=%s\n",checkpoint.hashCheckpoint.ToString().c_str());
+>>>>>>> origin/0.11.2-wrapper
+
+
+updated to head  check ????
+
+
+
+
+<<<<<<< HEAD
+            
+            LogPrintf("checkpoint.ProcessSyncCheckpoint  Relay=OK \n.");
+=======
+            LogPrintf("checkpoint.ProcessSyncCheckpoint  Relay=OK \n");
+>>>>>>> origin/0.11.2-wrapper
+
+
+
+updated to head check ???
+
+
+
+
+
+<<<<<<< HEAD
+	
+	/* Message start detector */
+        
+        
+        
+	 if ((memcmp(msg.hdr.pchMessageStart, Params().MessageStart(), MESSAGE_START_SIZE) != 0) && (memcmp(msg.hdr.pchMessageStart, Params().MessageStartNew(), MESSAGE_START_SIZE) != 0)) {
+
+	   	LogPrintf("\n\nPROCESSMESSAGE: INVALID MESSAGESTART\n\n");
+		fOk = false;
+		break;
+	   }
+	  
+=======
+        CDataStream::iterator pstart;
+        int nHeaderSize;
+        bool fMagic;
+        
+        /* Message start detector */
+        unsigned char pchMessageStart[4]    = { 0xfb, 0xc0, 0xb6, 0xdb };
+        unsigned char pchMessageStartNew[4] = { 0xfe, 0x46, 0x54, 0x43 };
+        //testnet
+        if(chainParams.NetworkIDString()=="test") 
+        {
+		        pchMessageStart[0] = 0xda;
+		        pchMessageStartNew[0] = 0xaa;
+		        pchMessageStart[1] = 0xaf;
+		        pchMessageStartNew[1] = 0xbb;
+		        pchMessageStart[2] = 0xa5;
+		        pchMessageStartNew[2] = 0xcc;
+		        pchMessageStart[3] = 0xba;
+		        pchMessageStartNew[3] = 0xdd;
+      	}
+        
+        LogPrintf("PROCESSMESSAGE,pfrom->nVersion=%d,vRecvMsg_HexStr=%s \n",pfrom->nVersion,HexStr(vRecvMsg).c_str());
+        
+        if(pfrom->nVersion) {
+			        if(pfrom->nVersion >= NEW_MAGIC_VERSION) {
+			        		fMagic = true;
+			        		pstart = search(vRecvMsg.begin(), vRecvMsg.end(), BEGIN(pchMessageStartNew), END(pchMessageStartNew));
+			        }
+			        else{
+			        		fMagic = false;
+			        		pstart = search(vRecvMsg.begin(), vRecvMsg.end(), BEGIN(pchMessageStart), END(pchMessageStart));
+			        }
+        }
+        else
+        {
+        		fMagic = false;
+        		pstart = search(vRecvMsg.begin(), vRecvMsg.end(), BEGIN(pchMessageStart), END(pchMessageStart));
+        		if(vRecvMsg.end() == pstart) {
+                /* Must be the new magic number */
+                pstart = search(vRecvMsg.begin(), vRecvMsg.end(), BEGIN(pchMessageStartNew), END(pchMessageStartNew));
+                fMagic = true;
+            }
+        }
+        //Message header size=24
+        nHeaderSize = vRecvMsg.GetSerializeSize(CMessageHeader(Params().MessageStart(),fMagic));	
+        LogPrintf("PROCESSMESSAGE.1 :fMagic=%d,vRecvMsg=%s,nHeaderSize=%d,pstart_to_end=%d,pstart_to_star=%d,vRecv_size=%d \n",fMagic,vRecvMsg.str(), nHeaderSize,vRecvMsg.end() - pstart,pstart - vRecvMsg.begin(),(int)vRecvMsg.size() );			
+				
+        if (vRecvMsg.end() - pstart < nHeaderSize)
+        {
+            if ((int)vRecvMsg.size() > nHeaderSize)
+            {
+                LogPrintf("\n\nPROCESSMESSAGE MESSAGESTART NOT FOUND\n\n");
+                vRecvMsg.erase(vRecvMsg.begin(), vRecvMsg.end() - nHeaderSize);
+            }
+            vector<unsigned char> vRecvMsgOut(vRecvMsg.begin(), vRecvMsg.begin() + nHeaderSize);
+            LogPrintf("PROCESSMESSAGE.1.10 this message break,pfrom->nVersion=%d,vRecvMsg_HexStr=%s \n",pfrom->nVersion,HexStr(vRecvMsgOut).c_str());
+            break;
+        }
+        if (pstart - vRecvMsg.begin() > 0)
+            LogPrintf("\n\nPROCESSMESSAGE SKIPPED %d BYTES\n\n", pstart - vRecvMsg.begin());
+        vRecvMsg.erase(vRecvMsg.begin(), pstart);
+>>>>>>> origin/0.11.2-wrapper
+
+
+
+message start leave 0.11 check ????
+
+
+
+
+Looks like a fix
+
+
+<<<<<<< HEAD
+
+	
+        /* Don't accept blocks with bogus nVersion numbers after this point */
+        if (nHeight >= nForkFour)  {
+            if ((block.nVersion !=2)&&(block.nVersion !=4)) 
+            {
+            		LogPrintf("AcceptBlockHeader,incorrect block version=%d \n",block.nVersion);
+                return(state.DoS(100, error("AcceptBlock() : incorrect block version")));
+            }
+        }
+        
+        // Check proof of work
+        unsigned int uiBits=GetNextWorkRequired(pindexPrev, &block);
+        if (block.nBits !=uiBits )
+        {
+        		LogPrintf("AcceptBlockHeader,GetNextWorkRequired, uiBits=%d ,block.nBits=%d \n",uiBits,block.nBits);
+            return state.DoS(100, error("AcceptBlock(),Check proof of work : incorrect proof of work"),
+                             REJECT_INVALID, "bad-diffbits");
+        }
+=======
+    int nHeight = pindexPrev->nHeight+1;
+    const Consensus::Params& consensusParams = chainParams.GetConsensus(nHeight);
+
+    // Check proof of work
+    if (block.nBits != GetNextWorkRequired(pindexPrev, &block, consensusParams))
+    {
+    		LogPrintf("ContextualCheckBlockHeader,nHeight=%d,block.nBits=%d,GetNextWorkRequired=%d\n",nHeight,block.nBits,GetNextWorkRequired(pindexPrev, &block, consensusParams));
+        return state.DoS(100, error("%s: incorrect proof of work", __func__),
+                         REJECT_INVALID, "bad-diffbits");
+    }
+>>>>>>> origin/0.11.2-wrapper
+
+
+
+Updated to head  check ?????
+
+
+
+
+
+
 
 Removing src/leveldb/port/README
 Removing src/leveldb/README
@@ -732,6 +2137,10 @@ Auto-merging src/key.cpp
 
 CONFLICT (content): Merge conflict in src/key.cpp
 
+-copyright
+
+
+
 Removing src/json/json_spirit_writer.cpp
 Removing src/json/json_spirit_value.cpp
 Removing src/json/json_spirit_reader.cpp
@@ -739,6 +2148,40 @@ Removing src/json/LICENSE.txt
 Auto-merging src/init.cpp
 
 CONFLICT (content): Merge conflict in src/init.cpp
+
+
+
+<<<<<<< HEAD
+                uiInterface.InitMessage(_("Checking ACP ..."));
+                if (!CheckCheckpointPubKey()) {
+                    strLoadError = _("Checking ACP pubkey failed");
+                    break;
+                }
+            } catch(std::exception &e) {
+=======
+                
+                // Check if the ACP public key has changed in this code version
+		// and reset the ACP root to the last hardcoded checkpoint
+		uiInterface.InitMessage(_("Checking ACP ..."));
+		if (!CheckCheckpointPubKey()) {
+		    strLoadError = _("Checking ACP pubkey failed");
+		    break;
+	}
+            } catch (const std::exception& e) {
+>>>>>>> origin/0.11.2-wrapper
+
+
+
+
+Update to head check ????
+
+
+
+
+
+
+
+
 
 Removing src/feathercoind.cpp
 Removing src/feathercoin-cli.cpp
