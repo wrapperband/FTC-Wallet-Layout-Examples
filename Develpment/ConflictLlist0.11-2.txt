@@ -405,6 +405,59 @@ CONFLICT (content): Merge conflict in src/script/standard.cpp
 Updated to head
 
 
+<<<<<<< HEAD:src/script.cpp
+                    // Drop the signature, since there's no way for a signature to sign itself
+                    scriptCode.FindAndDelete(CScript(vchSig));
+		                        if (!CheckSignatureEncoding(vchSig, flags)) {
+                        return false;
+                    }
+
+=======
+bool ExtractDestinations(const CScript& scriptPubKey, txnouttype& typeRet, vector<CTxDestination>& addressRet, int& nRequiredRet)
+{
+    addressRet.clear();
+    typeRet = TX_NONSTANDARD;
+    vector<valtype> vSolutions;
+    if (!Solver(scriptPubKey, typeRet, vSolutions))
+        return false;
+    if (typeRet == TX_NULL_DATA){
+        // This is data, not addresses
+        return false;
+    }
+>>>>>>> origin/0.11.2-wrapper:src/script/standard.cpp
+
+
+Left as 0.11   check ????????
+
+
+
+<<<<<<< HEAD:src/script.cpp
+                    bool fSuccess = true;
+                    while (fSuccess && nSigsCount > 0)
+                    {
+                        valtype& vchSig    = stacktop(-isig);
+                        valtype& vchPubKey = stacktop(-ikey);
+ 
+			if (!CheckSignatureEncoding(vchSig, flags)) {
+                            return false;
+                        }
+=======
+CScript GetScriptForDestination(const CTxDestination& dest)
+{
+    CScript script;
+>>>>>>> origin/0.11.2-wrapper:src/script/standard.cpp
+
+
+Left as 0.11.2   check ?????
+
+
+
+
+
+
+
+
+
 Auto-merging src/script/script.h
 
 CONFLICT (content): Merge conflict in src/script/script.h
@@ -534,6 +587,46 @@ Auto-merging src/qt/utilitydialog.cpp
 CONFLICT (content): Merge conflict in src/qt/utilitydialog.cpp
 
 Updated to head
+
+
+<<<<<<< HEAD
+    class HelpMessageDialog;
+    /* These definitions generate warnings, but they are used in utility dialog.cpp */
+static const char* OPENNAME_NAME_PREORDER="a";
+static const char* OPENNAME_NAME_REGISTRATION="b";
+static const char* OPENNAME_NAME_UPDATE="c";
+static const char* OPENNAME_NAME_TRANSFER="d";
+static const char* OPENNAME_NAME_RENEWAL="e";
+    
+=======
+    class PaperWalletDialog;
+>>>>>>> origin/0.11.2-wrapper
+
+
+Updated to head  check leave paperwallet class ?????
+
+
+<<<<<<< HEAD
+    void processSendCoinsReturn(const WalletModel::SendCoinsReturn &sendCoinsReturn, const QString &msgArg = QString());
+    
+private slots:
+    void on_insertButton_clicked();
+    void on_pushButton_clicked();
+    
+signals:
+    void message(const QString &title, const QString &message, unsigned int style);
+=======
+    static const int PAPER_WALLET_READJUST_LIMIT = 20;
+    static const int PAPER_WALLET_PAGE_MARGIN = 50;
+
+private Q_SLOTS:
+    void on_getNewAddress_clicked();
+    void on_printButton_clicked();
+>>>>>>> origin/0.11.2-wrapper
+};
+
+
+Updated to 0.11  check slotcs ?????
 
 
 
@@ -984,6 +1077,13 @@ CONFLICT (content): Merge conflict in src/net.cpp
 #include "crypto/common.h"
 #include "primitives/block.h"
 >>>>>>> origin/0.11.2-wrapper
+
+
+Left as 0.11   for moment check ????
+
+
+
+
 
 
 
@@ -2411,7 +2511,7 @@ CONFLICT (content): Merge conflict in src/chainparams.cpp
 
 
 
-Updated to Head
+Updated to Head check ???
 
 
 
@@ -2440,7 +2540,86 @@ Updated to Head
 
 
 
-Updated to head
+Updated to head check ????
+
+
+
+
+<<<<<<< HEAD
+	
+	pchMessageStartNew[0] = 0xaa;
+        pchMessageStartNew[1] = 0xbb;
+        pchMessageStartNew[2] = 0xcc;
+        pchMessageStartNew[3] = 0xdd;
+        //how to do
+        vAlertPubKey = ParseHex("04e7b36458cb1db28567a99391109bc55a0c55623836d93d8794db6549dcc590012d1f5e23c786b752650dadce34fe5504dd7332450392eeb8292e62b211920c78");
+=======
+        pchMessageStartNew[3] = 0xdd;
+        
+        vAlertPubKey = ParseHex("04302390343f91cc401d56d68b123028bf52e5fca1939df127f63c6467cdf9c8e2c14b61104cf817d0b780da337893ecc4aaff1309e536162dabbdb45200ca2b0a");
+>>>>>>> origin/0.11.2-wrapper
+
+
+Updated to head   possible missta check ????
+
+
+
+
+
+<<<<<<< HEAD
+        //how to do feathercoin
+        //vSeeds.push_back(CDNSSeedData("bitcoin.petertodd.org", "testnet-seed.bitcoin.petertodd.org"));
+        vSeeds.push_back(CDNSSeedData("explorer2.feathercoin.com","feathercoin.com"));
+        vSeeds.push_back(CDNSSeedData("testnet-dnsseed.feathercoin.com","feathercoin.com"));
+
+        // Boost sucks, and should not be used. Workaround for Boost not being compatible with C++11;
+        
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,65);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
+        base58Prefixes[SECRET_KEY]     = std::vector<unsigned char>(1,193);//65+128
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
+=======
+        vSeeds.push_back(CDNSSeedData("feathercoin.com", "testnet-dnsseed.feathercoin.com"));
+        vSeeds.push_back(CDNSSeedData("testnet.ftc-c.com", "testnet.ftc-c.com"));
+        vSeeds.push_back(CDNSSeedData("ftc-c.com", "www.ftc-c.com"));
+
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,65);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,193);
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
+
+        vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
+
+        fRequireRPCPassword = true;
+        fMiningRequiresPeers = true;
+        fDefaultConsistencyChecks = false;
+        fRequireStandard = false;
+        fMineBlocksOnDemand = false;
+        fTestnetToBeDeprecatedFieldRPC = true;
+
+        checkpointData = (Checkpoints::CCheckpointData) {
+            boost::assign::map_list_of
+            ( 33, uint256S("09dcf042b1e97a95280d5933c9c167f66dfc622298b407732441f1b550498408"))
+            ( 605, uint256S("000ab904f845ae043917ed23c8dab96fd9a6a0f8b51d00bcab87b875672cb70b")),
+            1458870852,
+            1488,
+            300
+        };
+
+>>>>>>> origin/0.11.2-wrapper
+
+
+Updated to head check ????
+
+
+
+
+
+
+
+
 
 
 
