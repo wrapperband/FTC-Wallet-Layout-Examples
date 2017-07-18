@@ -2192,16 +2192,77 @@ Auto-merging src/coins.cpp
 
 CONFLICT (content): Merge conflict in src/coins.cpp
 
+
+
+
+        const CCoins &coins = GetCoins(txin.prevout.hash);
+        if (!coins.IsAvailable(txin.prevout.n)) continue;
+        if (coins.nHeight <= nHeight) {
+            dResult += (double)(coins.vout[txin.prevout.n].nValue) * (nHeight-coins.nHeight);
+=======
+        const CCoins* coins = AccessCoins(txin.prevout.hash);
+        assert(coins);
+        if (!coins->IsAvailable(txin.prevout.n)) continue;
+        if (coins->nHeight < nHeight) {
+            dResult += coins->vout[txin.prevout.n].nValue * (nHeight-coins->nHeight);
+>>>>>>> origin/0.11.2-wrapper
+
+
+
+update to head coins check ????
+
+
+
+
+
+
+
 Auto-merging src/clientversion.h
 
 CONFLICT (content): Merge conflict in src/clientversion.h
+
+
+Update to Head auto VERSIONING 
+
+<<<<<<< HEAD
+// These need to be macros, as version.cpp's and bitcoin-qt.rc's voodoo requires it
+#define CLIENT_VERSION_MAJOR       0
+#define CLIENT_VERSION_MINOR       9
+#define CLIENT_VERSION_REVISION    6
+#define CLIENT_VERSION_BUILD       1
+=======
+/**
+ * client versioning and copyright year
+ */
+
+//! These need to be macros, as clientversion.cpp's and bitcoin*-res.rc's voodoo requires it
+#define CLIENT_VERSION_MAJOR 0
+#define CLIENT_VERSION_MINOR 11
+#define CLIENT_VERSION_REVISION 2
+#define CLIENT_VERSION_BUILD 6
+>>>>>>> origin/0.11.2-wrapper
+
+
+
 
 Auto-merging src/checkpointsync.h
 Auto-merging src/checkpointsync.cpp
 
 CONFLICT (content): Merge conflict in src/checkpointsync.cpp
 
+
+
+
+
+
+
+
+
+
+
 Auto-merging src/checkpoints.cpp
+
+
 
 CONFLICT (content): Merge conflict in src/checkpoints.cpp
 
