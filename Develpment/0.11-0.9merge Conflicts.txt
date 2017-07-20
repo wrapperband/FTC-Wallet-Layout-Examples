@@ -336,11 +336,15 @@ Removing contrib/qos/README.md
 Removing contrib/pyminer/pyminer.py
 Removing contrib/pyminer/example-config.cfg
 Removing contrib/pyminer/README.md
+
 CONFLICT (modify/delete): contrib/macdeploy/macdeployqtplus deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of contrib/macdeploy/macdeployqtplus left in tree.
+
 Auto-merging contrib/macdeploy/fancy.plist
+
 CONFLICT (modify/delete): contrib/macdeploy/background.psd deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of contrib/macdeploy/background.psd left in tree.
 CONFLICT (modify/delete): contrib/macdeploy/background.png deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of contrib/macdeploy/background.png left in tree.
 CONFLICT (modify/delete): contrib/macdeploy/README.md deleted in origin/0.11.2-wrapper and modified in HEAD. Version HEAD of contrib/macdeploy/README.md left in tree.
+
 Removing contrib/macdeploy/LICENSE
 Removing contrib/macdeploy/DS_Store
 Removing contrib/linearize/linearize.py
@@ -375,9 +379,11 @@ Removing contrib/debian/source/format
 Removing contrib/debian/rules
 Removing contrib/debian/patches/series
 Removing contrib/debian/patches/README
+
 CONFLICT (rename/delete): contrib/debian/manpages/feathercoind.1 deleted in origin/0.11.2-wrapper and renamed in HEAD. Version HEAD of contrib/debian/manpages/feathercoind.1 left in tree.
 CONFLICT (rename/delete): contrib/debian/manpages/feathercoin.conf.5 deleted in origin/0.11.2-wrapper and renamed in HEAD. Version HEAD of contrib/debian/manpages/feathercoin.conf.5 left in tree.
 CONFLICT (rename/delete): contrib/debian/manpages/feathercoin-qt.1 deleted in origin/0.11.2-wrapper and renamed in HEAD. Version HEAD of contrib/debian/manpages/feathercoin-qt.1 left in tree.
+
 Removing contrib/debian/gbp.conf
 Removing contrib/debian/examples/bitcoin.conf
 Removing contrib/debian/copyright
@@ -400,9 +406,13 @@ Removing contrib/bitcoind.bash-completion
 Auto-merging contrib/bitcoin-qt.pro
 Removing contrib/README.md
 Auto-merging configure.ac
+
 CONFLICT (content): Merge conflict in configure.ac
+
 Auto-merging autogen.sh
+
 CONFLICT (content): Merge conflict in autogen.sh
+
 Auto-merging aclocal.m4
 CONFLICT (add/add): Merge conflict in aclocal.m4
 Auto-merging README.md

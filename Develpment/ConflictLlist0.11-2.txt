@@ -100,6 +100,90 @@ CONFLICT (content): Merge conflict in src/test/script_P2SH_tests.cpp
 
 Updated to Head
 
+// Distributed under the MIT/X11 software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+#include "bignum.h"
+#include "script.h"
+#include <boost/test/unit_test.hpp>
+#include <limits.h>
+#include <stdint.h>
+BOOST_AUTO_TEST_SUITE(scriptnum_tests)
+=======
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+#include "bignum.h"
+#include "script/script.h"
+#include "test/test_bitcoin.h"
+
+#include <boost/test/unit_test.hpp>
+#include <limits.h>
+#include <stdint.h>
+
+BOOST_FIXTURE_TEST_SUITE(scriptnum_tests, BasicTestingSetup)
+>>>>>>> origin/0.11.2-wrapper
+
+kept 0.11 changes
+
+
+// Hardest case:  Multisig 2-of-3
+<<<<<<< HEAD
+    scriptPubKey.SetMultisig(2, keys);
+=======
+    scriptPubKey = GetScriptForMultisig(2, pubkeys);
+>>>>>>> origin/0.11.2-wrapper
+
+
+
+
+Updated to 0.11.2 left 0.9.6.2 commented
+
+
+
+<<<<<<< HEAD
+        int flagsNow = flags;
+        if (test.size() > 3 && ("," + test[2].get_str() + ",").find(",DERSIG,") != string::npos) {
+            flagsNow |= SCRIPT_VERIFY_DERSIG;
+        }
+
+        CTransaction tx;
+        BOOST_CHECK_MESSAGE(VerifyScript(scriptSig, scriptPubKey, tx, 0, flagsNow, SIGHASH_NONE), strTest);
+=======
+        DoTest(scriptPubKey, scriptSig, scriptflags, true, strTest);
+>>>>>>> origin/0.11.2-wrapper
+
+
+
+
+
+
+
+
+updated to head   check ?????
+
+
+
+
+<<<<<<< HEAD
+    CKey key[3];
+    vector<CKey> keys;
+    for (int i = 0; i < 3; i++)
+    {
+        key[i].MakeNewKey(true);
+        keystore.AddKey(key[i]);
+        keys.push_back(key[i]);
+=======
+    CKey key[6];
+    vector<CPubKey> keys;
+    for (int i = 0; i < 6; i++)
+    {
+        key[i].MakeNewKey(true);
+        keystore.AddKey(key[i]);
+>>>>>>> origin/0.11.2-wrapper
+
+
+updated to head
 
 
 
@@ -2441,7 +2525,10 @@ CONFLICT (content): Merge conflict in src/checkpoints.cpp
 >>>>>>> origin/0.11.2-wrapper
 
 
-Moved checkpoints to head
+Moved checkpoints to head check ?????
+
+
+Failed Tried 0.11 version
 
 
 
